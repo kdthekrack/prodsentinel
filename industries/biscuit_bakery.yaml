@@ -1,0 +1,497 @@
+# Industry pack: GoldenCrust Foods Pvt. Ltd. (fictional biscuit plant).
+# Second pack to show the engine is industry-agnostic: parallel stations, food materials, different roles.
+pack_id: biscuit_bakery
+company:
+  name: GoldenCrust Foods Pvt. Ltd.
+  industry: Biscuit baking and packaging
+  site: Plant 2
+currency:
+  code: INR
+  symbol: ₹
+calendar:
+  start: 2015-01-01 06:00
+  end: 2016-01-01 06:00
+  train_end: 2015-08-31 23:59
+  validation_end: 2015-09-30 23:59
+  shifts:
+    Morning: 6
+    Evening: 14
+    Night: 22
+  shift_hours: 8
+data_sources:
+  machine_health:
+    provider: azure_pdm
+    path: data/raw
+    machine_mapping: sequential
+  plant:
+    provider: synthetic
+sensors:
+  volt:
+    label: Motor supply voltage
+    unit: V
+  rotate:
+    label: Drive speed
+    unit: rpm
+  pressure:
+    label: Pneumatic pressure
+    unit: psi
+  vibration:
+    label: Vibration
+    unit: mm/s
+error_codes:
+  error1: Drive overcurrent trip
+  error2: Motor over-temperature
+  error3: Air pressure fluctuation
+  error4: High vibration alarm
+  error5: Position sensor fault
+components:
+  comp1:
+    name: drive motor
+    repair_hours:
+    - 3
+    - 8
+    repair_cost: 45000
+    symptoms:
+    - motor drawing high current
+    - motor running hot
+    - intermittent stalls on start-up
+    - burning smell near drive
+    actions:
+    - replaced drive motor
+    - rewound motor and replaced contactor
+    - replaced VFD fan and motor bearings
+  comp2:
+    name: bearing or gearbox
+    repair_hours:
+    - 2
+    - 6
+    repair_cost: 18000
+    symptoms:
+    - grinding noise from gearbox
+    - bearing housing hot to touch
+    - vibration rising over last shifts
+    - oil seepage at gearbox
+    actions:
+    - replaced bearings and re-greased
+    - replaced gearbox
+    - realigned coupling and replaced bearing
+  comp3:
+    name: pneumatic valve
+    repair_hours:
+    - 1
+    - 4
+    repair_cost: 9000
+    symptoms:
+    - air leak at valve block
+    - slow actuator response
+    - pressure dropping under load
+    - sticking solenoid
+    actions:
+    - replaced valve block
+    - replaced solenoid and seals
+    - cleaned and rebuilt valve manifold
+  comp4:
+    name: pump or seal
+    repair_hours:
+    - 2
+    - 7
+    repair_cost: 26000
+    symptoms:
+    - product leak at pump seal
+    - pump cavitation noise
+    - flow rate unstable
+    - seal weeping
+    actions:
+    - replaced mechanical seal
+    - replaced pump impeller and seals
+    - rebuilt pump
+planned_maintenance:
+  duration_h: 2
+  during_changeover: true
+line_templates:
+  biscuit_line:
+    stations:
+    - name: Dough mixer
+      code: MIX
+      count: 2
+      mode: parallel
+      required: 1
+    - name: Sheeter
+      code: SHT
+      count: 1
+      mode: series
+    - name: Rotary moulder
+      code: MLD
+      count: 2
+      mode: parallel
+      required: 2
+    - name: Tunnel oven
+      code: OVN
+      count: 1
+      mode: series
+    - name: Cooling conveyor
+      code: COL
+      count: 2
+      mode: series
+    - name: Packing machine
+      code: PCK
+      count: 4
+      mode: parallel
+      required: 3
+      quality_metric: pack_weight_g
+      critical_role: packing_operator
+    - name: Sealer
+      code: SEL
+      count: 2
+      mode: parallel
+      required: 2
+      quality_metric: seal_strength_n
+    - name: Checkweigher
+      code: CHK
+      count: 1
+      mode: series
+    - name: Cartoner
+      code: CRT
+      count: 1
+      mode: series
+lines:
+- id: B1
+  name: Line B1 - Glucose biscuits
+  template: biscuit_line
+  product:
+    sku: GC-GLU-100
+    name: Glucose biscuits 100 g
+    units_per_hour: 9000
+    price: 10.0
+    margin: 1.8
+    scrap_cost: 4.0
+  bom:
+    Wheat flour (kg): 0.06
+    Sugar (kg): 0.02
+    Wrapper film: 1
+    Carton: 0.02
+- id: B2
+  name: Line B2 - Cream biscuits
+  template: biscuit_line
+  product:
+    sku: GC-CRM-75
+    name: Cream biscuits 75 g
+    units_per_hour: 6000
+    price: 20.0
+    margin: 4.5
+    scrap_cost: 8.0
+  bom:
+    Wheat flour (kg): 0.04
+    Sugar (kg): 0.02
+    Cream filling (kg): 0.015
+    Wrapper film: 1
+    Carton: 0.025
+- id: B3
+  name: Line B3 - Cookies
+  template: biscuit_line
+  product:
+    sku: GC-CK-150
+    name: Butter cookies 150 g
+    units_per_hour: 4000
+    price: 45.0
+    margin: 11.0
+    scrap_cost: 18.0
+  bom:
+    Wheat flour (kg): 0.08
+    Sugar (kg): 0.03
+    Butter (kg): 0.03
+    Wrapper film: 1
+    Carton: 0.04
+target_utilization: 0.88
+materials:
+  Wheat flour (kg):
+    unit: kg
+    supplier: Deccan Mills
+    lead_time_days: 3
+    reorder_days: 6
+    order_days: 10
+    initial_days: 9
+    unit_cost: 32
+  Sugar (kg):
+    unit: kg
+    supplier: Shakti Sugars
+    lead_time_days: 4
+    reorder_days: 7
+    order_days: 12
+    initial_days: 10
+    unit_cost: 42
+  Cream filling (kg):
+    unit: kg
+    supplier: CreamCo
+    lead_time_days: 5
+    reorder_days: 8
+    order_days: 12
+    initial_days: 10
+    unit_cost: 180
+  Butter (kg):
+    unit: kg
+    supplier: Amrit Dairy
+    lead_time_days: 3
+    reorder_days: 6
+    order_days: 9
+    initial_days: 8
+    unit_cost: 480
+  Wrapper film:
+    unit: wrappers
+    supplier: FlexiWrap Films
+    lead_time_days: 5
+    reorder_days: 8
+    order_days: 15
+    initial_days: 12
+    unit_cost: 0.3
+  Carton:
+    unit: cartons
+    supplier: BoxWell Packaging
+    lead_time_days: 4
+    reorder_days: 7
+    order_days: 12
+    initial_days: 10
+    unit_cost: 6
+quality:
+  samples_per_shift: 100
+  metrics:
+    pack_weight_g:
+      label: Pack weight deviation
+      unit: g
+      target: 0.0
+      sd: 0.8
+      lsl: -2.5
+      usl: 3.0
+      wear_shift: -1.8
+    seal_strength_n:
+      label: Seal strength
+      unit: N
+      target: 12.0
+      sd: 0.9
+      lsl: 9.0
+      usl: 16.0
+      wear_shift: -2.2
+  pre_failure_window_h: 48
+  skill_sd_inflation: 0.8
+  alert_min_out_of_spec: 0.05
+  spc_shift_sd: 0.75
+  spc_single_shift_sd: 1.0
+  response_hours: 8
+workforce:
+  roles:
+    packing_operator:
+      count: 3
+      certified: true
+      absence_rate: 0.05
+      speed_if_short: 0.8
+    line_operator:
+      count: 5
+      certified: false
+      absence_rate: 0.07
+      speed_if_short: 0.93
+    baker:
+      count: 1
+      certified: true
+      absence_rate: 0.04
+      speed_if_short: 0.6
+    maintenance_tech:
+      count: 1
+      certified: true
+      absence_rate: 0.05
+      speed_if_short: 1.0
+      repair_delay_h: 2
+  night_absence_multiplier: 1.6
+  overtime_cost_per_hour: 350
+  notice_hours: 24
+demand:
+  load_factor: 0.84
+  seasonality:
+  - 0.85
+  - 0.9
+  - 1.05
+  - 1.2
+  - 1.25
+  - 1.15
+  - 0.95
+  - 0.9
+  - 0.95
+  - 1.0
+  - 0.95
+  - 0.85
+  order_size:
+  - 20000
+  - 120000
+  lead_time_days:
+  - 3
+  - 10
+customers:
+- name: FreshMart Retail
+  tier: A
+  share: 0.35
+  penalty:
+    type: pct_of_invoice
+    value: 0.04
+    per_day: true
+- name: Metro Cash Wholesale
+  tier: B
+  share: 0.4
+  penalty:
+    type: pct_of_invoice
+    value: 0.03
+    per_day: false
+- name: Kirana Network
+  tier: C
+  share: 0.25
+  penalty:
+    type: flat_per_day
+    value: 3000
+scenarios:
+  supplier_delays:
+    count: 10
+    window_days:
+    - 3
+    - 6
+    delay_days:
+    - 3
+    - 6
+  workforce_gaps:
+    count: 16
+    days:
+    - 2
+    - 5
+    extra_absent:
+    - 2
+    - 4
+    certified_role_prob: 0.5
+  quality_drifts:
+    count: 10
+    days:
+    - 2
+    - 4
+  rush_orders:
+    count: 20
+    lead_time_days:
+    - 2
+    - 4
+    size:
+    - 60000
+    - 150000
+  compound:
+    count: 2
+    period: test
+    delay_days: 2
+risk:
+  horizon_h: 72
+  failure_model_horizon_h: 48
+  sample_every_h: 3
+  machine_confirm_strong: 0.85
+  slip_alert_within_h: 24
+  alert_threshold: 25000
+  urgency_halflife_h: 24
+  quality_spc_window_shifts: 6
+roles:
+  plant_manager:
+    title: Plant Manager
+    escalates_to: null
+  line_supervisor:
+    title: Line Supervisor
+    escalates_to: plant_manager
+  maintenance_lead:
+    title: Maintenance Lead
+    escalates_to: plant_manager
+  quality_lead:
+    title: Quality Lead
+    escalates_to: plant_manager
+  purchasing:
+    title: Purchasing Manager
+    escalates_to: plant_manager
+people:
+- name: Meera Iyer
+  role: plant_manager
+  lines: all
+  email: meera.iyer@goldencrust.example
+  phone: +91-90000-20001
+- name: Karan Joshi
+  role: line_supervisor
+  lines:
+  - B1
+  - B2
+  - B3
+  email: karan.joshi@goldencrust.example
+  phone: +91-90000-20002
+- name: Farhan Ali
+  role: maintenance_lead
+  lines: all
+  email: farhan.ali@goldencrust.example
+  phone: +91-90000-20003
+- name: Lata Deshmukh
+  role: quality_lead
+  lines: all
+  email: lata.deshmukh@goldencrust.example
+  phone: +91-90000-20004
+- name: Rohit Sen
+  role: purchasing
+  lines: all
+  email: rohit.sen@goldencrust.example
+  phone: +91-90000-20005
+owners:
+  machine: maintenance_lead
+  material: purchasing
+  workforce: line_supervisor
+  quality: quality_lead
+  orders: line_supervisor
+  demand: plant_manager
+  compound: plant_manager
+escalation:
+  approver_role: plant_manager         # only this role can authorize & dispatch a plan
+  severity_bands:
+    critical: 250000
+    high: 75000
+    medium: 25000
+  ack_timeout_min:
+    critical: 15
+    high: 30
+    medium: 120
+    low: 480
+  notify_plant_manager_on:
+  - critical
+  channels:
+  - outbox
+  auto_resolve_after_h: 12
+  keep_open_ratio: 0.5
+  max_reminders: 3
+playbook:
+  machine:
+  - action: Replace the {component} on {machine_name} during the next planned stop, before it breaks down
+    owner: maintenance_lead
+  - action: Keep a spare {component} and a technician ready at the {station}
+    owner: maintenance_lead
+  - action: If it cannot be fixed in time, move urgent orders from {line_name} to another line
+    owner: plant_manager
+  material:
+  - action: Call {supplier} to speed up the {material} delivery, or buy from an approved backup supplier
+    owner: purchasing
+  - action: Change the {line_name} run plan to products that do not need {material} until stock arrives
+    owner: line_supervisor
+  workforce:
+  - action: Call in a trained backup {role} for the {shift} shift on {line_name}
+    owner: line_supervisor
+  - action: Approve overtime so a trained {role} can cover the {shift} shift
+    owner: plant_manager
+  quality:
+  - action: Stop and adjust the {station} on {line_name}, then re-check {metric}
+    owner: quality_lead
+  - action: Check packs from {line_name} every 30 minutes until {metric} is back within limits
+    owner: line_supervisor
+  orders:
+  - action: Run order {order} for {customer} first, ahead of lower-priority orders
+    owner: line_supervisor
+  - action: Tell {customer} early and agree a new delivery date to reduce the penalty
+    owner: plant_manager
+  demand:
+  - action: Add extra shifts or move part of the demand for {line_name} to another line
+    owner: plant_manager
+
+# --- Demo ------------------------------------------------------------------------------------------
+demo:
+  start: "2015-11-20 06:00"   # plant clock when the app starts / is reset (a moment with several live issues)

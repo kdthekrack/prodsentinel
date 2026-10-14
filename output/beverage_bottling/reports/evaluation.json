@@ -1,0 +1,134 @@
+{
+  "period": "01 Oct 2015 - 31 Dec 2015",
+  "cycles": 729,
+  "every_h": 3,
+  "detection": {
+    "compound": {
+      "events": 3,
+      "alerted": 3,
+      "recall": 1.0,
+      "flagged_any_level": 1.0,
+      "median_lead_h": 39.0
+    },
+    "machine_failure": {
+      "events": 172,
+      "alerted": 118,
+      "recall": 0.686,
+      "flagged_any_level": 1.0,
+      "median_lead_h": 42.0,
+      "line_stopping_events": 84,
+      "line_stopping_recall": 1.0,
+      "line_stopping_median_lead_h": 42.0,
+      "note": "failures on machines with a backup do not stop the line and are correctly not alerted"
+    },
+    "quality_drift": {
+      "events": 3,
+      "alerted": 3,
+      "recall": 1.0,
+      "flagged_any_level": 1.0,
+      "median_lead_h": 8.0
+    },
+    "rush_order": {
+      "events": 4,
+      "alerted": 4,
+      "recall": 1.0,
+      "flagged_any_level": 1.0,
+      "median_lead_h": 195.5
+    },
+    "supplier_delay": {
+      "events": 5,
+      "alerted": 5,
+      "recall": 1.0,
+      "flagged_any_level": 1.0,
+      "median_lead_h": 119.0
+    },
+    "workforce_gap": {
+      "events": 7,
+      "alerted": 6,
+      "recall": 0.857,
+      "flagged_any_level": 1.0,
+      "median_lead_h": 32.0
+    },
+    "absorbed_without_impact": {
+      "rush_order": 6,
+      "supplier_delay": 2
+    }
+  },
+  "precision": {
+    "compound": {
+      "alert_episodes": 13,
+      "precision": 0.923
+    },
+    "demand": {
+      "alert_episodes": 4,
+      "precision": 1.0
+    },
+    "machine": {
+      "alert_episodes": 172,
+      "precision": 0.808
+    },
+    "material": {
+      "alert_episodes": 7,
+      "precision": 1.0
+    },
+    "orders": {
+      "alert_episodes": 28,
+      "precision": 1.0
+    },
+    "quality": {
+      "alert_episodes": 42,
+      "precision": 0.952
+    },
+    "workforce": {
+      "alert_episodes": 63,
+      "precision": 1.0
+    }
+  },
+  "money": {
+    "machine": {
+      "episodes": 172,
+      "predicted_expected_total": 22515784,
+      "realized_total": 22983200,
+      "ratio_total": 0.98,
+      "median_ratio_when_it_happened": 0.76
+    },
+    "material": {
+      "episodes": 7,
+      "predicted_expected_total": 5178568,
+      "realized_total": 5796952,
+      "ratio_total": 0.89,
+      "median_ratio_when_it_happened": 0.86
+    },
+    "workforce": {
+      "episodes": 63,
+      "predicted_expected_total": 3789788,
+      "realized_total": 3750529,
+      "ratio_total": 1.01,
+      "median_ratio_when_it_happened": 0.83
+    }
+  },
+  "load": {
+    "alert_episodes_per_day": 3.6,
+    "per_role_per_day": {
+      "maintenance_lead": 1.9,
+      "line_supervisor": 1.0,
+      "quality_lead": 0.5,
+      "plant_manager": 0.2,
+      "purchasing": 0.1
+    },
+    "by_severity": {
+      "medium": 185,
+      "high": 75,
+      "low": 56,
+      "critical": 13
+    }
+  },
+  "value": {
+    "late_orders": 97,
+    "penalties_total": 7217558,
+    "penalties_total_text": "\u20b972.2 lakh",
+    "penalties_warned_in_time": 6784931,
+    "share_of_penalty_warned": 0.94,
+    "min_warning_h": 6
+  }
+}

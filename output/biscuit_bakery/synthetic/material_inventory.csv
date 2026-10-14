@@ -1,0 +1,2191 @@
+date,material,supplier,stock,daily_requirement,days_of_cover
+2015-01-01 06:00:00,Wheat flour (kg),Deccan Mills,188179.2,20908.8,9.0
+2015-01-01 06:00:00,Sugar (kg),Shakti Sugars,79833.6,7983.4,10.0
+2015-01-01 06:00:00,Cream filling (kg),CreamCo,17107.2,1710.7,10.0
+2015-01-01 06:00:00,Butter (kg),Amrit Dairy,18247.7,2281.0,8.0
+2015-01-01 06:00:00,Wrapper film,FlexiWrap Films,4333824.0,361152.0,12.0
+2015-01-01 06:00:00,Carton,BoxWell Packaging,93139.2,9313.9,10.0
+2015-01-02 06:00:00,Wheat flour (kg),Deccan Mills,167874.4,20908.8,8.03
+2015-01-02 06:00:00,Sugar (kg),Shakti Sugars,72080.6,7983.4,9.03
+2015-01-02 06:00:00,Cream filling (kg),CreamCo,15444.8,1710.7,9.03
+2015-01-02 06:00:00,Butter (kg),Amrit Dairy,16035.2,2281.0,7.03
+2015-01-02 06:00:00,Wrapper film,FlexiWrap Films,3983050.8,361152.0,11.03
+2015-01-02 06:00:00,Carton,BoxWell Packaging,84094.6,9313.9,9.03
+2015-01-03 06:00:00,Wheat flour (kg),Deccan Mills,148776.3,20908.8,7.12
+2015-01-03 06:00:00,Sugar (kg),Shakti Sugars,64874.5,7983.4,8.13
+2015-01-03 06:00:00,Cream filling (kg),CreamCo,14095.3,1710.7,8.24
+2015-01-03 06:00:00,Butter (kg),Amrit Dairy,13872.7,2281.0,6.08
+2015-01-03 06:00:00,Wrapper film,FlexiWrap Films,3658787.6,361152.0,10.13
+2015-01-03 06:00:00,Carton,BoxWell Packaging,75717.8,9313.9,8.13
+2015-01-04 06:00:00,Wheat flour (kg),Deccan Mills,126821.7,20908.8,6.07
+2015-01-04 06:00:00,Sugar (kg),Shakti Sugars,56459.2,7983.4,7.07
+2015-01-04 06:00:00,Cream filling (kg),CreamCo,12218.3,1710.7,7.14
+2015-01-04 06:00:00,Butter (kg),Amrit Dairy,11506.4,2281.0,5.04
+2015-01-04 06:00:00,Wrapper film,FlexiWrap Films,3277458.9,361152.0,9.08
+2015-01-04 06:00:00,Carton,BoxWell Packaging,65888.1,9313.9,7.07
+2015-01-05 06:00:00,Wheat flour (kg),Deccan Mills,105714.6,20908.8,5.06
+2015-01-05 06:00:00,Sugar (kg),Shakti Sugars,48484.8,7983.4,6.07
+2015-01-05 06:00:00,Cream filling (kg),CreamCo,10652.3,1710.7,6.23
+2015-01-05 06:00:00,Butter (kg),Amrit Dairy,9322.2,2281.0,4.09
+2015-01-05 06:00:00,Wrapper film,FlexiWrap Films,2915143.9,361152.0,8.07
+2015-01-05 06:00:00,Carton,BoxWell Packaging,56663.7,9313.9,6.08
+2015-01-06 06:00:00,Wheat flour (kg),Deccan Mills,84215.6,20908.8,4.03
+2015-01-06 06:00:00,Sugar (kg),Shakti Sugars,40412.3,7983.4,5.06
+2015-01-06 06:00:00,Cream filling (kg),CreamCo,9234.3,1710.7,5.4
+2015-01-06 06:00:00,Butter (kg),Amrit Dairy,6838.8,2281.0,3.0
+2015-01-06 06:00:00,Wrapper film,FlexiWrap Films,2552908.0,361152.0,7.07
+2015-01-06 06:00:00,Carton,BoxWell Packaging,47290.7,9313.9,5.08
+2015-01-07 06:00:00,Wheat flour (kg),Deccan Mills,63029.0,20908.8,3.01
+2015-01-07 06:00:00,Sugar (kg),Shakti Sugars,32350.9,7983.4,4.05
+2015-01-07 06:00:00,Cream filling (kg),CreamCo,7524.9,1710.7,4.4
+2015-01-07 06:00:00,Butter (kg),Amrit Dairy,4682.9,2281.0,2.05
+2015-01-07 06:00:00,Wrapper film,FlexiWrap Films,2185768.0,361152.0,6.05
+2015-01-07 06:00:00,Carton,BoxWell Packaging,37940.8,9313.9,4.07
+2015-01-08 06:00:00,Wheat flour (kg),Deccan Mills,252216.4,20908.8,12.06
+2015-01-08 06:00:00,Sugar (kg),Shakti Sugars,24747.5,7983.4,3.1
+2015-01-08 06:00:00,Cream filling (kg),CreamCo,5925.0,1710.7,3.46
+2015-01-08 06:00:00,Butter (kg),Amrit Dairy,22882.5,2281.0,10.03
+2015-01-08 06:00:00,Wrapper film,FlexiWrap Films,1844415.7,361152.0,5.11
+2015-01-08 06:00:00,Carton,BoxWell Packaging,29027.8,9313.9,3.12
+2015-01-09 06:00:00,Wheat flour (kg),Deccan Mills,230421.7,20908.8,11.02
+2015-01-09 06:00:00,Sugar (kg),Shakti Sugars,16428.3,7983.4,2.06
+2015-01-09 06:00:00,Cream filling (kg),CreamCo,24676.3,1710.7,14.42
+2015-01-09 06:00:00,Butter (kg),Amrit Dairy,20503.2,2281.0,8.99
+2015-01-09 06:00:00,Wrapper film,FlexiWrap Films,1468111.7,361152.0,4.07
+2015-01-09 06:00:00,Carton,BoxWell Packaging,131090.1,9313.9,14.07
+2015-01-10 06:00:00,Wheat flour (kg),Deccan Mills,211487.8,20908.8,10.11
+2015-01-10 06:00:00,Sugar (kg),Shakti Sugars,104943.8,7983.4,13.15
+2015-01-10 06:00:00,Cream filling (kg),CreamCo,23034.3,1710.7,13.46
+2015-01-10 06:00:00,Butter (kg),Amrit Dairy,18310.0,2281.0,8.03
+2015-01-10 06:00:00,Wrapper film,FlexiWrap Films,1140424.9,361152.0,3.16
+2015-01-10 06:00:00,Carton,BoxWell Packaging,122526.9,9313.9,13.16
+2015-01-11 06:00:00,Wheat flour (kg),Deccan Mills,192599.3,20908.8,9.21
+2015-01-11 06:00:00,Sugar (kg),Shakti Sugars,97823.6,7983.4,12.25
+2015-01-11 06:00:00,Cream filling (kg),CreamCo,21777.0,1710.7,12.73
+2015-01-11 06:00:00,Butter (kg),Amrit Dairy,15922.9,2281.0,6.98
+2015-01-11 06:00:00,Wrapper film,FlexiWrap Films,824199.3,361152.0,2.28
+2015-01-11 06:00:00,Carton,BoxWell Packaging,114191.9,9313.9,12.26
+2015-01-12 06:00:00,Wheat flour (kg),Deccan Mills,172067.2,20908.8,8.23
+2015-01-12 06:00:00,Sugar (kg),Shakti Sugars,90055.8,7983.4,11.28
+2015-01-12 06:00:00,Cream filling (kg),CreamCo,20182.1,1710.7,11.8
+2015-01-12 06:00:00,Butter (kg),Amrit Dairy,13988.4,2281.0,6.13
+2015-01-12 06:00:00,Wrapper film,FlexiWrap Films,5885332.6,361152.0,16.3
+2015-01-12 06:00:00,Carton,BoxWell Packaging,105247.6,9313.9,11.3
+2015-01-13 06:00:00,Wheat flour (kg),Deccan Mills,149371.7,20908.8,7.14
+2015-01-13 06:00:00,Sugar (kg),Shakti Sugars,81369.6,7983.4,10.19
+2015-01-13 06:00:00,Cream filling (kg),CreamCo,18281.5,1710.7,10.69
+2015-01-13 06:00:00,Butter (kg),Amrit Dairy,11500.8,2281.0,5.04
+2015-01-13 06:00:00,Wrapper film,FlexiWrap Films,5492478.7,361152.0,15.21
+2015-01-13 06:00:00,Carton,BoxWell Packaging,95098.6,9313.9,10.21
+2015-01-14 06:00:00,Wheat flour (kg),Deccan Mills,129069.7,20908.8,6.17
+2015-01-14 06:00:00,Sugar (kg),Shakti Sugars,73743.0,7983.4,9.24
+2015-01-14 06:00:00,Cream filling (kg),CreamCo,16973.9,1710.7,9.92
+2015-01-14 06:00:00,Butter (kg),Amrit Dairy,8998.0,2281.0,3.94
+2015-01-14 06:00:00,Wrapper film,FlexiWrap Films,5152862.5,361152.0,14.27
+2015-01-14 06:00:00,Carton,BoxWell Packaging,86201.9,9313.9,9.26
+2015-01-15 06:00:00,Wheat flour (kg),Deccan Mills,106664.8,20908.8,5.1
+2015-01-15 06:00:00,Sugar (kg),Shakti Sugars,65221.7,7983.4,8.17
+2015-01-15 06:00:00,Cream filling (kg),CreamCo,15216.8,1710.7,8.89
+2015-01-15 06:00:00,Butter (kg),Amrit Dairy,6549.5,2281.0,2.87
+2015-01-15 06:00:00,Wrapper film,FlexiWrap Films,4767605.9,361152.0,13.2
+2015-01-15 06:00:00,Carton,BoxWell Packaging,76278.7,9313.9,8.19
+2015-01-16 06:00:00,Wheat flour (kg),Deccan Mills,84802.3,20908.8,4.06
+2015-01-16 06:00:00,Sugar (kg),Shakti Sugars,56987.8,7983.4,7.14
+2015-01-16 06:00:00,Cream filling (kg),CreamCo,13713.4,1710.7,8.02
+2015-01-16 06:00:00,Butter (kg),Amrit Dairy,4045.5,2281.0,1.77
+2015-01-16 06:00:00,Wrapper film,FlexiWrap Films,4397645.6,361152.0,12.18
+2015-01-16 06:00:00,Carton,BoxWell Packaging,66709.0,9313.9,7.16
+2015-01-17 06:00:00,Wheat flour (kg),Deccan Mills,62614.8,20908.8,2.99
+2015-01-17 06:00:00,Sugar (kg),Shakti Sugars,48522.3,7983.4,6.08
+2015-01-17 06:00:00,Cream filling (kg),CreamCo,11924.1,1710.7,6.97
+2015-01-17 06:00:00,Butter (kg),Amrit Dairy,22104.7,2281.0,9.69
+2015-01-17 06:00:00,Wrapper film,FlexiWrap Films,4015527.1,361152.0,11.12
+2015-01-17 06:00:00,Carton,BoxWell Packaging,56824.0,9313.9,6.1
+2015-01-18 06:00:00,Wheat flour (kg),Deccan Mills,44575.2,20908.8,2.13
+2015-01-18 06:00:00,Sugar (kg),Shakti Sugars,41539.1,7983.4,5.2
+2015-01-18 06:00:00,Cream filling (kg),CreamCo,10135.7,1710.7,5.92
+2015-01-18 06:00:00,Butter (kg),Amrit Dairy,20527.8,2281.0,9.0
+2015-01-18 06:00:00,Wrapper film,FlexiWrap Films,3692647.4,361152.0,10.22
+2015-01-18 06:00:00,Carton,BoxWell Packaging,48719.0,9313.9,5.23
+2015-01-19 06:00:00,Wheat flour (kg),Deccan Mills,232546.8,20908.8,11.12
+2015-01-19 06:00:00,Sugar (kg),Shakti Sugars,33441.0,7983.4,4.19
+2015-01-19 06:00:00,Cream filling (kg),CreamCo,8310.3,1710.7,4.86
+2015-01-19 06:00:00,Butter (kg),Amrit Dairy,18296.2,2281.0,8.02
+2015-01-19 06:00:00,Wrapper film,FlexiWrap Films,3324937.2,361152.0,9.21
+2015-01-19 06:00:00,Carton,BoxWell Packaging,39268.6,9313.9,4.22
+2015-01-20 06:00:00,Wheat flour (kg),Deccan Mills,211565.6,20908.8,10.12
+2015-01-20 06:00:00,Sugar (kg),Shakti Sugars,25510.3,7983.4,3.2
+2015-01-20 06:00:00,Cream filling (kg),CreamCo,6809.0,1710.7,3.98
+2015-01-20 06:00:00,Butter (kg),Amrit Dairy,15868.2,2281.0,6.96
+2015-01-20 06:00:00,Wrapper film,FlexiWrap Films,2968867.3,361152.0,8.22
+2015-01-20 06:00:00,Carton,BoxWell Packaging,30028.1,9313.9,3.22
+2015-01-21 06:00:00,Wheat flour (kg),Deccan Mills,194048.0,20908.8,9.28
+2015-01-21 06:00:00,Sugar (kg),Shakti Sugars,18720.8,7983.4,2.34
+2015-01-21 06:00:00,Cream filling (kg),CreamCo,5274.5,1710.7,3.08
+2015-01-21 06:00:00,Butter (kg),Amrit Dairy,13453.6,2281.0,5.9
+2015-01-21 06:00:00,Wrapper film,FlexiWrap Films,2669636.7,361152.0,7.39
+2015-01-21 06:00:00,Carton,BoxWell Packaging,21922.3,9313.9,2.35
+2015-01-22 06:00:00,Wheat flour (kg),Deccan Mills,171688.2,20908.8,8.21
+2015-01-22 06:00:00,Sugar (kg),Shakti Sugars,105990.5,7983.4,13.28
+2015-01-22 06:00:00,Cream filling (kg),CreamCo,24001.3,1710.7,14.03
+2015-01-22 06:00:00,Butter (kg),Amrit Dairy,10964.9,2281.0,4.81
+2015-01-22 06:00:00,Wrapper film,FlexiWrap Films,2284584.6,361152.0,6.33
+2015-01-22 06:00:00,Carton,BoxWell Packaging,123728.5,9313.9,13.28
+2015-01-23 06:00:00,Wheat flour (kg),Deccan Mills,150078.1,20908.8,7.18
+2015-01-23 06:00:00,Sugar (kg),Shakti Sugars,97744.6,7983.4,12.24
+2015-01-23 06:00:00,Cream filling (kg),CreamCo,22206.0,1710.7,12.98
+2015-01-23 06:00:00,Butter (kg),Amrit Dairy,8763.0,2281.0,3.84
+2015-01-23 06:00:00,Wrapper film,FlexiWrap Films,1908987.0,361152.0,5.29
+2015-01-23 06:00:00,Carton,BoxWell Packaging,114150.1,9313.9,12.26
+2015-01-24 06:00:00,Wheat flour (kg),Deccan Mills,128449.7,20908.8,6.14
+2015-01-24 06:00:00,Sugar (kg),Shakti Sugars,89542.4,7983.4,11.22
+2015-01-24 06:00:00,Cream filling (kg),CreamCo,20586.2,1710.7,12.03
+2015-01-24 06:00:00,Butter (kg),Amrit Dairy,6308.2,2281.0,2.77
+2015-01-24 06:00:00,Wrapper film,FlexiWrap Films,1539793.5,361152.0,4.26
+2015-01-24 06:00:00,Carton,BoxWell Packaging,104589.8,9313.9,11.23
+2015-01-25 06:00:00,Wheat flour (kg),Deccan Mills,109936.9,20908.8,5.26
+2015-01-25 06:00:00,Sugar (kg),Shakti Sugars,82350.0,7983.4,10.32
+2015-01-25 06:00:00,Cream filling (kg),CreamCo,18750.5,1710.7,10.96
+2015-01-25 06:00:00,Butter (kg),Amrit Dairy,24985.9,2281.0,10.95
+2015-01-25 06:00:00,Wrapper film,FlexiWrap Films,1211018.9,361152.0,3.35
+2015-01-25 06:00:00,Carton,BoxWell Packaging,96168.5,9313.9,10.33
+2015-01-26 06:00:00,Wheat flour (kg),Deccan Mills,88288.1,20908.8,4.22
+2015-01-26 06:00:00,Sugar (kg),Shakti Sugars,74086.3,7983.4,9.28
+2015-01-26 06:00:00,Cream filling (kg),CreamCo,16958.5,1710.7,9.91
+2015-01-26 06:00:00,Butter (kg),Amrit Dairy,22727.3,2281.0,9.96
+2015-01-26 06:00:00,Wrapper film,FlexiWrap Films,6252758.4,361152.0,17.31
+2015-01-26 06:00:00,Carton,BoxWell Packaging,86554.6,9313.9,9.29
+2015-01-27 06:00:00,Wheat flour (kg),Deccan Mills,66960.7,20908.8,3.2
+2015-01-27 06:00:00,Sugar (kg),Shakti Sugars,65940.7,7983.4,8.26
+2015-01-27 06:00:00,Cream filling (kg),CreamCo,15149.4,1710.7,8.86
+2015-01-27 06:00:00,Butter (kg),Amrit Dairy,20635.1,2281.0,9.05
+2015-01-27 06:00:00,Wrapper film,FlexiWrap Films,5880347.6,361152.0,16.28
+2015-01-27 06:00:00,Carton,BoxWell Packaging,77108.6,9313.9,8.28
+2015-01-28 06:00:00,Wheat flour (kg),Deccan Mills,45343.4,20908.8,2.17
+2015-01-28 06:00:00,Sugar (kg),Shakti Sugars,57708.2,7983.4,7.23
+2015-01-28 06:00:00,Cream filling (kg),CreamCo,13362.7,1710.7,7.81
+2015-01-28 06:00:00,Butter (kg),Amrit Dairy,18541.8,2281.0,8.13
+2015-01-28 06:00:00,Wrapper film,FlexiWrap Films,5503614.0,361152.0,15.24
+2015-01-28 06:00:00,Carton,BoxWell Packaging,67582.8,9313.9,7.26
+2015-01-29 06:00:00,Wheat flour (kg),Deccan Mills,233651.8,20908.8,11.17
+2015-01-29 06:00:00,Sugar (kg),Shakti Sugars,49727.7,7983.4,6.23
+2015-01-29 06:00:00,Cream filling (kg),CreamCo,11557.3,1710.7,6.76
+2015-01-29 06:00:00,Butter (kg),Amrit Dairy,16277.8,2281.0,7.14
+2015-01-29 06:00:00,Wrapper film,FlexiWrap Films,5142321.5,361152.0,14.24
+2015-01-29 06:00:00,Carton,BoxWell Packaging,58245.8,9313.9,6.25
+2015-01-30 06:00:00,Wheat flour (kg),Deccan Mills,212334.5,20908.8,10.16
+2015-01-30 06:00:00,Sugar (kg),Shakti Sugars,41580.8,7983.4,5.21
+2015-01-30 06:00:00,Cream filling (kg),CreamCo,9768.6,1710.7,5.71
+2015-01-30 06:00:00,Butter (kg),Amrit Dairy,14061.9,2281.0,6.16
+2015-01-30 06:00:00,Wrapper film,FlexiWrap Films,4771906.0,361152.0,13.21
+2015-01-30 06:00:00,Carton,BoxWell Packaging,48764.0,9313.9,5.24
+2015-01-31 06:00:00,Wheat flour (kg),Deccan Mills,191734.7,20908.8,9.17
+2015-01-31 06:00:00,Sugar (kg),Shakti Sugars,33666.1,7983.4,4.22
+2015-01-31 06:00:00,Cream filling (kg),CreamCo,7976.5,1710.7,4.66
+2015-01-31 06:00:00,Butter (kg),Amrit Dairy,11797.5,2281.0,5.17
+2015-01-31 06:00:00,Wrapper film,FlexiWrap Films,4413911.0,361152.0,12.22
+2015-01-31 06:00:00,Carton,BoxWell Packaging,39497.1,9313.9,4.24
+2015-02-01 06:00:00,Wheat flour (kg),Deccan Mills,170729.6,20908.8,8.17
+2015-02-01 06:00:00,Sugar (kg),Shakti Sugars,25600.0,7983.4,3.21
+2015-02-01 06:00:00,Cream filling (kg),CreamCo,6149.3,1710.7,3.59
+2015-02-01 06:00:00,Butter (kg),Amrit Dairy,9526.6,2281.0,4.18
+2015-02-01 06:00:00,Wrapper film,FlexiWrap Films,4048453.8,361152.0,11.21
+2015-02-01 06:00:00,Carton,BoxWell Packaging,30064.9,9313.9,3.23
+2015-02-02 06:00:00,Wheat flour (kg),Deccan Mills,149468.6,20908.8,7.15
+2015-02-02 06:00:00,Sugar (kg),Shakti Sugars,113239.9,7983.4,14.18
+2015-02-02 06:00:00,Cream filling (kg),CreamCo,24799.3,1710.7,14.5
+2015-02-02 06:00:00,Butter (kg),Amrit Dairy,7380.9,2281.0,3.24
+2015-02-02 06:00:00,Wrapper film,FlexiWrap Films,3676197.4,361152.0,10.18
+2015-02-02 06:00:00,Carton,BoxWell Packaging,132330.2,9313.9,14.21
+2015-02-03 06:00:00,Wheat flour (kg),Deccan Mills,127119.2,20908.8,6.08
+2015-02-03 06:00:00,Sugar (kg),Shakti Sugars,104722.0,7983.4,13.12
+2015-02-03 06:00:00,Cream filling (kg),CreamCo,23014.6,1710.7,13.45
+2015-02-03 06:00:00,Butter (kg),Amrit Dairy,25435.3,2281.0,11.15
+2015-02-03 06:00:00,Wrapper film,FlexiWrap Films,3291540.8,361152.0,9.11
+2015-02-03 06:00:00,Carton,BoxWell Packaging,122392.7,9313.9,13.14
+2015-02-04 06:00:00,Wheat flour (kg),Deccan Mills,105346.0,20908.8,5.04
+2015-02-04 06:00:00,Sugar (kg),Shakti Sugars,96425.5,7983.4,12.08
+2015-02-04 06:00:00,Cream filling (kg),CreamCo,21283.6,1710.7,12.44
+2015-02-04 06:00:00,Butter (kg),Amrit Dairy,23010.6,2281.0,10.09
+2015-02-04 06:00:00,Wrapper film,FlexiWrap Films,2917127.1,361152.0,8.08
+2015-02-04 06:00:00,Carton,BoxWell Packaging,112711.0,9313.9,12.1
+2015-02-05 06:00:00,Wheat flour (kg),Deccan Mills,84133.8,20908.8,4.02
+2015-02-05 06:00:00,Sugar (kg),Shakti Sugars,88301.0,7983.4,11.06
+2015-02-05 06:00:00,Cream filling (kg),CreamCo,19450.5,1710.7,11.37
+2015-02-05 06:00:00,Butter (kg),Amrit Dairy,20858.1,2281.0,9.14
+2015-02-05 06:00:00,Wrapper film,FlexiWrap Films,2546773.4,361152.0,7.05
+2015-02-05 06:00:00,Carton,BoxWell Packaging,103257.8,9313.9,11.09
+2015-02-06 06:00:00,Wheat flour (kg),Deccan Mills,66270.7,20908.8,3.17
+2015-02-06 06:00:00,Sugar (kg),Shakti Sugars,81343.7,7983.4,10.19
+2015-02-06 06:00:00,Cream filling (kg),CreamCo,17658.4,1710.7,10.32
+2015-02-06 06:00:00,Butter (kg),Amrit Dairy,19000.4,2281.0,8.33
+2015-02-06 06:00:00,Wrapper film,FlexiWrap Films,2229870.1,361152.0,6.17
+2015-02-06 06:00:00,Carton,BoxWell Packaging,95084.0,9313.9,10.21
+2015-02-07 06:00:00,Wheat flour (kg),Deccan Mills,255683.7,20908.8,12.23
+2015-02-07 06:00:00,Sugar (kg),Shakti Sugars,73733.9,7983.4,9.24
+2015-02-07 06:00:00,Cream filling (kg),CreamCo,15905.1,1710.7,9.3
+2015-02-07 06:00:00,Butter (kg),Amrit Dairy,16550.6,2281.0,7.26
+2015-02-07 06:00:00,Wrapper film,FlexiWrap Films,1890211.1,361152.0,5.23
+2015-02-07 06:00:00,Carton,BoxWell Packaging,86073.2,9313.9,9.24
+2015-02-08 06:00:00,Wheat flour (kg),Deccan Mills,232616.3,20908.8,11.13
+2015-02-08 06:00:00,Sugar (kg),Shakti Sugars,64928.1,7983.4,8.13
+2015-02-08 06:00:00,Cream filling (kg),CreamCo,14016.7,1710.7,8.19
+2015-02-08 06:00:00,Butter (kg),Amrit Dairy,14054.4,2281.0,6.16
+2015-02-08 06:00:00,Wrapper film,FlexiWrap Films,1491526.5,361152.0,4.13
+2015-02-08 06:00:00,Carton,BoxWell Packaging,75805.8,9313.9,8.14
+2015-02-09 06:00:00,Wheat flour (kg),Deccan Mills,212134.3,20908.8,10.15
+2015-02-09 06:00:00,Sugar (kg),Shakti Sugars,57059.9,7983.4,7.15
+2015-02-09 06:00:00,Cream filling (kg),CreamCo,12233.7,1710.7,7.15
+2015-02-09 06:00:00,Butter (kg),Amrit Dairy,11818.9,2281.0,5.18
+2015-02-09 06:00:00,Wrapper film,FlexiWrap Films,1135374.0,361152.0,3.14
+2015-02-09 06:00:00,Carton,BoxWell Packaging,66598.1,9313.9,7.15
+2015-02-10 06:00:00,Wheat flour (kg),Deccan Mills,191042.4,20908.8,9.14
+2015-02-10 06:00:00,Sugar (kg),Shakti Sugars,49122.8,7983.4,6.15
+2015-02-10 06:00:00,Cream filling (kg),CreamCo,10816.5,1710.7,6.32
+2015-02-10 06:00:00,Butter (kg),Amrit Dairy,9329.7,2281.0,4.09
+2015-02-10 06:00:00,Wrapper film,FlexiWrap Films,780007.1,361152.0,2.16
+2015-02-10 06:00:00,Carton,BoxWell Packaging,57358.9,9313.9,6.16
+2015-02-11 06:00:00,Wheat flour (kg),Deccan Mills,169113.2,20908.8,8.09
+2015-02-11 06:00:00,Sugar (kg),Shakti Sugars,40735.2,7983.4,5.1
+2015-02-11 06:00:00,Cream filling (kg),CreamCo,8997.4,1710.7,5.26
+2015-02-11 06:00:00,Butter (kg),Amrit Dairy,6905.1,2281.0,3.03
+2015-02-11 06:00:00,Wrapper film,FlexiWrap Films,5818316.9,361152.0,16.11
+2015-02-11 06:00:00,Carton,BoxWell Packaging,47556.7,9313.9,5.11
+2015-02-12 06:00:00,Wheat flour (kg),Deccan Mills,147227.1,20908.8,7.04
+2015-02-12 06:00:00,Sugar (kg),Shakti Sugars,32427.4,7983.4,4.06
+2015-02-12 06:00:00,Cream filling (kg),CreamCo,7328.9,1710.7,4.28
+2015-02-12 06:00:00,Butter (kg),Amrit Dairy,4466.8,2281.0,1.96
+2015-02-12 06:00:00,Wrapper film,FlexiWrap Films,5443562.7,361152.0,15.07
+2015-02-12 06:00:00,Carton,BoxWell Packaging,37879.9,9313.9,4.07
+2015-02-13 06:00:00,Wheat flour (kg),Deccan Mills,126765.2,20908.8,6.06
+2015-02-13 06:00:00,Sugar (kg),Shakti Sugars,24509.9,7983.4,3.07
+2015-02-13 06:00:00,Cream filling (kg),CreamCo,5452.4,1710.7,3.19
+2015-02-13 06:00:00,Butter (kg),Amrit Dairy,22630.1,2281.0,9.92
+2015-02-13 06:00:00,Wrapper film,FlexiWrap Films,5087112.5,361152.0,14.09
+2015-02-13 06:00:00,Carton,BoxWell Packaging,28548.6,9313.9,3.07
+2015-02-14 06:00:00,Wheat flour (kg),Deccan Mills,104428.9,20908.8,4.99
+2015-02-14 06:00:00,Sugar (kg),Shakti Sugars,111758.2,7983.4,14.0
+2015-02-14 06:00:00,Cream filling (kg),CreamCo,3568.0,1710.7,2.09
+2015-02-14 06:00:00,Butter (kg),Amrit Dairy,20208.0,2281.0,8.86
+2015-02-14 06:00:00,Wrapper film,FlexiWrap Films,4699877.2,361152.0,13.01
+2015-02-14 06:00:00,Carton,BoxWell Packaging,130328.0,9313.9,13.99
+2015-02-15 06:00:00,Wheat flour (kg),Deccan Mills,82030.9,20908.8,3.92
+2015-02-15 06:00:00,Sugar (kg),Shakti Sugars,103219.4,7983.4,12.93
+2015-02-15 06:00:00,Cream filling (kg),CreamCo,22258.5,1710.7,13.01
+2015-02-15 06:00:00,Butter (kg),Amrit Dairy,17905.2,2281.0,7.85
+2015-02-15 06:00:00,Wrapper film,FlexiWrap Films,4311318.7,361152.0,11.94
+2015-02-15 06:00:00,Carton,BoxWell Packaging,120408.9,9313.9,12.93
+2015-02-16 06:00:00,Wheat flour (kg),Deccan Mills,60472.9,20908.8,2.89
+2015-02-16 06:00:00,Sugar (kg),Shakti Sugars,94949.6,7983.4,11.89
+2015-02-16 06:00:00,Cream filling (kg),CreamCo,20417.1,1710.7,11.93
+2015-02-16 06:00:00,Butter (kg),Amrit Dairy,15516.7,2281.0,6.8
+2015-02-16 06:00:00,Wrapper film,FlexiWrap Films,3937634.7,361152.0,10.9
+2015-02-16 06:00:00,Carton,BoxWell Packaging,110729.1,9313.9,11.89
+2015-02-17 06:00:00,Wheat flour (kg),Deccan Mills,42098.9,20908.8,2.01
+2015-02-17 06:00:00,Sugar (kg),Shakti Sugars,88128.0,7983.4,11.04
+2015-02-17 06:00:00,Cream filling (kg),CreamCo,19384.4,1710.7,11.33
+2015-02-17 06:00:00,Butter (kg),Amrit Dairy,13375.5,2281.0,5.86
+2015-02-17 06:00:00,Wrapper film,FlexiWrap Films,3632245.0,361152.0,10.06
+2015-02-17 06:00:00,Carton,BoxWell Packaging,102849.7,9313.9,11.04
+2015-02-18 06:00:00,Wheat flour (kg),Deccan Mills,228395.5,20908.8,10.92
+2015-02-18 06:00:00,Sugar (kg),Shakti Sugars,79467.3,7983.4,9.95
+2015-02-18 06:00:00,Cream filling (kg),CreamCo,17629.2,1710.7,10.31
+2015-02-18 06:00:00,Butter (kg),Amrit Dairy,10823.7,2281.0,4.75
+2015-02-18 06:00:00,Wrapper film,FlexiWrap Films,3241739.5,361152.0,8.98
+2015-02-18 06:00:00,Carton,BoxWell Packaging,92753.2,9313.9,9.96
+2015-02-19 06:00:00,Wheat flour (kg),Deccan Mills,208316.7,20908.8,9.96
+2015-02-19 06:00:00,Sugar (kg),Shakti Sugars,71833.1,7983.4,9.0
+2015-02-19 06:00:00,Cream filling (kg),CreamCo,15883.2,1710.7,9.28
+2015-02-19 06:00:00,Butter (kg),Amrit Dairy,9336.7,2281.0,4.09
+2015-02-19 06:00:00,Wrapper film,FlexiWrap Films,2884813.1,361152.0,7.99
+2015-02-19 06:00:00,Carton,BoxWell Packaging,84041.4,9313.9,9.02
+2015-02-20 06:00:00,Wheat flour (kg),Deccan Mills,187803.9,20908.8,8.98
+2015-02-20 06:00:00,Sugar (kg),Shakti Sugars,63913.5,7983.4,8.01
+2015-02-20 06:00:00,Cream filling (kg),CreamCo,14053.6,1710.7,8.22
+2015-02-20 06:00:00,Butter (kg),Amrit Dairy,27445.9,2281.0,12.03
+2015-02-20 06:00:00,Wrapper film,FlexiWrap Films,2529157.1,361152.0,7.0
+2015-02-20 06:00:00,Carton,BoxWell Packaging,74705.5,9313.9,8.02
+2015-02-21 06:00:00,Wheat flour (kg),Deccan Mills,165329.0,20908.8,7.91
+2015-02-21 06:00:00,Sugar (kg),Shakti Sugars,55334.2,7983.4,6.93
+2015-02-21 06:00:00,Cream filling (kg),CreamCo,12205.1,1710.7,7.13
+2015-02-21 06:00:00,Butter (kg),Amrit Dairy,25050.4,2281.0,10.98
+2015-02-21 06:00:00,Wrapper film,FlexiWrap Films,2140115.5,361152.0,5.93
+2015-02-21 06:00:00,Carton,BoxWell Packaging,64711.5,9313.9,6.95
+2015-02-22 06:00:00,Wheat flour (kg),Deccan Mills,144312.7,20908.8,6.9
+2015-02-22 06:00:00,Sugar (kg),Shakti Sugars,47268.5,7983.4,5.92
+2015-02-22 06:00:00,Cream filling (kg),CreamCo,10328.0,1710.7,6.04
+2015-02-22 06:00:00,Butter (kg),Amrit Dairy,23016.3,2281.0,10.09
+2015-02-22 06:00:00,Wrapper film,FlexiWrap Films,1770732.8,361152.0,4.9
+2015-02-22 06:00:00,Carton,BoxWell Packaging,55342.1,9313.9,5.94
+2015-02-23 06:00:00,Wheat flour (kg),Deccan Mills,123296.9,20908.8,5.9
+2015-02-23 06:00:00,Sugar (kg),Shakti Sugars,39315.7,7983.4,4.92
+2015-02-23 06:00:00,Cream filling (kg),CreamCo,8732.3,1710.7,5.1
+2015-02-23 06:00:00,Butter (kg),Amrit Dairy,20871.4,2281.0,9.15
+2015-02-23 06:00:00,Wrapper film,FlexiWrap Films,1408839.7,361152.0,3.9
+2015-02-23 06:00:00,Carton,BoxWell Packaging,46142.4,9313.9,4.95
+2015-02-24 06:00:00,Wheat flour (kg),Deccan Mills,103015.9,20908.8,4.93
+2015-02-24 06:00:00,Sugar (kg),Shakti Sugars,31554.6,7983.4,3.95
+2015-02-24 06:00:00,Cream filling (kg),CreamCo,6982.4,1710.7,4.08
+2015-02-24 06:00:00,Butter (kg),Amrit Dairy,18864.0,2281.0,8.27
+2015-02-24 06:00:00,Wrapper film,FlexiWrap Films,6471520.4,361152.0,17.92
+2015-02-24 06:00:00,Carton,BoxWell Packaging,37128.8,9313.9,3.99
+2015-02-25 06:00:00,Wheat flour (kg),Deccan Mills,80522.2,20908.8,3.85
+2015-02-25 06:00:00,Sugar (kg),Shakti Sugars,23007.4,7983.4,2.88
+2015-02-25 06:00:00,Cream filling (kg),CreamCo,5242.8,1710.7,3.06
+2015-02-25 06:00:00,Butter (kg),Amrit Dairy,16379.2,2281.0,7.18
+2015-02-25 06:00:00,Wrapper film,FlexiWrap Films,6085576.7,361152.0,16.85
+2015-02-25 06:00:00,Carton,BoxWell Packaging,138940.5,9313.9,14.92
+2015-02-26 06:00:00,Wheat flour (kg),Deccan Mills,58315.7,20908.8,2.79
+2015-02-26 06:00:00,Sugar (kg),Shakti Sugars,110363.8,7983.4,13.82
+2015-02-26 06:00:00,Cream filling (kg),CreamCo,24054.6,1710.7,14.06
+2015-02-26 06:00:00,Butter (kg),Amrit Dairy,13870.6,2281.0,6.08
+2015-02-26 06:00:00,Wrapper film,FlexiWrap Films,5705192.2,361152.0,15.8
+2015-02-26 06:00:00,Carton,BoxWell Packaging,129088.2,9313.9,13.86
+2015-02-27 06:00:00,Wheat flour (kg),Deccan Mills,245174.0,20908.8,11.73
+2015-02-27 06:00:00,Sugar (kg),Shakti Sugars,101895.6,7983.4,12.76
+2015-02-27 06:00:00,Cream filling (kg),CreamCo,22273.3,1710.7,13.02
+2015-02-27 06:00:00,Butter (kg),Amrit Dairy,11471.1,2281.0,5.03
+2015-02-27 06:00:00,Wrapper film,FlexiWrap Films,5321774.0,361152.0,14.74
+2015-02-27 06:00:00,Carton,BoxWell Packaging,119226.4,9313.9,12.8
+2015-02-28 06:00:00,Wheat flour (kg),Deccan Mills,225490.3,20908.8,10.78
+2015-02-28 06:00:00,Sugar (kg),Shakti Sugars,94486.3,7983.4,11.84
+2015-02-28 06:00:00,Cream filling (kg),CreamCo,20970.5,1710.7,12.26
+2015-02-28 06:00:00,Butter (kg),Amrit Dairy,9050.1,2281.0,3.97
+2015-02-28 06:00:00,Wrapper film,FlexiWrap Films,4991658.8,361152.0,13.82
+2015-02-28 06:00:00,Carton,BoxWell Packaging,110575.8,9313.9,11.87
+2015-03-01 06:00:00,Wheat flour (kg),Deccan Mills,203057.2,20908.8,9.71
+2015-03-01 06:00:00,Sugar (kg),Shakti Sugars,85905.7,7983.4,10.76
+2015-03-01 06:00:00,Cream filling (kg),CreamCo,19073.0,1710.7,11.15
+2015-03-01 06:00:00,Butter (kg),Amrit Dairy,6713.7,2281.0,2.94
+2015-03-01 06:00:00,Wrapper film,FlexiWrap Films,4601569.9,361152.0,12.74
+2015-03-01 06:00:00,Carton,BoxWell Packaging,100583.9,9313.9,10.8
+2015-03-02 06:00:00,Wheat flour (kg),Deccan Mills,181280.6,20908.8,8.67
+2015-03-02 06:00:00,Sugar (kg),Shakti Sugars,77615.7,7983.4,9.72
+2015-03-02 06:00:00,Cream filling (kg),CreamCo,17324.0,1710.7,10.13
+2015-03-02 06:00:00,Butter (kg),Amrit Dairy,4429.2,2281.0,1.94
+2015-03-02 06:00:00,Wrapper film,FlexiWrap Films,4225141.3,361152.0,11.7
+2015-03-02 06:00:00,Carton,BoxWell Packaging,90949.4,9313.9,9.76
+2015-03-03 06:00:00,Wheat flour (kg),Deccan Mills,160458.5,20908.8,7.67
+2015-03-03 06:00:00,Sugar (kg),Shakti Sugars,69596.4,7983.4,8.72
+2015-03-03 06:00:00,Cream filling (kg),CreamCo,15462.3,1710.7,9.04
+2015-03-03 06:00:00,Butter (kg),Amrit Dairy,22697.4,2281.0,9.95
+2015-03-03 06:00:00,Wrapper film,FlexiWrap Films,3861851.0,361152.0,10.69
+2015-03-03 06:00:00,Carton,BoxWell Packaging,81556.1,9313.9,8.76
+2015-03-04 06:00:00,Wheat flour (kg),Deccan Mills,141504.9,20908.8,6.77
+2015-03-04 06:00:00,Sugar (kg),Shakti Sugars,62344.4,7983.4,7.81
+2015-03-04 06:00:00,Cream filling (kg),CreamCo,13882.9,1710.7,8.12
+2015-03-04 06:00:00,Butter (kg),Amrit Dairy,20608.2,2281.0,9.03
+2015-03-04 06:00:00,Wrapper film,FlexiWrap Films,3534072.0,361152.0,9.79
+2015-03-04 06:00:00,Carton,BoxWell Packaging,73081.2,9313.9,7.85
+2015-03-05 06:00:00,Wheat flour (kg),Deccan Mills,119377.9,20908.8,5.71
+2015-03-05 06:00:00,Sugar (kg),Shakti Sugars,53878.2,7983.4,6.75
+2015-03-05 06:00:00,Cream filling (kg),CreamCo,12036.2,1710.7,7.04
+2015-03-05 06:00:00,Butter (kg),Amrit Dairy,18179.5,2281.0,7.97
+2015-03-05 06:00:00,Wrapper film,FlexiWrap Films,3151238.2,361152.0,8.73
+2015-03-05 06:00:00,Carton,BoxWell Packaging,63189.8,9313.9,6.78
+2015-03-06 06:00:00,Wheat flour (kg),Deccan Mills,96959.1,20908.8,4.64
+2015-03-06 06:00:00,Sugar (kg),Shakti Sugars,45321.2,7983.4,5.68
+2015-03-06 06:00:00,Cream filling (kg),CreamCo,10191.1,1710.7,5.96
+2015-03-06 06:00:00,Butter (kg),Amrit Dairy,15803.5,2281.0,6.93
+2015-03-06 06:00:00,Wrapper film,FlexiWrap Films,2762987.8,361152.0,7.65
+2015-03-06 06:00:00,Carton,BoxWell Packaging,53225.8,9313.9,5.71
+2015-03-07 06:00:00,Wheat flour (kg),Deccan Mills,74632.2,20908.8,3.57
+2015-03-07 06:00:00,Sugar (kg),Shakti Sugars,36846.3,7983.4,4.62
+2015-03-07 06:00:00,Cream filling (kg),CreamCo,8500.2,1710.7,4.97
+2015-03-07 06:00:00,Butter (kg),Amrit Dairy,13273.9,2281.0,5.82
+2015-03-07 06:00:00,Wrapper film,FlexiWrap Films,2381404.2,361152.0,6.59
+2015-03-07 06:00:00,Carton,BoxWell Packaging,43344.0,9313.9,4.65
+2015-03-08 06:00:00,Wheat flour (kg),Deccan Mills,54677.1,20908.8,2.62
+2015-03-08 06:00:00,Sugar (kg),Shakti Sugars,29223.4,7983.4,3.66
+2015-03-08 06:00:00,Cream filling (kg),CreamCo,6926.7,1710.7,4.05
+2015-03-08 06:00:00,Butter (kg),Amrit Dairy,10826.6,2281.0,4.75
+2015-03-08 06:00:00,Wrapper film,FlexiWrap Films,2041045.0,361152.0,5.65
+2015-03-08 06:00:00,Carton,BoxWell Packaging,34380.9,9313.9,3.69
+2015-03-09 06:00:00,Wheat flour (kg),Deccan Mills,242867.3,20908.8,11.62
+2015-03-09 06:00:00,Sugar (kg),Shakti Sugars,21179.2,7983.4,2.65
+2015-03-09 06:00:00,Cream filling (kg),CreamCo,5117.6,1710.7,2.99
+2015-03-09 06:00:00,Butter (kg),Amrit Dairy,8359.6,2281.0,3.66
+2015-03-09 06:00:00,Wrapper film,FlexiWrap Films,1679955.8,361152.0,4.65
+2015-03-09 06:00:00,Carton,BoxWell Packaging,136678.4,9313.9,14.67
+2015-03-10 06:00:00,Wheat flour (kg),Deccan Mills,221516.6,20908.8,10.59
+2015-03-10 06:00:00,Sugar (kg),Shakti Sugars,108810.4,7983.4,13.63
+2015-03-10 06:00:00,Cream filling (kg),CreamCo,23869.4,1710.7,13.95
+2015-03-10 06:00:00,Butter (kg),Amrit Dairy,26524.7,2281.0,11.63
+2015-03-10 06:00:00,Wrapper film,FlexiWrap Films,1310889.0,361152.0,3.63
+2015-03-10 06:00:00,Carton,BoxWell Packaging,127129.1,9313.9,13.65
+2015-03-11 06:00:00,Wheat flour (kg),Deccan Mills,199827.9,20908.8,9.56
+2015-03-11 06:00:00,Sugar (kg),Shakti Sugars,100575.4,7983.4,12.6
+2015-03-11 06:00:00,Cream filling (kg),CreamCo,22185.2,1710.7,12.97
+2015-03-11 06:00:00,Butter (kg),Amrit Dairy,24212.5,2281.0,10.62
+2015-03-11 06:00:00,Wrapper film,FlexiWrap Films,937675.5,361152.0,2.6
+2015-03-11 06:00:00,Carton,BoxWell Packaging,117561.9,9313.9,12.62
+2015-03-12 06:00:00,Wheat flour (kg),Deccan Mills,178758.9,20908.8,8.55
+2015-03-12 06:00:00,Sugar (kg),Shakti Sugars,92691.1,7983.4,11.61
+2015-03-12 06:00:00,Cream filling (kg),CreamCo,20850.0,1710.7,12.19
+2015-03-12 06:00:00,Butter (kg),Amrit Dairy,21802.0,2281.0,9.56
+2015-03-12 06:00:00,Wrapper film,FlexiWrap Films,6000918.3,361152.0,16.62
+2015-03-12 06:00:00,Carton,BoxWell Packaging,108429.2,9313.9,11.64
+2015-03-13 06:00:00,Wheat flour (kg),Deccan Mills,158065.0,20908.8,7.56
+2015-03-13 06:00:00,Sugar (kg),Shakti Sugars,84850.6,7983.4,10.63
+2015-03-13 06:00:00,Cream filling (kg),CreamCo,19245.1,1710.7,11.25
+2015-03-13 06:00:00,Butter (kg),Amrit Dairy,19738.4,2281.0,8.65
+2015-03-13 06:00:00,Wrapper film,FlexiWrap Films,5643284.3,361152.0,15.63
+2015-03-13 06:00:00,Carton,BoxWell Packaging,99365.8,9313.9,10.67
+2015-03-14 06:00:00,Wheat flour (kg),Deccan Mills,137022.5,20908.8,6.55
+2015-03-14 06:00:00,Sugar (kg),Shakti Sugars,76743.8,7983.4,9.61
+2015-03-14 06:00:00,Cream filling (kg),CreamCo,17393.1,1710.7,10.17
+2015-03-14 06:00:00,Butter (kg),Amrit Dairy,17312.7,2281.0,7.59
+2015-03-14 06:00:00,Wrapper film,FlexiWrap Films,5278372.3,361152.0,14.62
+2015-03-14 06:00:00,Carton,BoxWell Packaging,89833.1,9313.9,9.65
+2015-03-15 06:00:00,Wheat flour (kg),Deccan Mills,115828.6,20908.8,5.54
+2015-03-15 06:00:00,Sugar (kg),Shakti Sugars,68611.3,7983.4,8.59
+2015-03-15 06:00:00,Cream filling (kg),CreamCo,15626.2,1710.7,9.13
+2015-03-15 06:00:00,Butter (kg),Amrit Dairy,14769.7,2281.0,6.48
+2015-03-15 06:00:00,Wrapper film,FlexiWrap Films,4914130.9,361152.0,13.61
+2015-03-15 06:00:00,Carton,BoxWell Packaging,80263.9,9313.9,8.62
+2015-03-16 06:00:00,Wheat flour (kg),Deccan Mills,94582.6,20908.8,4.52
+2015-03-16 06:00:00,Sugar (kg),Shakti Sugars,60476.9,7983.4,7.58
+2015-03-16 06:00:00,Cream filling (kg),CreamCo,13857.2,1710.7,8.1
+2015-03-16 06:00:00,Butter (kg),Amrit Dairy,12374.1,2281.0,5.42
+2015-03-16 06:00:00,Wrapper film,FlexiWrap Films,4547337.6,361152.0,12.59
+2015-03-16 06:00:00,Carton,BoxWell Packaging,70741.3,9313.9,7.6
+2015-03-17 06:00:00,Wheat flour (kg),Deccan Mills,73105.7,20908.8,3.5
+2015-03-17 06:00:00,Sugar (kg),Shakti Sugars,52234.0,7983.4,6.54
+2015-03-17 06:00:00,Cream filling (kg),CreamCo,12001.3,1710.7,7.02
+2015-03-17 06:00:00,Butter (kg),Amrit Dairy,10042.1,2281.0,4.4
+2015-03-17 06:00:00,Wrapper film,FlexiWrap Films,4174058.6,361152.0,11.56
+2015-03-17 06:00:00,Carton,BoxWell Packaging,61102.5,9313.9,6.56
+2015-03-18 06:00:00,Wheat flour (kg),Deccan Mills,52036.6,20908.8,2.49
+2015-03-18 06:00:00,Sugar (kg),Shakti Sugars,44106.6,7983.4,5.52
+2015-03-18 06:00:00,Cream filling (kg),CreamCo,10105.1,1710.7,5.91
+2015-03-18 06:00:00,Butter (kg),Amrit Dairy,7687.9,2281.0,3.37
+2015-03-18 06:00:00,Wrapper film,FlexiWrap Films,3806926.5,361152.0,10.54
+2015-03-18 06:00:00,Carton,BoxWell Packaging,51558.3,9313.9,5.54
+2015-03-19 06:00:00,Wheat flour (kg),Deccan Mills,239256.4,20908.8,11.44
+2015-03-19 06:00:00,Sugar (kg),Shakti Sugars,35726.8,7983.4,4.48
+2015-03-19 06:00:00,Cream filling (kg),CreamCo,8256.3,1710.7,4.83
+2015-03-19 06:00:00,Butter (kg),Amrit Dairy,25798.0,2281.0,11.31
+2015-03-19 06:00:00,Wrapper film,FlexiWrap Films,3428245.8,361152.0,9.49
+2015-03-19 06:00:00,Carton,BoxWell Packaging,41756.1,9313.9,4.48
+2015-03-20 06:00:00,Wheat flour (kg),Deccan Mills,218946.8,20908.8,10.47
+2015-03-20 06:00:00,Sugar (kg),Shakti Sugars,27895.4,7983.4,3.49
+2015-03-20 06:00:00,Cream filling (kg),CreamCo,6426.7,1710.7,3.76
+2015-03-20 06:00:00,Butter (kg),Amrit Dairy,23563.1,2281.0,10.33
+2015-03-20 06:00:00,Wrapper film,FlexiWrap Films,3073926.7,361152.0,8.51
+2015-03-20 06:00:00,Carton,BoxWell Packaging,32569.9,9313.9,3.5
+2015-03-21 06:00:00,Wheat flour (kg),Deccan Mills,198761.1,20908.8,9.51
+2015-03-21 06:00:00,Sugar (kg),Shakti Sugars,116009.2,7983.4,14.53
+2015-03-21 06:00:00,Cream filling (kg),CreamCo,4828.5,1710.7,2.82
+2015-03-21 06:00:00,Butter (kg),Amrit Dairy,21334.2,2281.0,9.35
+2015-03-21 06:00:00,Wrapper film,FlexiWrap Films,2726745.8,361152.0,7.55
+2015-03-21 06:00:00,Carton,BoxWell Packaging,23607.6,9313.9,2.53
+2015-03-22 06:00:00,Wheat flour (kg),Deccan Mills,177694.8,20908.8,8.5
+2015-03-22 06:00:00,Sugar (kg),Shakti Sugars,108077.6,7983.4,13.54
+2015-03-22 06:00:00,Cream filling (kg),CreamCo,3405.0,1710.7,1.99
+2015-03-22 06:00:00,Butter (kg),Amrit Dairy,18842.3,2281.0,8.26
+2015-03-22 06:00:00,Wrapper film,FlexiWrap Films,2371698.7,361152.0,6.57
+2015-03-22 06:00:00,Carton,BoxWell Packaging,126137.9,9313.9,13.54
+2015-03-23 06:00:00,Wheat flour (kg),Deccan Mills,159605.9,20908.8,7.63
+2015-03-23 06:00:00,Sugar (kg),Shakti Sugars,101119.4,7983.4,12.67
+2015-03-23 06:00:00,Cream filling (kg),CreamCo,1862.8,1710.7,1.09
+2015-03-23 06:00:00,Butter (kg),Amrit Dairy,16654.0,2281.0,7.3
+2015-03-23 06:00:00,Wrapper film,FlexiWrap Films,2060258.6,361152.0,5.7
+2015-03-23 06:00:00,Carton,BoxWell Packaging,117936.2,9313.9,12.66
+2015-03-24 06:00:00,Wheat flour (kg),Deccan Mills,137932.4,20908.8,6.6
+2015-03-24 06:00:00,Sugar (kg),Shakti Sugars,92948.6,7983.4,11.64
+2015-03-24 06:00:00,Cream filling (kg),CreamCo,341.1,1710.7,0.2
+2015-03-24 06:00:00,Butter (kg),Amrit Dairy,14224.3,2281.0,6.24
+2015-03-24 06:00:00,Wrapper film,FlexiWrap Films,1692215.8,361152.0,4.69
+2015-03-24 06:00:00,Carton,BoxWell Packaging,108448.3,9313.9,11.64
+2015-03-25 06:00:00,Wheat flour (kg),Deccan Mills,120060.7,20908.8,5.74
+2015-03-25 06:00:00,Sugar (kg),Shakti Sugars,86567.2,7983.4,10.84
+2015-03-25 06:00:00,Cream filling (kg),CreamCo,0.0,1710.7,0.0
+2015-03-25 06:00:00,Butter (kg),Amrit Dairy,11771.1,2281.0,5.16
+2015-03-25 06:00:00,Wrapper film,FlexiWrap Films,1414030.7,361152.0,3.92
+2015-03-25 06:00:00,Carton,BoxWell Packaging,101135.4,9313.9,10.86
+2015-03-26 06:00:00,Wheat flour (kg),Deccan Mills,103858.5,20908.8,4.97
+2015-03-26 06:00:00,Sugar (kg),Shakti Sugars,80964.3,7983.4,10.14
+2015-03-26 06:00:00,Cream filling (kg),CreamCo,0.0,1710.7,0.0
+2015-03-26 06:00:00,Butter (kg),Amrit Dairy,9952.1,2281.0,4.36
+2015-03-26 06:00:00,Wrapper film,FlexiWrap Films,6581484.8,361152.0,18.22
+2015-03-26 06:00:00,Carton,BoxWell Packaging,94926.2,9313.9,10.19
+2015-03-27 06:00:00,Wheat flour (kg),Deccan Mills,87833.4,20908.8,4.2
+2015-03-27 06:00:00,Sugar (kg),Shakti Sugars,75358.4,7983.4,9.44
+2015-03-27 06:00:00,Cream filling (kg),CreamCo,20528.6,1710.7,12.0
+2015-03-27 06:00:00,Butter (kg),Amrit Dairy,7574.4,2281.0,3.32
+2015-03-27 06:00:00,Wrapper film,FlexiWrap Films,6340819.5,361152.0,17.56
+2015-03-27 06:00:00,Carton,BoxWell Packaging,88527.8,9313.9,9.5
+2015-03-28 06:00:00,Wheat flour (kg),Deccan Mills,65329.3,20908.8,3.12
+2015-03-28 06:00:00,Sugar (kg),Shakti Sugars,66770.4,7983.4,8.36
+2015-03-28 06:00:00,Cream filling (kg),CreamCo,18705.3,1710.7,10.93
+2015-03-28 06:00:00,Butter (kg),Amrit Dairy,5087.8,2281.0,2.23
+2015-03-28 06:00:00,Wrapper film,FlexiWrap Films,5952861.7,361152.0,16.48
+2015-03-28 06:00:00,Carton,BoxWell Packaging,78503.2,9313.9,8.43
+2015-03-29 06:00:00,Wheat flour (kg),Deccan Mills,252125.5,20908.8,12.06
+2015-03-29 06:00:00,Sugar (kg),Shakti Sugars,58223.2,7983.4,7.29
+2015-03-29 06:00:00,Cream filling (kg),CreamCo,16820.7,1710.7,9.83
+2015-03-29 06:00:00,Butter (kg),Amrit Dairy,23105.4,2281.0,10.13
+2015-03-29 06:00:00,Wrapper film,FlexiWrap Films,5567352.4,361152.0,15.42
+2015-03-29 06:00:00,Carton,BoxWell Packaging,68490.8,9313.9,7.35
+2015-03-30 06:00:00,Wheat flour (kg),Deccan Mills,229680.1,20908.8,10.98
+2015-03-30 06:00:00,Sugar (kg),Shakti Sugars,49619.5,7983.4,6.22
+2015-03-30 06:00:00,Cream filling (kg),CreamCo,14914.6,1710.7,8.72
+2015-03-30 06:00:00,Butter (kg),Amrit Dairy,20632.7,2281.0,9.05
+2015-03-30 06:00:00,Wrapper film,FlexiWrap Films,5178378.1,361152.0,14.34
+2015-03-30 06:00:00,Carton,BoxWell Packaging,58427.4,9313.9,6.27
+2015-03-31 06:00:00,Wheat flour (kg),Deccan Mills,208044.8,20908.8,9.95
+2015-03-31 06:00:00,Sugar (kg),Shakti Sugars,41304.0,7983.4,5.17
+2015-03-31 06:00:00,Cream filling (kg),CreamCo,13037.9,1710.7,7.62
+2015-03-31 06:00:00,Butter (kg),Amrit Dairy,18205.9,2281.0,7.98
+2015-03-31 06:00:00,Wrapper film,FlexiWrap Films,4803050.3,361152.0,13.3
+2015-03-31 06:00:00,Carton,BoxWell Packaging,48677.5,9313.9,5.23
+2015-04-01 06:00:00,Wheat flour (kg),Deccan Mills,185860.8,20908.8,8.89
+2015-04-01 06:00:00,Sugar (kg),Shakti Sugars,32883.3,7983.4,4.12
+2015-04-01 06:00:00,Cream filling (kg),CreamCo,11341.8,1710.7,6.63
+2015-04-01 06:00:00,Butter (kg),Amrit Dairy,15755.8,2281.0,6.91
+2015-04-01 06:00:00,Wrapper film,FlexiWrap Films,4422849.8,361152.0,12.25
+2015-04-01 06:00:00,Carton,BoxWell Packaging,38874.6,9313.9,4.17
+2015-04-02 06:00:00,Wheat flour (kg),Deccan Mills,165277.5,20908.8,7.9
+2015-04-02 06:00:00,Sugar (kg),Shakti Sugars,25030.9,7983.4,3.14
+2015-04-02 06:00:00,Cream filling (kg),CreamCo,9595.6,1710.7,5.61
+2015-04-02 06:00:00,Butter (kg),Amrit Dairy,13818.3,2281.0,6.06
+2015-04-02 06:00:00,Wrapper film,FlexiWrap Films,4062517.3,361152.0,11.25
+2015-04-02 06:00:00,Carton,BoxWell Packaging,29794.3,9313.9,3.2
+2015-04-03 06:00:00,Wheat flour (kg),Deccan Mills,149898.9,20908.8,7.17
+2015-04-03 06:00:00,Sugar (kg),Shakti Sugars,19191.7,7983.4,2.4
+2015-04-03 06:00:00,Cream filling (kg),CreamCo,8326.9,1710.7,4.87
+2015-04-03 06:00:00,Butter (kg),Amrit Dairy,12477.0,2281.0,5.47
+2015-04-03 06:00:00,Wrapper film,FlexiWrap Films,3792917.3,361152.0,10.5
+2015-04-03 06:00:00,Carton,BoxWell Packaging,134852.2,9313.9,14.48
+2015-04-04 06:00:00,Wheat flour (kg),Deccan Mills,127775.0,20908.8,6.11
+2015-04-04 06:00:00,Sugar (kg),Shakti Sugars,106526.0,7983.4,13.34
+2015-04-04 06:00:00,Cream filling (kg),CreamCo,6452.6,1710.7,3.77
+2015-04-04 06:00:00,Butter (kg),Amrit Dairy,10151.1,2281.0,4.45
+2015-04-04 06:00:00,Wrapper film,FlexiWrap Films,3408378.9,361152.0,9.44
+2015-04-04 06:00:00,Carton,BoxWell Packaging,124986.0,9313.9,13.42
+2015-04-05 06:00:00,Wheat flour (kg),Deccan Mills,107347.8,20908.8,5.13
+2015-04-05 06:00:00,Sugar (kg),Shakti Sugars,98749.5,7983.4,12.37
+2015-04-05 06:00:00,Cream filling (kg),CreamCo,25246.4,1710.7,14.76
+2015-04-05 06:00:00,Butter (kg),Amrit Dairy,8384.0,2281.0,3.68
+2015-04-05 06:00:00,Wrapper film,FlexiWrap Films,3049008.3,361152.0,8.44
+2015-04-05 06:00:00,Carton,BoxWell Packaging,116042.3,9313.9,12.46
+2015-04-06 06:00:00,Wheat flour (kg),Deccan Mills,87564.2,20908.8,4.19
+2015-04-06 06:00:00,Sugar (kg),Shakti Sugars,91320.9,7983.4,11.44
+2015-04-06 06:00:00,Cream filling (kg),CreamCo,23915.8,1710.7,13.98
+2015-04-06 06:00:00,Butter (kg),Amrit Dairy,26728.2,2281.0,11.72
+2015-04-06 06:00:00,Wrapper film,FlexiWrap Films,2713984.1,361152.0,7.51
+2015-04-06 06:00:00,Carton,BoxWell Packaging,107442.0,9313.9,11.54
+2015-04-07 06:00:00,Wheat flour (kg),Deccan Mills,66190.2,20908.8,3.17
+2015-04-07 06:00:00,Sugar (kg),Shakti Sugars,83197.9,7983.4,10.42
+2015-04-07 06:00:00,Cream filling (kg),CreamCo,22192.1,1710.7,12.97
+2015-04-07 06:00:00,Butter (kg),Amrit Dairy,24638.0,2281.0,10.8
+2015-04-07 06:00:00,Wrapper film,FlexiWrap Films,2342670.1,361152.0,6.49
+2015-04-07 06:00:00,Carton,BoxWell Packaging,98047.7,9313.9,10.53
+2015-04-08 06:00:00,Wheat flour (kg),Deccan Mills,45237.5,20908.8,2.16
+2015-04-08 06:00:00,Sugar (kg),Shakti Sugars,75333.7,7983.4,9.44
+2015-04-08 06:00:00,Cream filling (kg),CreamCo,20829.8,1710.7,12.18
+2015-04-08 06:00:00,Butter (kg),Amrit Dairy,22167.4,2281.0,9.72
+2015-04-08 06:00:00,Wrapper film,FlexiWrap Films,1990636.4,361152.0,5.51
+2015-04-08 06:00:00,Carton,BoxWell Packaging,88905.9,9313.9,9.55
+2015-04-09 06:00:00,Wheat flour (kg),Deccan Mills,232619.4,20908.8,11.13
+2015-04-09 06:00:00,Sugar (kg),Shakti Sugars,67092.2,7983.4,8.4
+2015-04-09 06:00:00,Cream filling (kg),CreamCo,19177.0,1710.7,11.21
+2015-04-09 06:00:00,Butter (kg),Amrit Dairy,19723.3,2281.0,8.65
+2015-04-09 06:00:00,Wrapper film,FlexiWrap Films,1619296.7,361152.0,4.48
+2015-04-09 06:00:00,Carton,BoxWell Packaging,79298.7,9313.9,8.51
+2015-04-10 06:00:00,Wheat flour (kg),Deccan Mills,213338.4,20908.8,10.2
+2015-04-10 06:00:00,Sugar (kg),Shakti Sugars,59624.8,7983.4,7.47
+2015-04-10 06:00:00,Cream filling (kg),CreamCo,17296.5,1710.7,10.11
+2015-04-10 06:00:00,Butter (kg),Amrit Dairy,17881.4,2281.0,7.84
+2015-04-10 06:00:00,Wrapper film,FlexiWrap Films,1276623.9,361152.0,3.53
+2015-04-10 06:00:00,Carton,BoxWell Packaging,70590.5,9313.9,7.58
+2015-04-11 06:00:00,Wheat flour (kg),Deccan Mills,192893.7,20908.8,9.23
+2015-04-11 06:00:00,Sugar (kg),Shakti Sugars,51961.0,7983.4,6.51
+2015-04-11 06:00:00,Cream filling (kg),CreamCo,15997.7,1710.7,9.35
+2015-04-11 06:00:00,Butter (kg),Amrit Dairy,15437.0,2281.0,6.77
+2015-04-11 06:00:00,Wrapper film,FlexiWrap Films,6351455.4,361152.0,17.59
+2015-04-11 06:00:00,Carton,BoxWell Packaging,61679.0,9313.9,6.62
+2015-04-12 06:00:00,Wheat flour (kg),Deccan Mills,172492.2,20908.8,8.25
+2015-04-12 06:00:00,Sugar (kg),Shakti Sugars,44112.4,7983.4,5.53
+2015-04-12 06:00:00,Cream filling (kg),CreamCo,14150.2,1710.7,8.27
+2015-04-12 06:00:00,Butter (kg),Amrit Dairy,13393.6,2281.0,5.87
+2015-04-12 06:00:00,Wrapper film,FlexiWrap Films,5993080.5,361152.0,16.59
+2015-04-12 06:00:00,Carton,BoxWell Packaging,52533.4,9313.9,5.64
+2015-04-13 06:00:00,Wheat flour (kg),Deccan Mills,150949.0,20908.8,7.22
+2015-04-13 06:00:00,Sugar (kg),Shakti Sugars,35853.9,7983.4,4.49
+2015-04-13 06:00:00,Cream filling (kg),CreamCo,12255.5,1710.7,7.16
+2015-04-13 06:00:00,Butter (kg),Amrit Dairy,11275.5,2281.0,4.94
+2015-04-13 06:00:00,Wrapper film,FlexiWrap Films,5615457.5,361152.0,15.55
+2015-04-13 06:00:00,Carton,BoxWell Packaging,42937.3,9313.9,4.61
+2015-04-14 06:00:00,Wheat flour (kg),Deccan Mills,130128.7,20908.8,6.22
+2015-04-14 06:00:00,Sugar (kg),Shakti Sugars,28075.4,7983.4,3.52
+2015-04-14 06:00:00,Cream filling (kg),CreamCo,10924.5,1710.7,6.39
+2015-04-14 06:00:00,Butter (kg),Amrit Dairy,9054.6,2281.0,3.97
+2015-04-14 06:00:00,Wrapper film,FlexiWrap Films,5263549.9,361152.0,14.57
+2015-04-14 06:00:00,Carton,BoxWell Packaging,33974.9,9313.9,3.65
+2015-04-15 06:00:00,Wheat flour (kg),Deccan Mills,109063.0,20908.8,5.22
+2015-04-15 06:00:00,Sugar (kg),Shakti Sugars,20031.3,7983.4,2.51
+2015-04-15 06:00:00,Cream filling (kg),CreamCo,9178.2,1710.7,5.37
+2015-04-15 06:00:00,Butter (kg),Amrit Dairy,27368.0,2281.0,12.0
+2015-04-15 06:00:00,Wrapper film,FlexiWrap Films,4898262.0,361152.0,13.56
+2015-04-15 06:00:00,Carton,BoxWell Packaging,136377.2,9313.9,14.64
+2015-04-16 06:00:00,Wheat flour (kg),Deccan Mills,86363.4,20908.8,4.13
+2015-04-16 06:00:00,Sugar (kg),Shakti Sugars,107185.1,7983.4,13.43
+2015-04-16 06:00:00,Cream filling (kg),CreamCo,7366.6,1710.7,4.31
+2015-04-16 06:00:00,Butter (kg),Amrit Dairy,24894.7,2281.0,10.91
+2015-04-16 06:00:00,Wrapper film,FlexiWrap Films,4507158.1,361152.0,12.48
+2015-04-16 06:00:00,Carton,BoxWell Packaging,126302.5,9313.9,13.56
+2015-04-17 06:00:00,Wheat flour (kg),Deccan Mills,64151.1,20908.8,3.07
+2015-04-17 06:00:00,Sugar (kg),Shakti Sugars,98737.1,7983.4,12.37
+2015-04-17 06:00:00,Cream filling (kg),CreamCo,5629.9,1710.7,3.29
+2015-04-17 06:00:00,Butter (kg),Amrit Dairy,22446.4,2281.0,9.84
+2015-04-17 06:00:00,Wrapper film,FlexiWrap Films,4125562.5,361152.0,11.42
+2015-04-17 06:00:00,Carton,BoxWell Packaging,116459.4,9313.9,12.5
+2015-04-18 06:00:00,Wheat flour (kg),Deccan Mills,44769.7,20908.8,2.14
+2015-04-18 06:00:00,Sugar (kg),Shakti Sugars,91499.3,7983.4,11.46
+2015-04-18 06:00:00,Cream filling (kg),CreamCo,24906.7,1710.7,14.56
+2015-04-18 06:00:00,Butter (kg),Amrit Dairy,20457.9,2281.0,8.97
+2015-04-18 06:00:00,Wrapper film,FlexiWrap Films,3796815.7,361152.0,10.51
+2015-04-18 06:00:00,Carton,BoxWell Packaging,108141.6,9313.9,11.61
+2015-04-19 06:00:00,Wheat flour (kg),Deccan Mills,232117.5,20908.8,11.1
+2015-04-19 06:00:00,Sugar (kg),Shakti Sugars,83154.4,7983.4,10.42
+2015-04-19 06:00:00,Cream filling (kg),CreamCo,23015.5,1710.7,13.45
+2015-04-19 06:00:00,Butter (kg),Amrit Dairy,18139.3,2281.0,7.95
+2015-04-19 06:00:00,Wrapper film,FlexiWrap Films,3418214.5,361152.0,9.46
+2015-04-19 06:00:00,Carton,BoxWell Packaging,98393.3,9313.9,10.56
+2015-04-20 06:00:00,Wheat flour (kg),Deccan Mills,211007.3,20908.8,10.09
+2015-04-20 06:00:00,Sugar (kg),Shakti Sugars,75107.9,7983.4,9.41
+2015-04-20 06:00:00,Cream filling (kg),CreamCo,21284.5,1710.7,12.44
+2015-04-20 06:00:00,Butter (kg),Amrit Dairy,15975.7,2281.0,7.0
+2015-04-20 06:00:00,Wrapper film,FlexiWrap Films,3051950.6,361152.0,8.45
+2015-04-20 06:00:00,Carton,BoxWell Packaging,89048.7,9313.9,9.56
+2015-04-21 06:00:00,Wheat flour (kg),Deccan Mills,189454.5,20908.8,9.06
+2015-04-21 06:00:00,Sugar (kg),Shakti Sugars,66842.9,7983.4,8.37
+2015-04-21 06:00:00,Cream filling (kg),CreamCo,19445.3,1710.7,11.37
+2015-04-21 06:00:00,Butter (kg),Amrit Dairy,13605.7,2281.0,5.96
+2015-04-21 06:00:00,Wrapper film,FlexiWrap Films,2678201.2,361152.0,7.42
+2015-04-21 06:00:00,Carton,BoxWell Packaging,79380.7,9313.9,8.52
+2015-04-22 06:00:00,Wheat flour (kg),Deccan Mills,167970.6,20908.8,8.03
+2015-04-22 06:00:00,Sugar (kg),Shakti Sugars,58645.1,7983.4,7.35
+2015-04-22 06:00:00,Cream filling (kg),CreamCo,17704.3,1710.7,10.35
+2015-04-22 06:00:00,Butter (kg),Amrit Dairy,11240.9,2281.0,4.93
+2015-04-22 06:00:00,Wrapper film,FlexiWrap Films,2307723.6,361152.0,6.39
+2015-04-22 06:00:00,Carton,BoxWell Packaging,69814.3,9313.9,7.5
+2015-04-23 06:00:00,Wheat flour (kg),Deccan Mills,147287.3,20908.8,7.04
+2015-04-23 06:00:00,Sugar (kg),Shakti Sugars,50827.3,7983.4,6.37
+2015-04-23 06:00:00,Cream filling (kg),CreamCo,16153.4,1710.7,9.44
+2015-04-23 06:00:00,Butter (kg),Amrit Dairy,9134.2,2281.0,4.0
+2015-04-23 06:00:00,Wrapper film,FlexiWrap Films,1951942.8,361152.0,5.4
+2015-04-23 06:00:00,Carton,BoxWell Packaging,60777.2,9313.9,6.53
+2015-04-24 06:00:00,Wheat flour (kg),Deccan Mills,124896.7,20908.8,5.97
+2015-04-24 06:00:00,Sugar (kg),Shakti Sugars,42316.8,7983.4,5.3
+2015-04-24 06:00:00,Cream filling (kg),CreamCo,14380.8,1710.7,8.41
+2015-04-24 06:00:00,Butter (kg),Amrit Dairy,27330.0,2281.0,11.98
+2015-04-24 06:00:00,Wrapper film,FlexiWrap Films,1565297.6,361152.0,4.33
+2015-04-24 06:00:00,Carton,BoxWell Packaging,50898.2,9313.9,5.46
+2015-04-25 06:00:00,Wheat flour (kg),Deccan Mills,105227.4,20908.8,5.03
+2015-04-25 06:00:00,Sugar (kg),Shakti Sugars,34692.1,7983.4,4.35
+2015-04-25 06:00:00,Cream filling (kg),CreamCo,12617.8,1710.7,7.38
+2015-04-25 06:00:00,Butter (kg),Amrit Dairy,24768.4,2281.0,10.86
+2015-04-25 06:00:00,Wrapper film,FlexiWrap Films,1226759.2,361152.0,3.4
+2015-04-25 06:00:00,Carton,BoxWell Packaging,41832.1,9313.9,4.49
+2015-04-26 06:00:00,Wheat flour (kg),Deccan Mills,82656.7,20908.8,3.95
+2015-04-26 06:00:00,Sugar (kg),Shakti Sugars,26070.4,7983.4,3.27
+2015-04-26 06:00:00,Cream filling (kg),CreamCo,10762.5,1710.7,6.29
+2015-04-26 06:00:00,Butter (kg),Amrit Dairy,22306.0,2281.0,9.78
+2015-04-26 06:00:00,Wrapper film,FlexiWrap Films,836714.0,361152.0,2.32
+2015-04-26 06:00:00,Carton,BoxWell Packaging,31771.1,9313.9,3.41
+2015-04-27 06:00:00,Wheat flour (kg),Deccan Mills,269306.8,20908.8,12.88
+2015-04-27 06:00:00,Sugar (kg),Shakti Sugars,113306.8,7983.4,14.19
+2015-04-27 06:00:00,Cream filling (kg),CreamCo,8942.2,1710.7,5.23
+2015-04-27 06:00:00,Butter (kg),Amrit Dairy,19825.6,2281.0,8.69
+2015-04-27 06:00:00,Wrapper film,FlexiWrap Films,5867136.7,361152.0,16.25
+2015-04-27 06:00:00,Carton,BoxWell Packaging,133540.6,9313.9,14.34
+2015-04-28 06:00:00,Wheat flour (kg),Deccan Mills,246818.4,20908.8,11.8
+2015-04-28 06:00:00,Sugar (kg),Shakti Sugars,104709.8,7983.4,13.12
+2015-04-28 06:00:00,Cream filling (kg),CreamCo,7076.9,1710.7,4.14
+2015-04-28 06:00:00,Butter (kg),Amrit Dairy,17379.0,2281.0,7.62
+2015-04-28 06:00:00,Wrapper film,FlexiWrap Films,5478063.7,361152.0,15.17
+2015-04-28 06:00:00,Carton,BoxWell Packaging,123506.3,9313.9,13.26
+2015-04-29 06:00:00,Wheat flour (kg),Deccan Mills,226315.6,20908.8,10.82
+2015-04-29 06:00:00,Sugar (kg),Shakti Sugars,96804.3,7983.4,12.13
+2015-04-29 06:00:00,Cream filling (kg),CreamCo,5274.8,1710.7,3.08
+2015-04-29 06:00:00,Butter (kg),Amrit Dairy,14947.5,2281.0,6.55
+2015-04-29 06:00:00,Wrapper film,FlexiWrap Films,5123317.9,361152.0,14.19
+2015-04-29 06:00:00,Carton,BoxWell Packaging,114189.6,9313.9,12.26
+2015-04-30 06:00:00,Wheat flour (kg),Deccan Mills,205075.8,20908.8,9.81
+2015-04-30 06:00:00,Sugar (kg),Shakti Sugars,88611.8,7983.4,11.1
+2015-04-30 06:00:00,Cream filling (kg),CreamCo,23927.8,1710.7,13.99
+2015-04-30 06:00:00,Butter (kg),Amrit Dairy,12435.5,2281.0,5.45
+2015-04-30 06:00:00,Wrapper film,FlexiWrap Films,4755554.1,361152.0,13.17
+2015-04-30 06:00:00,Carton,BoxWell Packaging,104534.6,9313.9,11.22
+2015-05-01 06:00:00,Wheat flour (kg),Deccan Mills,182719.4,20908.8,8.74
+2015-05-01 06:00:00,Sugar (kg),Shakti Sugars,80062.6,7983.4,10.03
+2015-05-01 06:00:00,Cream filling (kg),CreamCo,22062.7,1710.7,12.9
+2015-05-01 06:00:00,Butter (kg),Amrit Dairy,10023.4,2281.0,4.39
+2015-05-01 06:00:00,Wrapper film,FlexiWrap Films,4368299.4,361152.0,12.1
+2015-05-01 06:00:00,Carton,BoxWell Packaging,94559.7,9313.9,10.15
+2015-05-02 06:00:00,Wheat flour (kg),Deccan Mills,160846.0,20908.8,7.69
+2015-05-02 06:00:00,Sugar (kg),Shakti Sugars,71741.2,7983.4,8.99
+2015-05-02 06:00:00,Cream filling (kg),CreamCo,20363.9,1710.7,11.9
+2015-05-02 06:00:00,Butter (kg),Amrit Dairy,7546.1,2281.0,3.31
+2015-05-02 06:00:00,Wrapper film,FlexiWrap Films,3993519.9,361152.0,11.06
+2015-05-02 06:00:00,Carton,BoxWell Packaging,84846.3,9313.9,9.11
+2015-05-03 06:00:00,Wheat flour (kg),Deccan Mills,138384.8,20908.8,6.62
+2015-05-03 06:00:00,Sugar (kg),Shakti Sugars,63155.8,7983.4,7.91
+2015-05-03 06:00:00,Cream filling (kg),CreamCo,18485.4,1710.7,10.81
+2015-05-03 06:00:00,Butter (kg),Amrit Dairy,25703.8,2281.0,11.27
+2015-05-03 06:00:00,Wrapper film,FlexiWrap Films,3603765.1,361152.0,9.98
+2015-05-03 06:00:00,Carton,BoxWell Packaging,74844.4,9313.9,8.04
+2015-05-04 06:00:00,Wheat flour (kg),Deccan Mills,117429.6,20908.8,5.62
+2015-05-04 06:00:00,Sugar (kg),Shakti Sugars,55105.0,7983.4,6.9
+2015-05-04 06:00:00,Cream filling (kg),CreamCo,16622.0,1710.7,9.72
+2015-05-04 06:00:00,Butter (kg),Amrit Dairy,23565.5,2281.0,10.33
+2015-05-04 06:00:00,Wrapper film,FlexiWrap Films,3236861.9,361152.0,8.96
+2015-05-04 06:00:00,Carton,BoxWell Packaging,65459.7,9313.9,7.03
+2015-05-05 06:00:00,Wheat flour (kg),Deccan Mills,95061.7,20908.8,4.55
+2015-05-05 06:00:00,Sugar (kg),Shakti Sugars,46545.5,7983.4,5.83
+2015-05-05 06:00:00,Cream filling (kg),CreamCo,14772.1,1710.7,8.64
+2015-05-05 06:00:00,Butter (kg),Amrit Dairy,21033.0,2281.0,9.22
+2015-05-05 06:00:00,Wrapper film,FlexiWrap Films,2851093.0,361152.0,7.89
+2015-05-05 06:00:00,Carton,BoxWell Packaging,55439.4,9313.9,5.95
+2015-05-06 06:00:00,Wheat flour (kg),Deccan Mills,72744.6,20908.8,3.48
+2015-05-06 06:00:00,Sugar (kg),Shakti Sugars,38034.2,7983.4,4.76
+2015-05-06 06:00:00,Cream filling (kg),CreamCo,12968.9,1710.7,7.58
+2015-05-06 06:00:00,Butter (kg),Amrit Dairy,18595.4,2281.0,8.15
+2015-05-06 06:00:00,Wrapper film,FlexiWrap Films,2466154.7,361152.0,6.83
+2015-05-06 06:00:00,Carton,BoxWell Packaging,45514.5,9313.9,4.89
+2015-05-07 06:00:00,Wheat flour (kg),Deccan Mills,50327.9,20908.8,2.41
+2015-05-07 06:00:00,Sugar (kg),Shakti Sugars,29476.3,7983.4,3.69
+2015-05-07 06:00:00,Cream filling (kg),CreamCo,11088.4,1710.7,6.48
+2015-05-07 06:00:00,Butter (kg),Amrit Dairy,16346.6,2281.0,7.17
+2015-05-07 06:00:00,Wrapper film,FlexiWrap Films,2075741.2,361152.0,5.75
+2015-05-07 06:00:00,Carton,BoxWell Packaging,35580.2,9313.9,3.82
+2015-05-08 06:00:00,Wheat flour (kg),Deccan Mills,237005.4,20908.8,11.34
+2015-05-08 06:00:00,Sugar (kg),Shakti Sugars,116744.8,7983.4,14.62
+2015-05-08 06:00:00,Cream filling (kg),CreamCo,9310.3,1710.7,5.44
+2015-05-08 06:00:00,Butter (kg),Amrit Dairy,13904.0,2281.0,6.1
+2015-05-08 06:00:00,Wrapper film,FlexiWrap Films,1689857.9,361152.0,4.68
+2015-05-08 06:00:00,Carton,BoxWell Packaging,25641.4,9313.9,2.75
+2015-05-09 06:00:00,Wheat flour (kg),Deccan Mills,215573.5,20908.8,10.31
+2015-05-09 06:00:00,Sugar (kg),Shakti Sugars,108648.0,7983.4,13.61
+2015-05-09 06:00:00,Cream filling (kg),CreamCo,7732.7,1710.7,4.52
+2015-05-09 06:00:00,Butter (kg),Amrit Dairy,11639.1,2281.0,5.1
+2015-05-09 06:00:00,Wrapper film,FlexiWrap Films,1322769.9,361152.0,3.66
+2015-05-09 06:00:00,Carton,BoxWell Packaging,128030.8,9313.9,13.75
+2015-05-10 06:00:00,Wheat flour (kg),Deccan Mills,196108.6,20908.8,9.38
+2015-05-10 06:00:00,Sugar (kg),Shakti Sugars,101075.7,7983.4,12.66
+2015-05-10 06:00:00,Cream filling (kg),CreamCo,5894.1,1710.7,3.45
+2015-05-10 06:00:00,Butter (kg),Amrit Dairy,9237.5,2281.0,4.05
+2015-05-10 06:00:00,Wrapper film,FlexiWrap Films,984181.0,361152.0,2.73
+2015-05-10 06:00:00,Carton,BoxWell Packaging,119045.2,9313.9,12.78
+2015-05-11 06:00:00,Wheat flour (kg),Deccan Mills,174425.0,20908.8,8.34
+2015-05-11 06:00:00,Sugar (kg),Shakti Sugars,92839.9,7983.4,11.63
+2015-05-11 06:00:00,Cream filling (kg),CreamCo,4251.1,1710.7,2.48
+2015-05-11 06:00:00,Butter (kg),Amrit Dairy,6738.1,2281.0,2.95
+2015-05-11 06:00:00,Wrapper film,FlexiWrap Films,6031327.5,361152.0,16.7
+2015-05-11 06:00:00,Carton,BoxWell Packaging,109428.5,9313.9,11.75
+2015-05-12 06:00:00,Wheat flour (kg),Deccan Mills,153264.2,20908.8,7.33
+2015-05-12 06:00:00,Sugar (kg),Shakti Sugars,84749.7,7983.4,10.62
+2015-05-12 06:00:00,Cream filling (kg),CreamCo,22945.6,1710.7,13.41
+2015-05-12 06:00:00,Butter (kg),Amrit Dairy,25273.4,2281.0,11.08
+2015-05-12 06:00:00,Wrapper film,FlexiWrap Films,5660037.9,361152.0,15.67
+2015-05-12 06:00:00,Carton,BoxWell Packaging,100062.5,9313.9,10.74
+2015-05-13 06:00:00,Wheat flour (kg),Deccan Mills,131403.3,20908.8,6.28
+2015-05-13 06:00:00,Sugar (kg),Shakti Sugars,76440.3,7983.4,9.57
+2015-05-13 06:00:00,Cream filling (kg),CreamCo,21231.3,1710.7,12.41
+2015-05-13 06:00:00,Butter (kg),Amrit Dairy,22928.8,2281.0,10.05
+2015-05-13 06:00:00,Wrapper film,FlexiWrap Films,5283644.0,361152.0,14.63
+2015-05-13 06:00:00,Carton,BoxWell Packaging,90400.1,9313.9,9.71
+2015-05-14 06:00:00,Wheat flour (kg),Deccan Mills,108738.9,20908.8,5.2
+2015-05-14 06:00:00,Sugar (kg),Shakti Sugars,67793.9,7983.4,8.49
+2015-05-14 06:00:00,Cream filling (kg),CreamCo,19369.2,1710.7,11.32
+2015-05-14 06:00:00,Butter (kg),Amrit Dairy,20552.8,2281.0,9.01
+2015-05-14 06:00:00,Wrapper film,FlexiWrap Films,4890924.1,361152.0,13.54
+2015-05-14 06:00:00,Carton,BoxWell Packaging,80341.0,9313.9,8.63
+2015-05-15 06:00:00,Wheat flour (kg),Deccan Mills,86034.9,20908.8,4.11
+2015-05-15 06:00:00,Sugar (kg),Shakti Sugars,59123.4,7983.4,7.41
+2015-05-15 06:00:00,Cream filling (kg),CreamCo,17477.0,1710.7,10.22
+2015-05-15 06:00:00,Butter (kg),Amrit Dairy,18199.1,2281.0,7.98
+2015-05-15 06:00:00,Wrapper film,FlexiWrap Films,4496628.6,361152.0,12.45
+2015-05-15 06:00:00,Carton,BoxWell Packaging,70255.2,9313.9,7.54
+2015-05-16 06:00:00,Wheat flour (kg),Deccan Mills,64175.6,20908.8,3.07
+2015-05-16 06:00:00,Sugar (kg),Shakti Sugars,50755.9,7983.4,6.36
+2015-05-16 06:00:00,Cream filling (kg),CreamCo,15660.2,1710.7,9.15
+2015-05-16 06:00:00,Butter (kg),Amrit Dairy,15736.9,2281.0,6.9
+2015-05-16 06:00:00,Wrapper film,FlexiWrap Films,4119291.8,361152.0,11.41
+2015-05-16 06:00:00,Carton,BoxWell Packaging,60461.5,9313.9,6.49
+2015-05-17 06:00:00,Wheat flour (kg),Deccan Mills,250993.5,20908.8,12.0
+2015-05-17 06:00:00,Sugar (kg),Shakti Sugars,42274.0,7983.4,5.3
+2015-05-17 06:00:00,Cream filling (kg),CreamCo,13882.6,1710.7,8.12
+2015-05-17 06:00:00,Butter (kg),Amrit Dairy,13320.2,2281.0,5.84
+2015-05-17 06:00:00,Wrapper film,FlexiWrap Films,3735471.9,361152.0,10.34
+2015-05-17 06:00:00,Carton,BoxWell Packaging,50581.3,9313.9,5.43
+2015-05-18 06:00:00,Wheat flour (kg),Deccan Mills,229033.8,20908.8,10.95
+2015-05-18 06:00:00,Sugar (kg),Shakti Sugars,33914.8,7983.4,4.25
+2015-05-18 06:00:00,Cream filling (kg),CreamCo,12173.9,1710.7,7.12
+2015-05-18 06:00:00,Butter (kg),Amrit Dairy,10801.3,2281.0,4.74
+2015-05-18 06:00:00,Wrapper film,FlexiWrap Films,3359492.6,361152.0,9.3
+2015-05-18 06:00:00,Carton,BoxWell Packaging,40813.0,9313.9,4.38
+2015-05-19 06:00:00,Wheat flour (kg),Deccan Mills,206271.0,20908.8,9.87
+2015-05-19 06:00:00,Sugar (kg),Shakti Sugars,25210.8,7983.4,3.16
+2015-05-19 06:00:00,Cream filling (kg),CreamCo,10285.8,1710.7,6.01
+2015-05-19 06:00:00,Butter (kg),Amrit Dairy,8306.6,2281.0,3.64
+2015-05-19 06:00:00,Wrapper film,FlexiWrap Films,2965874.8,361152.0,8.21
+2015-05-19 06:00:00,Carton,BoxWell Packaging,30648.1,9313.9,3.29
+2015-05-20 06:00:00,Wheat flour (kg),Deccan Mills,185003.0,20908.8,8.85
+2015-05-20 06:00:00,Sugar (kg),Shakti Sugars,17091.7,7983.4,2.14
+2015-05-20 06:00:00,Cream filling (kg),CreamCo,8526.4,1710.7,4.98
+2015-05-20 06:00:00,Butter (kg),Amrit Dairy,26604.6,2281.0,11.66
+2015-05-20 06:00:00,Wrapper film,FlexiWrap Films,2597095.7,361152.0,7.19
+2015-05-20 06:00:00,Carton,BoxWell Packaging,21199.0,9313.9,2.28
+2015-05-21 06:00:00,Wheat flour (kg),Deccan Mills,163434.5,20908.8,7.82
+2015-05-21 06:00:00,Sugar (kg),Shakti Sugars,104631.8,7983.4,13.11
+2015-05-21 06:00:00,Cream filling (kg),CreamCo,6705.5,1710.7,3.92
+2015-05-21 06:00:00,Butter (kg),Amrit Dairy,24251.8,2281.0,10.63
+2015-05-21 06:00:00,Wrapper film,FlexiWrap Films,2223297.8,361152.0,6.16
+2015-05-21 06:00:00,Carton,BoxWell Packaging,123314.5,9313.9,13.24
+2015-05-22 06:00:00,Wheat flour (kg),Deccan Mills,142424.1,20908.8,6.81
+2015-05-22 06:00:00,Sugar (kg),Shakti Sugars,96617.2,7983.4,12.1
+2015-05-22 06:00:00,Cream filling (kg),CreamCo,4923.0,1710.7,2.88
+2015-05-22 06:00:00,Butter (kg),Amrit Dairy,22281.7,2281.0,9.77
+2015-05-22 06:00:00,Wrapper film,FlexiWrap Films,1855403.3,361152.0,5.14
+2015-05-22 06:00:00,Carton,BoxWell Packaging,114049.1,9313.9,12.25
+2015-05-23 06:00:00,Wheat flour (kg),Deccan Mills,122294.2,20908.8,5.85
+2015-05-23 06:00:00,Sugar (kg),Shakti Sugars,89115.1,7983.4,11.16
+2015-05-23 06:00:00,Cream filling (kg),CreamCo,24206.2,1710.7,14.15
+2015-05-23 06:00:00,Butter (kg),Amrit Dairy,20134.4,2281.0,8.83
+2015-05-23 06:00:00,Wrapper film,FlexiWrap Films,1516088.0,361152.0,4.2
+2015-05-23 06:00:00,Carton,BoxWell Packaging,105416.1,9313.9,11.32
+2015-05-24 06:00:00,Wheat flour (kg),Deccan Mills,99899.6,20908.8,4.78
+2015-05-24 06:00:00,Sugar (kg),Shakti Sugars,80567.9,7983.4,10.09
+2015-05-24 06:00:00,Cream filling (kg),CreamCo,22395.3,1710.7,13.09
+2015-05-24 06:00:00,Butter (kg),Amrit Dairy,17637.0,2281.0,7.73
+2015-05-24 06:00:00,Wrapper film,FlexiWrap Films,1130352.3,361152.0,3.13
+2015-05-24 06:00:00,Carton,BoxWell Packaging,95432.8,9313.9,10.25
+2015-05-25 06:00:00,Wheat flour (kg),Deccan Mills,80588.4,20908.8,3.85
+2015-05-25 06:00:00,Sugar (kg),Shakti Sugars,73136.4,7983.4,9.16
+2015-05-25 06:00:00,Cream filling (kg),CreamCo,20782.3,1710.7,12.15
+2015-05-25 06:00:00,Butter (kg),Amrit Dairy,15138.6,2281.0,6.64
+2015-05-25 06:00:00,Wrapper film,FlexiWrap Films,800414.3,361152.0,2.22
+2015-05-25 06:00:00,Carton,BoxWell Packaging,86630.8,9313.9,9.3
+2015-05-26 06:00:00,Wheat flour (kg),Deccan Mills,267215.0,20908.8,12.78
+2015-05-26 06:00:00,Sugar (kg),Shakti Sugars,64576.4,7983.4,8.09
+2015-05-26 06:00:00,Cream filling (kg),CreamCo,18990.5,1710.7,11.1
+2015-05-26 06:00:00,Butter (kg),Amrit Dairy,12650.1,2281.0,5.55
+2015-05-26 06:00:00,Wrapper film,FlexiWrap Films,5831171.3,361152.0,16.15
+2015-05-26 06:00:00,Carton,BoxWell Packaging,76644.0,9313.9,8.23
+2015-05-27 06:00:00,Wheat flour (kg),Deccan Mills,244780.8,20908.8,11.71
+2015-05-27 06:00:00,Sugar (kg),Shakti Sugars,56018.6,7983.4,7.02
+2015-05-27 06:00:00,Cream filling (kg),CreamCo,17160.8,1710.7,10.03
+2015-05-27 06:00:00,Butter (kg),Amrit Dairy,10251.4,2281.0,4.49
+2015-05-27 06:00:00,Wrapper film,FlexiWrap Films,5443258.9,361152.0,15.07
+2015-05-27 06:00:00,Carton,BoxWell Packaging,66676.8,9313.9,7.16
+2015-05-28 06:00:00,Wheat flour (kg),Deccan Mills,222126.4,20908.8,10.62
+2015-05-28 06:00:00,Sugar (kg),Shakti Sugars,47393.9,7983.4,5.94
+2015-05-28 06:00:00,Cream filling (kg),CreamCo,15383.5,1710.7,8.99
+2015-05-28 06:00:00,Butter (kg),Amrit Dairy,7701.7,2281.0,3.38
+2015-05-28 06:00:00,Wrapper film,FlexiWrap Films,5054519.9,361152.0,14.0
+2015-05-28 06:00:00,Carton,BoxWell Packaging,56609.8,9313.9,6.08
+2015-05-29 06:00:00,Wheat flour (kg),Deccan Mills,200642.3,20908.8,9.6
+2015-05-29 06:00:00,Sugar (kg),Shakti Sugars,39233.4,7983.4,4.91
+2015-05-29 06:00:00,Cream filling (kg),CreamCo,13704.0,1710.7,8.01
+2015-05-29 06:00:00,Butter (kg),Amrit Dairy,5427.6,2281.0,2.38
+2015-05-29 06:00:00,Wrapper film,FlexiWrap Films,4684396.9,361152.0,12.97
+2015-05-29 06:00:00,Carton,BoxWell Packaging,47131.4,9313.9,5.06
+2015-05-30 06:00:00,Wheat flour (kg),Deccan Mills,178901.1,20908.8,8.56
+2015-05-30 06:00:00,Sugar (kg),Shakti Sugars,30980.5,7983.4,3.88
+2015-05-30 06:00:00,Cream filling (kg),CreamCo,12036.5,1710.7,7.04
+2015-05-30 06:00:00,Butter (kg),Amrit Dairy,3045.4,2281.0,1.34
+2015-05-30 06:00:00,Wrapper film,FlexiWrap Films,4311455.3,361152.0,11.94
+2015-05-30 06:00:00,Carton,BoxWell Packaging,37528.6,9313.9,4.03
+2015-05-31 06:00:00,Wheat flour (kg),Deccan Mills,156606.1,20908.8,7.49
+2015-05-31 06:00:00,Sugar (kg),Shakti Sugars,22467.8,7983.4,2.81
+2015-05-31 06:00:00,Cream filling (kg),CreamCo,10192.2,1710.7,5.96
+2015-05-31 06:00:00,Butter (kg),Amrit Dairy,692.6,2281.0,0.3
+2015-05-31 06:00:00,Wrapper film,FlexiWrap Films,3925031.4,361152.0,10.87
+2015-05-31 06:00:00,Carton,BoxWell Packaging,27616.8,9313.9,2.97
+2015-06-01 06:00:00,Wheat flour (kg),Deccan Mills,139927.7,20908.8,6.69
+2015-06-01 06:00:00,Sugar (kg),Shakti Sugars,111822.1,7983.4,14.01
+2015-06-01 06:00:00,Cream filling (kg),CreamCo,8370.8,1710.7,4.89
+2015-06-01 06:00:00,Butter (kg),Amrit Dairy,20528.6,2281.0,9.0
+2015-06-01 06:00:00,Wrapper film,FlexiWrap Films,3614276.7,361152.0,10.01
+2015-06-01 06:00:00,Carton,BoxWell Packaging,20332.9,9313.9,2.18
+2015-06-02 06:00:00,Wheat flour (kg),Deccan Mills,119948.3,20908.8,5.74
+2015-06-02 06:00:00,Sugar (kg),Shakti Sugars,104071.7,7983.4,13.04
+2015-06-02 06:00:00,Cream filling (kg),CreamCo,6551.5,1710.7,3.83
+2015-06-02 06:00:00,Butter (kg),Amrit Dairy,17990.0,2281.0,7.89
+2015-06-02 06:00:00,Wrapper film,FlexiWrap Films,3269066.1,361152.0,9.05
+2015-06-02 06:00:00,Carton,BoxWell Packaging,11129.8,9313.9,1.19
+2015-06-03 06:00:00,Wheat flour (kg),Deccan Mills,98203.1,20908.8,4.7
+2015-06-03 06:00:00,Sugar (kg),Shakti Sugars,95700.3,7983.4,11.99
+2015-06-03 06:00:00,Cream filling (kg),CreamCo,4646.2,1710.7,2.72
+2015-06-03 06:00:00,Butter (kg),Amrit Dairy,15504.2,2281.0,6.8
+2015-06-03 06:00:00,Wrapper film,FlexiWrap Films,2891925.3,361152.0,8.01
+2015-06-03 06:00:00,Carton,BoxWell Packaging,1294.7,9313.9,0.14
+2015-06-04 06:00:00,Wheat flour (kg),Deccan Mills,95220.9,20908.8,4.55
+2015-06-04 06:00:00,Sugar (kg),Shakti Sugars,94558.1,7983.4,11.84
+2015-06-04 06:00:00,Cream filling (kg),CreamCo,24882.8,1710.7,14.55
+2015-06-04 06:00:00,Butter (kg),Amrit Dairy,15338.8,2281.0,6.72
+2015-06-04 06:00:00,Wrapper film,FlexiWrap Films,2837571.4,361152.0,7.86
+2015-06-04 06:00:00,Carton,BoxWell Packaging,0.0,9313.9,0.0
+2015-06-05 06:00:00,Wheat flour (kg),Deccan Mills,95220.9,20908.8,4.55
+2015-06-05 06:00:00,Sugar (kg),Shakti Sugars,94558.1,7983.4,11.84
+2015-06-05 06:00:00,Cream filling (kg),CreamCo,24882.8,1710.7,14.55
+2015-06-05 06:00:00,Butter (kg),Amrit Dairy,15338.8,2281.0,6.72
+2015-06-05 06:00:00,Wrapper film,FlexiWrap Films,2837571.4,361152.0,7.86
+2015-06-05 06:00:00,Carton,BoxWell Packaging,0.0,9313.9,0.0
+2015-06-06 06:00:00,Wheat flour (kg),Deccan Mills,304308.9,20908.8,14.55
+2015-06-06 06:00:00,Sugar (kg),Shakti Sugars,94558.1,7983.4,11.84
+2015-06-06 06:00:00,Cream filling (kg),CreamCo,24882.8,1710.7,14.55
+2015-06-06 06:00:00,Butter (kg),Amrit Dairy,15338.8,2281.0,6.72
+2015-06-06 06:00:00,Wrapper film,FlexiWrap Films,2837571.4,361152.0,7.86
+2015-06-06 06:00:00,Carton,BoxWell Packaging,111767.0,9313.9,12.0
+2015-06-07 06:00:00,Wheat flour (kg),Deccan Mills,282200.6,20908.8,13.5
+2015-06-07 06:00:00,Sugar (kg),Shakti Sugars,86098.0,7983.4,10.78
+2015-06-07 06:00:00,Cream filling (kg),CreamCo,22996.9,1710.7,13.44
+2015-06-07 06:00:00,Butter (kg),Amrit Dairy,13066.2,2281.0,5.73
+2015-06-07 06:00:00,Wrapper film,FlexiWrap Films,2452441.8,361152.0,6.79
+2015-06-07 06:00:00,Carton,BoxWell Packaging,101920.8,9313.9,10.94
+2015-06-08 06:00:00,Wheat flour (kg),Deccan Mills,260145.4,20908.8,12.44
+2015-06-08 06:00:00,Sugar (kg),Shakti Sugars,77673.2,7983.4,9.73
+2015-06-08 06:00:00,Cream filling (kg),CreamCo,21161.0,1710.7,12.37
+2015-06-08 06:00:00,Butter (kg),Amrit Dairy,10752.9,2281.0,4.71
+2015-06-08 06:00:00,Wrapper film,FlexiWrap Films,2069760.2,361152.0,5.73
+2015-06-08 06:00:00,Carton,BoxWell Packaging,92112.9,9313.9,9.89
+2015-06-09 06:00:00,Wheat flour (kg),Deccan Mills,239459.0,20908.8,11.45
+2015-06-09 06:00:00,Sugar (kg),Shakti Sugars,69754.6,7983.4,8.74
+2015-06-09 06:00:00,Cream filling (kg),CreamCo,19451.8,1710.7,11.37
+2015-06-09 06:00:00,Butter (kg),Amrit Dairy,8381.1,2281.0,3.67
+2015-06-09 06:00:00,Wrapper film,FlexiWrap Films,1713358.1,361152.0,4.74
+2015-06-09 06:00:00,Carton,BoxWell Packaging,82834.0,9313.9,8.89
+2015-06-10 06:00:00,Wheat flour (kg),Deccan Mills,218415.4,20908.8,10.45
+2015-06-10 06:00:00,Sugar (kg),Shakti Sugars,61624.7,7983.4,7.72
+2015-06-10 06:00:00,Cream filling (kg),CreamCo,17586.0,1710.7,10.28
+2015-06-10 06:00:00,Butter (kg),Amrit Dairy,26334.1,2281.0,11.55
+2015-06-10 06:00:00,Wrapper film,FlexiWrap Films,6767067.6,361152.0,18.74
+2015-06-10 06:00:00,Carton,BoxWell Packaging,73223.6,9313.9,7.86
+2015-06-11 06:00:00,Wheat flour (kg),Deccan Mills,198439.5,20908.8,9.49
+2015-06-11 06:00:00,Sugar (kg),Shakti Sugars,53924.8,7983.4,6.75
+2015-06-11 06:00:00,Cream filling (kg),CreamCo,15768.8,1710.7,9.22
+2015-06-11 06:00:00,Butter (kg),Amrit Dairy,24232.3,2281.0,10.62
+2015-06-11 06:00:00,Wrapper film,FlexiWrap Films,6417105.5,361152.0,17.77
+2015-06-11 06:00:00,Carton,BoxWell Packaging,64217.4,9313.9,6.89
+2015-06-12 06:00:00,Wheat flour (kg),Deccan Mills,177170.8,20908.8,8.47
+2015-06-12 06:00:00,Sugar (kg),Shakti Sugars,45763.4,7983.4,5.73
+2015-06-12 06:00:00,Cream filling (kg),CreamCo,13975.2,1710.7,8.17
+2015-06-12 06:00:00,Butter (kg),Amrit Dairy,21760.1,2281.0,9.54
+2015-06-12 06:00:00,Wrapper film,FlexiWrap Films,6050238.6,361152.0,16.75
+2015-06-12 06:00:00,Carton,BoxWell Packaging,54634.0,9313.9,5.87
+2015-06-13 06:00:00,Wheat flour (kg),Deccan Mills,154955.3,20908.8,7.41
+2015-06-13 06:00:00,Sugar (kg),Shakti Sugars,37286.0,7983.4,4.67
+2015-06-13 06:00:00,Cream filling (kg),CreamCo,12156.6,1710.7,7.11
+2015-06-13 06:00:00,Butter (kg),Amrit Dairy,19384.2,2281.0,8.5
+2015-06-13 06:00:00,Wrapper film,FlexiWrap Films,5665967.1,361152.0,15.69
+2015-06-13 06:00:00,Carton,BoxWell Packaging,44758.5,9313.9,4.81
+2015-06-14 06:00:00,Wheat flour (kg),Deccan Mills,134291.9,20908.8,6.42
+2015-06-14 06:00:00,Sugar (kg),Shakti Sugars,29400.2,7983.4,3.68
+2015-06-14 06:00:00,Cream filling (kg),CreamCo,10456.2,1710.7,6.11
+2015-06-14 06:00:00,Butter (kg),Amrit Dairy,17203.2,2281.0,7.54
+2015-06-14 06:00:00,Wrapper film,FlexiWrap Films,5308024.3,361152.0,14.7
+2015-06-14 06:00:00,Carton,BoxWell Packaging,35578.8,9313.9,3.82
+2015-06-15 06:00:00,Wheat flour (kg),Deccan Mills,111726.9,20908.8,5.34
+2015-06-15 06:00:00,Sugar (kg),Shakti Sugars,116626.9,7983.4,14.61
+2015-06-15 06:00:00,Cream filling (kg),CreamCo,8721.8,1710.7,5.1
+2015-06-15 06:00:00,Butter (kg),Amrit Dairy,14674.0,2281.0,6.43
+2015-06-15 06:00:00,Wrapper film,FlexiWrap Films,4921499.2,361152.0,13.63
+2015-06-15 06:00:00,Carton,BoxWell Packaging,25584.1,9313.9,2.75
+2015-06-16 06:00:00,Wheat flour (kg),Deccan Mills,89589.0,20908.8,4.28
+2015-06-16 06:00:00,Sugar (kg),Shakti Sugars,108141.8,7983.4,13.55
+2015-06-16 06:00:00,Cream filling (kg),CreamCo,6861.4,1710.7,4.01
+2015-06-16 06:00:00,Butter (kg),Amrit Dairy,12163.1,2281.0,5.33
+2015-06-16 06:00:00,Wrapper film,FlexiWrap Films,4539090.7,361152.0,12.57
+2015-06-16 06:00:00,Carton,BoxWell Packaging,127408.8,9313.9,13.68
+2015-06-17 06:00:00,Wheat flour (kg),Deccan Mills,69905.6,20908.8,3.34
+2015-06-17 06:00:00,Sugar (kg),Shakti Sugars,100519.5,7983.4,12.59
+2015-06-17 06:00:00,Cream filling (kg),CreamCo,5081.4,1710.7,2.97
+2015-06-17 06:00:00,Butter (kg),Amrit Dairy,9732.6,2281.0,4.27
+2015-06-17 06:00:00,Wrapper film,FlexiWrap Films,4198484.6,361152.0,11.63
+2015-06-17 06:00:00,Carton,BoxWell Packaging,118383.0,9313.9,12.71
+2015-06-18 06:00:00,Wheat flour (kg),Deccan Mills,47813.4,20908.8,2.29
+2015-06-18 06:00:00,Sugar (kg),Shakti Sugars,92095.1,7983.4,11.54
+2015-06-18 06:00:00,Cream filling (kg),CreamCo,3335.3,1710.7,1.95
+2015-06-18 06:00:00,Butter (kg),Amrit Dairy,7174.1,2281.0,3.15
+2015-06-18 06:00:00,Wrapper film,FlexiWrap Films,3819907.4,361152.0,10.58
+2015-06-18 06:00:00,Carton,BoxWell Packaging,108523.8,9313.9,11.65
+2015-06-19 06:00:00,Wheat flour (kg),Deccan Mills,236319.6,20908.8,11.3
+2015-06-19 06:00:00,Sugar (kg),Shakti Sugars,84189.4,7983.4,10.55
+2015-06-19 06:00:00,Cream filling (kg),CreamCo,1489.8,1710.7,0.87
+2015-06-19 06:00:00,Butter (kg),Amrit Dairy,25678.8,2281.0,11.26
+2015-06-19 06:00:00,Wrapper film,FlexiWrap Films,3458353.5,361152.0,9.58
+2015-06-19 06:00:00,Carton,BoxWell Packaging,99328.2,9313.9,10.66
+2015-06-20 06:00:00,Wheat flour (kg),Deccan Mills,216152.0,20908.8,10.34
+2015-06-20 06:00:00,Sugar (kg),Shakti Sugars,76538.3,7983.4,9.59
+2015-06-20 06:00:00,Cream filling (kg),CreamCo,0.0,1710.7,0.0
+2015-06-20 06:00:00,Butter (kg),Amrit Dairy,23281.3,2281.0,10.21
+2015-06-20 06:00:00,Wrapper film,FlexiWrap Films,3115759.7,361152.0,8.63
+2015-06-20 06:00:00,Carton,BoxWell Packaging,90381.4,9313.9,9.7
+2015-06-21 06:00:00,Wheat flour (kg),Deccan Mills,198909.3,20908.8,9.51
+2015-06-21 06:00:00,Sugar (kg),Shakti Sugars,70520.8,7983.4,8.83
+2015-06-21 06:00:00,Cream filling (kg),CreamCo,0.0,1710.7,0.0
+2015-06-21 06:00:00,Butter (kg),Amrit Dairy,20852.3,2281.0,9.14
+2015-06-21 06:00:00,Wrapper film,FlexiWrap Films,2855369.1,361152.0,7.91
+2015-06-21 06:00:00,Carton,BoxWell Packaging,83554.3,9313.9,8.97
+2015-06-22 06:00:00,Wheat flour (kg),Deccan Mills,183750.5,20908.8,8.79
+2015-06-22 06:00:00,Sugar (kg),Shakti Sugars,65223.1,7983.4,8.17
+2015-06-22 06:00:00,Cream filling (kg),CreamCo,20528.6,1710.7,12.0
+2015-06-22 06:00:00,Butter (kg),Amrit Dairy,18648.7,2281.0,8.18
+2015-06-22 06:00:00,Wrapper film,FlexiWrap Films,2627207.0,361152.0,7.27
+2015-06-22 06:00:00,Carton,BoxWell Packaging,77522.0,9313.9,8.32
+2015-06-23 06:00:00,Wheat flour (kg),Deccan Mills,162223.2,20908.8,7.76
+2015-06-23 06:00:00,Sugar (kg),Shakti Sugars,57021.2,7983.4,7.14
+2015-06-23 06:00:00,Cream filling (kg),CreamCo,18835.6,1710.7,11.01
+2015-06-23 06:00:00,Butter (kg),Amrit Dairy,16185.6,2281.0,7.1
+2015-06-23 06:00:00,Wrapper film,FlexiWrap Films,2258164.3,361152.0,6.25
+2015-06-23 06:00:00,Carton,BoxWell Packaging,67934.8,9313.9,7.29
+2015-06-24 06:00:00,Wheat flour (kg),Deccan Mills,141337.1,20908.8,6.76
+2015-06-24 06:00:00,Sugar (kg),Shakti Sugars,49010.2,7983.4,6.14
+2015-06-24 06:00:00,Cream filling (kg),CreamCo,17001.1,1710.7,9.94
+2015-06-24 06:00:00,Butter (kg),Amrit Dairy,14083.1,2281.0,6.17
+2015-06-24 06:00:00,Wrapper film,FlexiWrap Films,1892657.0,361152.0,5.24
+2015-06-24 06:00:00,Carton,BoxWell Packaging,58611.5,9313.9,6.29
+2015-06-25 06:00:00,Wheat flour (kg),Deccan Mills,120148.3,20908.8,5.75
+2015-06-25 06:00:00,Sugar (kg),Shakti Sugars,41064.7,7983.4,5.14
+2015-06-25 06:00:00,Cream filling (kg),CreamCo,15641.4,1710.7,9.14
+2015-06-25 06:00:00,Butter (kg),Amrit Dairy,11579.0,2281.0,5.08
+2015-06-25 06:00:00,Wrapper film,FlexiWrap Films,1537119.5,361152.0,4.26
+2015-06-25 06:00:00,Carton,BoxWell Packaging,49378.1,9313.9,5.3
+2015-06-26 06:00:00,Wheat flour (kg),Deccan Mills,99419.2,20908.8,4.75
+2015-06-26 06:00:00,Sugar (kg),Shakti Sugars,33213.3,7983.4,4.16
+2015-06-26 06:00:00,Cream filling (kg),CreamCo,14128.3,1710.7,8.26
+2015-06-26 06:00:00,Butter (kg),Amrit Dairy,9156.0,2281.0,4.01
+2015-06-26 06:00:00,Wrapper film,FlexiWrap Films,6602212.5,361152.0,18.28
+2015-06-26 06:00:00,Carton,BoxWell Packaging,40214.6,9313.9,4.32
+2015-06-27 06:00:00,Wheat flour (kg),Deccan Mills,79457.2,20908.8,3.8
+2015-06-27 06:00:00,Sugar (kg),Shakti Sugars,25515.5,7983.4,3.2
+2015-06-27 06:00:00,Cream filling (kg),CreamCo,12307.0,1710.7,7.19
+2015-06-27 06:00:00,Butter (kg),Amrit Dairy,7046.9,2281.0,3.09
+2015-06-27 06:00:00,Wrapper film,FlexiWrap Films,6252473.4,361152.0,17.31
+2015-06-27 06:00:00,Carton,BoxWell Packaging,31206.7,9313.9,3.35
+2015-06-28 06:00:00,Wheat flour (kg),Deccan Mills,57051.8,20908.8,2.73
+2015-06-28 06:00:00,Sugar (kg),Shakti Sugars,112874.1,7983.4,14.14
+2015-06-28 06:00:00,Cream filling (kg),CreamCo,10755.2,1710.7,6.29
+2015-06-28 06:00:00,Butter (kg),Amrit Dairy,4495.0,2281.0,1.97
+2015-06-28 06:00:00,Wrapper film,FlexiWrap Films,5872920.1,361152.0,16.26
+2015-06-28 06:00:00,Carton,BoxWell Packaging,21397.1,9313.9,2.3
+2015-06-29 06:00:00,Wheat flour (kg),Deccan Mills,243823.7,20908.8,11.66
+2015-06-29 06:00:00,Sugar (kg),Shakti Sugars,104350.1,7983.4,13.07
+2015-06-29 06:00:00,Cream filling (kg),CreamCo,8940.8,1710.7,5.23
+2015-06-29 06:00:00,Butter (kg),Amrit Dairy,22513.7,2281.0,9.87
+2015-06-29 06:00:00,Wrapper film,FlexiWrap Films,5488552.1,361152.0,15.2
+2015-06-29 06:00:00,Carton,BoxWell Packaging,123198.6,9313.9,13.23
+2015-06-30 06:00:00,Wheat flour (kg),Deccan Mills,221518.1,20908.8,10.59
+2015-06-30 06:00:00,Sugar (kg),Shakti Sugars,95851.4,7983.4,12.01
+2015-06-30 06:00:00,Cream filling (kg),CreamCo,7135.8,1710.7,4.17
+2015-06-30 06:00:00,Butter (kg),Amrit Dairy,20162.2,2281.0,8.84
+2015-06-30 06:00:00,Wrapper film,FlexiWrap Films,5102808.0,361152.0,14.13
+2015-06-30 06:00:00,Carton,BoxWell Packaging,113314.4,9313.9,12.17
+2015-07-01 06:00:00,Wheat flour (kg),Deccan Mills,199586.2,20908.8,9.55
+2015-07-01 06:00:00,Sugar (kg),Shakti Sugars,87463.8,7983.4,10.96
+2015-07-01 06:00:00,Cream filling (kg),CreamCo,5345.6,1710.7,3.12
+2015-07-01 06:00:00,Butter (kg),Amrit Dairy,17630.4,2281.0,7.73
+2015-07-01 06:00:00,Wrapper film,FlexiWrap Films,4725626.6,361152.0,13.08
+2015-07-01 06:00:00,Carton,BoxWell Packaging,103486.2,9313.9,11.11
+2015-07-02 06:00:00,Wheat flour (kg),Deccan Mills,181408.9,20908.8,8.68
+2015-07-02 06:00:00,Sugar (kg),Shakti Sugars,80564.0,7983.4,10.09
+2015-07-02 06:00:00,Cream filling (kg),CreamCo,3925.3,1710.7,2.29
+2015-07-02 06:00:00,Butter (kg),Amrit Dairy,15745.0,2281.0,6.9
+2015-07-02 06:00:00,Wrapper film,FlexiWrap Films,4412058.2,361152.0,12.22
+2015-07-02 06:00:00,Carton,BoxWell Packaging,95484.5,9313.9,10.25
+2015-07-03 06:00:00,Wheat flour (kg),Deccan Mills,158717.0,20908.8,7.59
+2015-07-03 06:00:00,Sugar (kg),Shakti Sugars,71945.9,7983.4,9.01
+2015-07-03 06:00:00,Cream filling (kg),CreamCo,22713.0,1710.7,13.28
+2015-07-03 06:00:00,Butter (kg),Amrit Dairy,13221.7,2281.0,5.8
+2015-07-03 06:00:00,Wrapper film,FlexiWrap Films,4023208.6,361152.0,11.14
+2015-07-03 06:00:00,Carton,BoxWell Packaging,85444.9,9313.9,9.17
+2015-07-04 06:00:00,Wheat flour (kg),Deccan Mills,138340.6,20908.8,6.62
+2015-07-04 06:00:00,Sugar (kg),Shakti Sugars,64126.7,7983.4,8.03
+2015-07-04 06:00:00,Cream filling (kg),CreamCo,20842.3,1710.7,12.18
+2015-07-04 06:00:00,Butter (kg),Amrit Dairy,11460.8,2281.0,5.02
+2015-07-04 06:00:00,Wrapper film,FlexiWrap Films,3661596.0,361152.0,10.14
+2015-07-04 06:00:00,Carton,BoxWell Packaging,76415.2,9313.9,8.2
+2015-07-05 06:00:00,Wheat flour (kg),Deccan Mills,116694.9,20908.8,5.58
+2015-07-05 06:00:00,Sugar (kg),Shakti Sugars,55842.9,7983.4,6.99
+2015-07-05 06:00:00,Cream filling (kg),CreamCo,19055.6,1710.7,11.14
+2015-07-05 06:00:00,Butter (kg),Amrit Dairy,8990.2,2281.0,3.94
+2015-07-05 06:00:00,Wrapper film,FlexiWrap Films,3288582.3,361152.0,9.11
+2015-07-05 06:00:00,Carton,BoxWell Packaging,66712.3,9313.9,7.16
+2015-07-06 06:00:00,Wheat flour (kg),Deccan Mills,95147.0,20908.8,4.55
+2015-07-06 06:00:00,Sugar (kg),Shakti Sugars,47557.9,7983.4,5.96
+2015-07-06 06:00:00,Cream filling (kg),CreamCo,17147.8,1710.7,10.02
+2015-07-06 06:00:00,Butter (kg),Amrit Dairy,27228.5,2281.0,11.94
+2015-07-06 06:00:00,Wrapper film,FlexiWrap Films,2912502.2,361152.0,8.06
+2015-07-06 06:00:00,Carton,BoxWell Packaging,57027.9,9313.9,6.12
+2015-07-07 06:00:00,Wheat flour (kg),Deccan Mills,73695.9,20908.8,3.52
+2015-07-07 06:00:00,Sugar (kg),Shakti Sugars,39484.7,7983.4,4.95
+2015-07-07 06:00:00,Cream filling (kg),CreamCo,15657.0,1710.7,9.15
+2015-07-07 06:00:00,Butter (kg),Amrit Dairy,24886.0,2281.0,10.91
+2015-07-07 06:00:00,Wrapper film,FlexiWrap Films,2547882.8,361152.0,7.05
+2015-07-07 06:00:00,Carton,BoxWell Packaging,47676.9,9313.9,5.12
+2015-07-08 06:00:00,Wheat flour (kg),Deccan Mills,52149.9,20908.8,2.49
+2015-07-08 06:00:00,Sugar (kg),Shakti Sugars,31355.7,7983.4,3.93
+2015-07-08 06:00:00,Cream filling (kg),CreamCo,14128.1,1710.7,8.26
+2015-07-08 06:00:00,Butter (kg),Amrit Dairy,22479.4,2281.0,9.86
+2015-07-08 06:00:00,Wrapper film,FlexiWrap Films,2181547.5,361152.0,6.04
+2015-07-08 06:00:00,Carton,BoxWell Packaging,38236.2,9313.9,4.11
+2015-07-09 06:00:00,Wheat flour (kg),Deccan Mills,242789.0,20908.8,11.61
+2015-07-09 06:00:00,Sugar (kg),Shakti Sugars,24229.9,7983.4,3.04
+2015-07-09 06:00:00,Cream filling (kg),CreamCo,12393.4,1710.7,7.24
+2015-07-09 06:00:00,Butter (kg),Amrit Dairy,20632.0,2281.0,9.05
+2015-07-09 06:00:00,Wrapper film,FlexiWrap Films,1856044.4,361152.0,5.14
+2015-07-09 06:00:00,Carton,BoxWell Packaging,29916.3,9313.9,3.21
+2015-07-10 06:00:00,Wheat flour (kg),Deccan Mills,220568.5,20908.8,10.55
+2015-07-10 06:00:00,Sugar (kg),Shakti Sugars,111538.0,7983.4,13.97
+2015-07-10 06:00:00,Cream filling (kg),CreamCo,10536.6,1710.7,6.16
+2015-07-10 06:00:00,Butter (kg),Amrit Dairy,18291.2,2281.0,8.02
+2015-07-10 06:00:00,Wrapper film,FlexiWrap Films,1470449.4,361152.0,4.07
+2015-07-10 06:00:00,Carton,BoxWell Packaging,131791.9,9313.9,14.15
+2015-07-11 06:00:00,Wheat flour (kg),Deccan Mills,201270.5,20908.8,9.63
+2015-07-11 06:00:00,Sugar (kg),Shakti Sugars,104171.0,7983.4,13.05
+2015-07-11 06:00:00,Cream filling (kg),CreamCo,8926.4,1710.7,5.22
+2015-07-11 06:00:00,Butter (kg),Amrit Dairy,16322.6,2281.0,7.16
+2015-07-11 06:00:00,Wrapper film,FlexiWrap Films,1134906.9,361152.0,3.14
+2015-07-11 06:00:00,Carton,BoxWell Packaging,123231.9,9313.9,13.23
+2015-07-12 06:00:00,Wheat flour (kg),Deccan Mills,179567.1,20908.8,8.59
+2015-07-12 06:00:00,Sugar (kg),Shakti Sugars,95854.3,7983.4,12.01
+2015-07-12 06:00:00,Cream filling (kg),CreamCo,7063.8,1710.7,4.13
+2015-07-12 06:00:00,Butter (kg),Amrit Dairy,14033.5,2281.0,6.15
+2015-07-12 06:00:00,Wrapper film,FlexiWrap Films,6174507.6,361152.0,17.1
+2015-07-12 06:00:00,Carton,BoxWell Packaging,113531.4,9313.9,12.19
+2015-07-13 06:00:00,Wheat flour (kg),Deccan Mills,156948.3,20908.8,7.51
+2015-07-13 06:00:00,Sugar (kg),Shakti Sugars,87219.9,7983.4,10.93
+2015-07-13 06:00:00,Cream filling (kg),CreamCo,5235.1,1710.7,3.06
+2015-07-13 06:00:00,Butter (kg),Amrit Dairy,11495.2,2281.0,5.04
+2015-07-13 06:00:00,Wrapper film,FlexiWrap Films,5785091.9,361152.0,16.02
+2015-07-13 06:00:00,Carton,BoxWell Packaging,103441.4,9313.9,11.11
+2015-07-14 06:00:00,Wheat flour (kg),Deccan Mills,135593.3,20908.8,6.48
+2015-07-14 06:00:00,Sugar (kg),Shakti Sugars,79057.8,7983.4,9.9
+2015-07-14 06:00:00,Cream filling (kg),CreamCo,3421.7,1710.7,2.0
+2015-07-14 06:00:00,Butter (kg),Amrit Dairy,9354.2,2281.0,4.1
+2015-07-14 06:00:00,Wrapper film,FlexiWrap Films,5412666.9,361152.0,14.99
+2015-07-14 06:00:00,Carton,BoxWell Packaging,93961.1,9313.9,10.09
+2015-07-15 06:00:00,Wheat flour (kg),Deccan Mills,113201.0,20908.8,5.41
+2015-07-15 06:00:00,Sugar (kg),Shakti Sugars,70556.3,7983.4,8.84
+2015-07-15 06:00:00,Cream filling (kg),CreamCo,22216.6,1710.7,12.99
+2015-07-15 06:00:00,Butter (kg),Amrit Dairy,6952.7,2281.0,3.05
+2015-07-15 06:00:00,Wrapper film,FlexiWrap Films,5027618.2,361152.0,13.92
+2015-07-15 06:00:00,Carton,BoxWell Packaging,84081.1,9313.9,9.03
+2015-07-16 06:00:00,Wheat flour (kg),Deccan Mills,93949.3,20908.8,4.49
+2015-07-16 06:00:00,Sugar (kg),Shakti Sugars,63130.3,7983.4,7.91
+2015-07-16 06:00:00,Cream filling (kg),CreamCo,20394.4,1710.7,11.92
+2015-07-16 06:00:00,Butter (kg),Amrit Dairy,25691.4,2281.0,11.26
+2015-07-16 06:00:00,Wrapper film,FlexiWrap Films,4686152.5,361152.0,12.98
+2015-07-16 06:00:00,Carton,BoxWell Packaging,75451.2,9313.9,8.1
+2015-07-17 06:00:00,Wheat flour (kg),Deccan Mills,73574.6,20908.8,3.52
+2015-07-17 06:00:00,Sugar (kg),Shakti Sugars,55256.2,7983.4,6.92
+2015-07-17 06:00:00,Cream filling (kg),CreamCo,18588.8,1710.7,10.87
+2015-07-17 06:00:00,Butter (kg),Amrit Dairy,23171.0,2281.0,10.16
+2015-07-17 06:00:00,Wrapper film,FlexiWrap Films,4334451.5,361152.0,12.0
+2015-07-17 06:00:00,Carton,BoxWell Packaging,66135.0,9313.9,7.1
+2015-07-18 06:00:00,Wheat flour (kg),Deccan Mills,51341.1,20908.8,2.46
+2015-07-18 06:00:00,Sugar (kg),Shakti Sugars,46744.2,7983.4,5.86
+2015-07-18 06:00:00,Cream filling (kg),CreamCo,16697.0,1710.7,9.76
+2015-07-18 06:00:00,Butter (kg),Amrit Dairy,20830.9,2281.0,9.13
+2015-07-18 06:00:00,Wrapper film,FlexiWrap Films,3947854.4,361152.0,10.93
+2015-07-18 06:00:00,Carton,BoxWell Packaging,56212.4,9313.9,6.04
+2015-07-19 06:00:00,Wheat flour (kg),Deccan Mills,239919.1,20908.8,11.47
+2015-07-19 06:00:00,Sugar (kg),Shakti Sugars,38945.9,7983.4,4.88
+2015-07-19 06:00:00,Cream filling (kg),CreamCo,15067.3,1710.7,8.81
+2015-07-19 06:00:00,Butter (kg),Amrit Dairy,18694.7,2281.0,8.2
+2015-07-19 06:00:00,Wrapper film,FlexiWrap Films,3593541.7,361152.0,9.95
+2015-07-19 06:00:00,Carton,BoxWell Packaging,47158.8,9313.9,5.06
+2015-07-20 06:00:00,Wheat flour (kg),Deccan Mills,218405.4,20908.8,10.45
+2015-07-20 06:00:00,Sugar (kg),Shakti Sugars,30804.8,7983.4,3.86
+2015-07-20 06:00:00,Cream filling (kg),CreamCo,13482.3,1710.7,7.88
+2015-07-20 06:00:00,Butter (kg),Amrit Dairy,16305.4,2281.0,7.15
+2015-07-20 06:00:00,Wrapper film,FlexiWrap Films,3226305.9,361152.0,8.93
+2015-07-20 06:00:00,Carton,BoxWell Packaging,37692.9,9313.9,4.05
+2015-07-21 06:00:00,Wheat flour (kg),Deccan Mills,199117.1,20908.8,9.52
+2015-07-21 06:00:00,Sugar (kg),Shakti Sugars,23354.8,7983.4,2.93
+2015-07-21 06:00:00,Cream filling (kg),CreamCo,11628.7,1710.7,6.8
+2015-07-21 06:00:00,Butter (kg),Amrit Dairy,14535.1,2281.0,6.37
+2015-07-21 06:00:00,Wrapper film,FlexiWrap Films,2883313.5,361152.0,7.98
+2015-07-21 06:00:00,Carton,BoxWell Packaging,29035.0,9313.9,3.12
+2015-07-22 06:00:00,Wheat flour (kg),Deccan Mills,180208.5,20908.8,8.62
+2015-07-22 06:00:00,Sugar (kg),Shakti Sugars,111805.9,7983.4,14.0
+2015-07-22 06:00:00,Cream filling (kg),CreamCo,9822.3,1710.7,5.74
+2015-07-22 06:00:00,Butter (kg),Amrit Dairy,12344.0,2281.0,5.41
+2015-07-22 06:00:00,Wrapper film,FlexiWrap Films,2552374.4,361152.0,7.07
+2015-07-22 06:00:00,Carton,BoxWell Packaging,20353.3,9313.9,2.19
+2015-07-23 06:00:00,Wheat flour (kg),Deccan Mills,157823.3,20908.8,7.55
+2015-07-23 06:00:00,Sugar (kg),Shakti Sugars,103250.7,7983.4,12.93
+2015-07-23 06:00:00,Cream filling (kg),CreamCo,7967.5,1710.7,4.66
+2015-07-23 06:00:00,Butter (kg),Amrit Dairy,9922.1,2281.0,4.35
+2015-07-23 06:00:00,Wrapper film,FlexiWrap Films,2164978.1,361152.0,5.99
+2015-07-23 06:00:00,Carton,BoxWell Packaging,10372.5,9313.9,1.11
+2015-07-24 06:00:00,Wheat flour (kg),Deccan Mills,135771.4,20908.8,6.49
+2015-07-24 06:00:00,Sugar (kg),Shakti Sugars,94857.8,7983.4,11.88
+2015-07-24 06:00:00,Cream filling (kg),CreamCo,6234.1,1710.7,3.64
+2015-07-24 06:00:00,Butter (kg),Amrit Dairy,7475.1,2281.0,3.28
+2015-07-24 06:00:00,Wrapper film,FlexiWrap Films,1786116.1,361152.0,4.95
+2015-07-24 06:00:00,Carton,BoxWell Packaging,586.1,9313.9,0.06
+2015-07-25 06:00:00,Wheat flour (kg),Deccan Mills,134432.9,20908.8,6.43
+2015-07-25 06:00:00,Sugar (kg),Shakti Sugars,94353.6,7983.4,11.82
+2015-07-25 06:00:00,Cream filling (kg),CreamCo,26670.4,1710.7,15.59
+2015-07-25 06:00:00,Butter (kg),Amrit Dairy,27850.3,2281.0,12.21
+2015-07-25 06:00:00,Wrapper film,FlexiWrap Films,1763461.4,361152.0,4.88
+2015-07-25 06:00:00,Carton,BoxWell Packaging,0.0,9313.9,0.0
+2015-07-26 06:00:00,Wheat flour (kg),Deccan Mills,134432.9,20908.8,6.43
+2015-07-26 06:00:00,Sugar (kg),Shakti Sugars,94353.6,7983.4,11.82
+2015-07-26 06:00:00,Cream filling (kg),CreamCo,26670.4,1710.7,15.59
+2015-07-26 06:00:00,Butter (kg),Amrit Dairy,27850.3,2281.0,12.21
+2015-07-26 06:00:00,Wrapper film,FlexiWrap Films,7180741.4,361152.0,19.88
+2015-07-26 06:00:00,Carton,BoxWell Packaging,0.0,9313.9,0.0
+2015-07-27 06:00:00,Wheat flour (kg),Deccan Mills,134432.9,20908.8,6.43
+2015-07-27 06:00:00,Sugar (kg),Shakti Sugars,94353.6,7983.4,11.82
+2015-07-27 06:00:00,Cream filling (kg),CreamCo,26670.4,1710.7,15.59
+2015-07-27 06:00:00,Butter (kg),Amrit Dairy,27850.3,2281.0,12.21
+2015-07-27 06:00:00,Wrapper film,FlexiWrap Films,7180741.4,361152.0,19.88
+2015-07-27 06:00:00,Carton,BoxWell Packaging,0.0,9313.9,0.0
+2015-07-28 06:00:00,Wheat flour (kg),Deccan Mills,134432.9,20908.8,6.43
+2015-07-28 06:00:00,Sugar (kg),Shakti Sugars,94353.6,7983.4,11.82
+2015-07-28 06:00:00,Cream filling (kg),CreamCo,26670.4,1710.7,15.59
+2015-07-28 06:00:00,Butter (kg),Amrit Dairy,27850.3,2281.0,12.21
+2015-07-28 06:00:00,Wrapper film,FlexiWrap Films,7180741.4,361152.0,19.88
+2015-07-28 06:00:00,Carton,BoxWell Packaging,0.0,9313.9,0.0
+2015-07-29 06:00:00,Wheat flour (kg),Deccan Mills,134432.9,20908.8,6.43
+2015-07-29 06:00:00,Sugar (kg),Shakti Sugars,94353.6,7983.4,11.82
+2015-07-29 06:00:00,Cream filling (kg),CreamCo,26670.4,1710.7,15.59
+2015-07-29 06:00:00,Butter (kg),Amrit Dairy,27850.3,2281.0,12.21
+2015-07-29 06:00:00,Wrapper film,FlexiWrap Films,7180741.4,361152.0,19.88
+2015-07-29 06:00:00,Carton,BoxWell Packaging,111767.0,9313.9,12.0
+2015-07-30 06:00:00,Wheat flour (kg),Deccan Mills,111908.7,20908.8,5.35
+2015-07-30 06:00:00,Sugar (kg),Shakti Sugars,85739.7,7983.4,10.74
+2015-07-30 06:00:00,Cream filling (kg),CreamCo,24797.3,1710.7,14.5
+2015-07-30 06:00:00,Butter (kg),Amrit Dairy,25390.7,2281.0,11.13
+2015-07-30 06:00:00,Wrapper film,FlexiWrap Films,6791040.6,361152.0,18.8
+2015-07-30 06:00:00,Carton,BoxWell Packaging,101708.9,9313.9,10.92
+2015-07-31 06:00:00,Wheat flour (kg),Deccan Mills,93243.4,20908.8,4.46
+2015-07-31 06:00:00,Sugar (kg),Shakti Sugars,78553.7,7983.4,9.84
+2015-07-31 06:00:00,Cream filling (kg),CreamCo,23072.1,1710.7,13.49
+2015-07-31 06:00:00,Butter (kg),Amrit Dairy,23613.1,2281.0,10.35
+2015-07-31 06:00:00,Wrapper film,FlexiWrap Films,6461366.4,361152.0,17.89
+2015-07-31 06:00:00,Carton,BoxWell Packaging,93355.3,9313.9,10.02
+2015-08-01 06:00:00,Wheat flour (kg),Deccan Mills,72020.8,20908.8,3.44
+2015-08-01 06:00:00,Sugar (kg),Shakti Sugars,70513.1,7983.4,8.83
+2015-08-01 06:00:00,Cream filling (kg),CreamCo,21519.0,1710.7,12.58
+2015-08-01 06:00:00,Butter (kg),Amrit Dairy,21127.7,2281.0,9.26
+2015-08-01 06:00:00,Wrapper film,FlexiWrap Films,6100758.9,361152.0,16.89
+2015-08-01 06:00:00,Carton,BoxWell Packaging,83968.5,9313.9,9.02
+2015-08-02 06:00:00,Wheat flour (kg),Deccan Mills,259233.2,20908.8,12.4
+2015-08-02 06:00:00,Sugar (kg),Shakti Sugars,62134.2,7983.4,7.78
+2015-08-02 06:00:00,Cream filling (kg),CreamCo,19652.8,1710.7,11.49
+2015-08-02 06:00:00,Butter (kg),Amrit Dairy,18809.7,2281.0,8.25
+2015-08-02 06:00:00,Wrapper film,FlexiWrap Films,5720451.1,361152.0,15.84
+2015-08-02 06:00:00,Carton,BoxWell Packaging,74195.0,9313.9,7.97
+2015-08-03 06:00:00,Wheat flour (kg),Deccan Mills,237016.2,20908.8,11.34
+2015-08-03 06:00:00,Sugar (kg),Shakti Sugars,53649.2,7983.4,6.72
+2015-08-03 06:00:00,Cream filling (kg),CreamCo,17819.5,1710.7,10.42
+2015-08-03 06:00:00,Butter (kg),Amrit Dairy,16428.8,2281.0,7.2
+2015-08-03 06:00:00,Wrapper film,FlexiWrap Films,5335882.4,361152.0,14.77
+2015-08-03 06:00:00,Carton,BoxWell Packaging,64305.2,9313.9,6.9
+2015-08-04 06:00:00,Wheat flour (kg),Deccan Mills,218172.8,20908.8,10.43
+2015-08-04 06:00:00,Sugar (kg),Shakti Sugars,46410.8,7983.4,5.81
+2015-08-04 06:00:00,Cream filling (kg),CreamCo,16276.1,1710.7,9.51
+2015-08-04 06:00:00,Butter (kg),Amrit Dairy,13986.6,2281.0,6.13
+2015-08-04 06:00:00,Wrapper film,FlexiWrap Films,5014662.0,361152.0,13.89
+2015-08-04 06:00:00,Carton,BoxWell Packaging,55738.2,9313.9,5.98
+2015-08-05 06:00:00,Wheat flour (kg),Deccan Mills,199972.1,20908.8,9.56
+2015-08-05 06:00:00,Sugar (kg),Shakti Sugars,39429.1,7983.4,4.94
+2015-08-05 06:00:00,Cream filling (kg),CreamCo,14628.0,1710.7,8.55
+2015-08-05 06:00:00,Butter (kg),Amrit Dairy,12345.8,2281.0,5.41
+2015-08-05 06:00:00,Wrapper film,FlexiWrap Films,4692925.2,361152.0,12.99
+2015-08-05 06:00:00,Carton,BoxWell Packaging,47660.2,9313.9,5.12
+2015-08-06 06:00:00,Wheat flour (kg),Deccan Mills,178810.7,20908.8,8.55
+2015-08-06 06:00:00,Sugar (kg),Shakti Sugars,31435.9,7983.4,3.94
+2015-08-06 06:00:00,Cream filling (kg),CreamCo,13125.3,1710.7,7.67
+2015-08-06 06:00:00,Butter (kg),Amrit Dairy,9902.6,2281.0,4.34
+2015-08-06 06:00:00,Wrapper film,FlexiWrap Films,4333987.4,361152.0,12.0
+2015-08-06 06:00:00,Carton,BoxWell Packaging,38351.8,9313.9,4.12
+2015-08-07 06:00:00,Wheat flour (kg),Deccan Mills,157801.4,20908.8,7.55
+2015-08-07 06:00:00,Sugar (kg),Shakti Sugars,23469.4,7983.4,2.94
+2015-08-07 06:00:00,Cream filling (kg),CreamCo,11574.0,1710.7,6.77
+2015-08-07 06:00:00,Butter (kg),Amrit Dairy,7436.8,2281.0,3.26
+2015-08-07 06:00:00,Wrapper film,FlexiWrap Films,3976756.7,361152.0,11.01
+2015-08-07 06:00:00,Carton,BoxWell Packaging,29046.2,9313.9,3.12
+2015-08-08 06:00:00,Wheat flour (kg),Deccan Mills,138683.4,20908.8,6.63
+2015-08-08 06:00:00,Sugar (kg),Shakti Sugars,112014.1,7983.4,14.03
+2015-08-08 06:00:00,Cream filling (kg),CreamCo,9975.5,1710.7,5.83
+2015-08-08 06:00:00,Butter (kg),Amrit Dairy,26413.0,2281.0,11.58
+2015-08-08 06:00:00,Wrapper film,FlexiWrap Films,3639850.9,361152.0,10.08
+2015-08-08 06:00:00,Carton,BoxWell Packaging,132507.3,9313.9,14.23
+2015-08-09 06:00:00,Wheat flour (kg),Deccan Mills,118174.1,20908.8,5.65
+2015-08-09 06:00:00,Sugar (kg),Shakti Sugars,104303.6,7983.4,13.07
+2015-08-09 06:00:00,Cream filling (kg),CreamCo,8587.8,1710.7,5.02
+2015-08-09 06:00:00,Butter (kg),Amrit Dairy,24097.6,2281.0,10.56
+2015-08-09 06:00:00,Wrapper film,FlexiWrap Films,3292917.0,361152.0,9.12
+2015-08-09 06:00:00,Carton,BoxWell Packaging,123562.5,9313.9,13.27
+2015-08-10 06:00:00,Wheat flour (kg),Deccan Mills,96891.6,20908.8,4.63
+2015-08-10 06:00:00,Sugar (kg),Shakti Sugars,96091.1,7983.4,12.04
+2015-08-10 06:00:00,Cream filling (kg),CreamCo,6688.9,1710.7,3.91
+2015-08-10 06:00:00,Butter (kg),Amrit Dairy,21628.0,2281.0,9.48
+2015-08-10 06:00:00,Wrapper film,FlexiWrap Films,2923451.4,361152.0,8.09
+2015-08-10 06:00:00,Carton,BoxWell Packaging,113893.8,9313.9,12.23
+2015-08-11 06:00:00,Wheat flour (kg),Deccan Mills,74515.6,20908.8,3.56
+2015-08-11 06:00:00,Sugar (kg),Shakti Sugars,87525.7,7983.4,10.96
+2015-08-11 06:00:00,Cream filling (kg),CreamCo,25327.0,1710.7,14.8
+2015-08-11 06:00:00,Butter (kg),Amrit Dairy,19229.2,2281.0,8.43
+2015-08-11 06:00:00,Wrapper film,FlexiWrap Films,2535160.2,361152.0,7.02
+2015-08-11 06:00:00,Carton,BoxWell Packaging,103898.6,9313.9,11.16
+2015-08-12 06:00:00,Wheat flour (kg),Deccan Mills,54009.6,20908.8,2.58
+2015-08-12 06:00:00,Sugar (kg),Shakti Sugars,79629.6,7983.4,9.97
+2015-08-12 06:00:00,Cream filling (kg),CreamCo,23544.8,1710.7,13.76
+2015-08-12 06:00:00,Butter (kg),Amrit Dairy,16811.1,2281.0,7.37
+2015-08-12 06:00:00,Wrapper film,FlexiWrap Films,2180657.6,361152.0,6.04
+2015-08-12 06:00:00,Carton,BoxWell Packaging,94602.4,9313.9,10.16
+2015-08-13 06:00:00,Wheat flour (kg),Deccan Mills,242059.6,20908.8,11.58
+2015-08-13 06:00:00,Sugar (kg),Shakti Sugars,71553.6,7983.4,8.96
+2015-08-13 06:00:00,Cream filling (kg),CreamCo,21668.6,1710.7,12.67
+2015-08-13 06:00:00,Butter (kg),Amrit Dairy,14745.9,2281.0,6.46
+2015-08-13 06:00:00,Wrapper film,FlexiWrap Films,1811276.3,361152.0,5.02
+2015-08-13 06:00:00,Carton,BoxWell Packaging,85212.6,9313.9,9.15
+2015-08-14 06:00:00,Wheat flour (kg),Deccan Mills,219605.8,20908.8,10.5
+2015-08-14 06:00:00,Sugar (kg),Shakti Sugars,62973.7,7983.4,7.89
+2015-08-14 06:00:00,Cream filling (kg),CreamCo,19771.0,1710.7,11.56
+2015-08-14 06:00:00,Butter (kg),Amrit Dairy,12479.0,2281.0,5.47
+2015-08-14 06:00:00,Wrapper film,FlexiWrap Films,1420065.7,361152.0,3.93
+2015-08-14 06:00:00,Carton,BoxWell Packaging,75244.6,9313.9,8.08
+2015-08-15 06:00:00,Wheat flour (kg),Deccan Mills,197407.1,20908.8,9.44
+2015-08-15 06:00:00,Sugar (kg),Shakti Sugars,54507.5,7983.4,6.83
+2015-08-15 06:00:00,Cream filling (kg),CreamCo,17960.1,1710.7,10.5
+2015-08-15 06:00:00,Butter (kg),Amrit Dairy,10122.6,2281.0,4.44
+2015-08-15 06:00:00,Wrapper film,FlexiWrap Films,1036028.0,361152.0,2.87
+2015-08-15 06:00:00,Carton,BoxWell Packaging,65389.2,9313.9,7.02
+2015-08-16 06:00:00,Wheat flour (kg),Deccan Mills,177331.7,20908.8,8.48
+2015-08-16 06:00:00,Sugar (kg),Shakti Sugars,46751.8,7983.4,5.86
+2015-08-16 06:00:00,Cream filling (kg),CreamCo,16183.3,1710.7,9.46
+2015-08-16 06:00:00,Butter (kg),Amrit Dairy,7654.9,2281.0,3.36
+2015-08-16 06:00:00,Wrapper film,FlexiWrap Films,689372.1,361152.0,1.91
+2015-08-16 06:00:00,Carton,BoxWell Packaging,56218.7,9313.9,6.04
+2015-08-17 06:00:00,Wheat flour (kg),Deccan Mills,155787.6,20908.8,7.45
+2015-08-17 06:00:00,Sugar (kg),Shakti Sugars,38618.4,7983.4,4.84
+2015-08-17 06:00:00,Cream filling (kg),CreamCo,14645.0,1710.7,8.56
+2015-08-17 06:00:00,Butter (kg),Amrit Dairy,25767.9,2281.0,11.3
+2015-08-17 06:00:00,Wrapper film,FlexiWrap Films,5740238.2,361152.0,15.89
+2015-08-17 06:00:00,Carton,BoxWell Packaging,46767.3,9313.9,5.02
+2015-08-18 06:00:00,Wheat flour (kg),Deccan Mills,135288.2,20908.8,6.47
+2015-08-18 06:00:00,Sugar (kg),Shakti Sugars,30807.2,7983.4,3.86
+2015-08-18 06:00:00,Cream filling (kg),CreamCo,12925.0,1710.7,7.56
+2015-08-18 06:00:00,Butter (kg),Amrit Dairy,23845.3,2281.0,10.45
+2015-08-18 06:00:00,Wrapper film,FlexiWrap Films,5381721.6,361152.0,14.9
+2015-08-18 06:00:00,Carton,BoxWell Packaging,37741.9,9313.9,4.05
+2015-08-19 06:00:00,Wheat flour (kg),Deccan Mills,112902.2,20908.8,5.4
+2015-08-19 06:00:00,Sugar (kg),Shakti Sugars,22297.0,7983.4,2.79
+2015-08-19 06:00:00,Cream filling (kg),CreamCo,11156.8,1710.7,6.52
+2015-08-19 06:00:00,Butter (kg),Amrit Dairy,21485.0,2281.0,9.42
+2015-08-19 06:00:00,Wrapper film,FlexiWrap Films,4995554.9,361152.0,13.83
+2015-08-19 06:00:00,Carton,BoxWell Packaging,27855.6,9313.9,2.99
+2015-08-20 06:00:00,Wheat flour (kg),Deccan Mills,91580.7,20908.8,4.38
+2015-08-20 06:00:00,Sugar (kg),Shakti Sugars,109931.7,7983.4,13.77
+2015-08-20 06:00:00,Cream filling (kg),CreamCo,9303.3,1710.7,5.44
+2015-08-20 06:00:00,Butter (kg),Amrit Dairy,19372.3,2281.0,8.49
+2015-08-20 06:00:00,Wrapper film,FlexiWrap Films,4622481.6,361152.0,12.8
+2015-08-20 06:00:00,Carton,BoxWell Packaging,130134.9,9313.9,13.97
+2015-08-21 06:00:00,Wheat flour (kg),Deccan Mills,69171.5,20908.8,3.31
+2015-08-21 06:00:00,Sugar (kg),Shakti Sugars,101415.8,7983.4,12.7
+2015-08-21 06:00:00,Cream filling (kg),CreamCo,7548.5,1710.7,4.41
+2015-08-21 06:00:00,Butter (kg),Amrit Dairy,16975.9,2281.0,7.44
+2015-08-21 06:00:00,Wrapper film,FlexiWrap Films,4236628.3,361152.0,11.73
+2015-08-21 06:00:00,Carton,BoxWell Packaging,120235.3,9313.9,12.91
+2015-08-22 06:00:00,Wheat flour (kg),Deccan Mills,257245.0,20908.8,12.3
+2015-08-22 06:00:00,Sugar (kg),Shakti Sugars,93363.8,7983.4,11.69
+2015-08-22 06:00:00,Cream filling (kg),CreamCo,5718.6,1710.7,3.34
+2015-08-22 06:00:00,Butter (kg),Amrit Dairy,14871.3,2281.0,6.52
+2015-08-22 06:00:00,Wrapper film,FlexiWrap Films,3869106.7,361152.0,10.71
+2015-08-22 06:00:00,Carton,BoxWell Packaging,110871.8,9313.9,11.9
+2015-08-23 06:00:00,Wheat flour (kg),Deccan Mills,236265.0,20908.8,11.3
+2015-08-23 06:00:00,Sugar (kg),Shakti Sugars,85388.7,7983.4,10.7
+2015-08-23 06:00:00,Cream filling (kg),CreamCo,4092.6,1710.7,2.39
+2015-08-23 06:00:00,Butter (kg),Amrit Dairy,12539.6,2281.0,5.5
+2015-08-23 06:00:00,Wrapper film,FlexiWrap Films,3509213.1,361152.0,9.72
+2015-08-23 06:00:00,Carton,BoxWell Packaging,101577.5,9313.9,10.91
+2015-08-24 06:00:00,Wheat flour (kg),Deccan Mills,213834.9,20908.8,10.23
+2015-08-24 06:00:00,Sugar (kg),Shakti Sugars,76793.6,7983.4,9.62
+2015-08-24 06:00:00,Cream filling (kg),CreamCo,22709.9,1710.7,13.28
+2015-08-24 06:00:00,Butter (kg),Amrit Dairy,10118.5,2281.0,4.44
+2015-08-24 06:00:00,Wrapper film,FlexiWrap Films,3119806.7,361152.0,8.64
+2015-08-24 06:00:00,Carton,BoxWell Packaging,91538.2,9313.9,9.83
+2015-08-25 06:00:00,Wheat flour (kg),Deccan Mills,193975.2,20908.8,9.28
+2015-08-25 06:00:00,Sugar (kg),Shakti Sugars,69182.5,7983.4,8.67
+2015-08-25 06:00:00,Cream filling (kg),CreamCo,21070.0,1710.7,12.32
+2015-08-25 06:00:00,Butter (kg),Amrit Dairy,7757.5,2281.0,3.4
+2015-08-25 06:00:00,Wrapper film,FlexiWrap Films,2778603.2,361152.0,7.69
+2015-08-25 06:00:00,Carton,BoxWell Packaging,82593.5,9313.9,8.87
+2015-08-26 06:00:00,Wheat flour (kg),Deccan Mills,171195.7,20908.8,8.19
+2015-08-26 06:00:00,Sugar (kg),Shakti Sugars,60492.1,7983.4,7.58
+2015-08-26 06:00:00,Cream filling (kg),CreamCo,19212.7,1710.7,11.23
+2015-08-26 06:00:00,Butter (kg),Amrit Dairy,25840.3,2281.0,11.33
+2015-08-26 06:00:00,Wrapper film,FlexiWrap Films,2384846.0,361152.0,6.6
+2015-08-26 06:00:00,Carton,BoxWell Packaging,72468.7,9313.9,7.78
+2015-08-27 06:00:00,Wheat flour (kg),Deccan Mills,150507.4,20908.8,7.2
+2015-08-27 06:00:00,Sugar (kg),Shakti Sugars,52524.0,7983.4,6.58
+2015-08-27 06:00:00,Cream filling (kg),CreamCo,17386.7,1710.7,10.16
+2015-08-27 06:00:00,Butter (kg),Amrit Dairy,23497.0,2281.0,10.3
+2015-08-27 06:00:00,Wrapper film,FlexiWrap Films,2025499.5,361152.0,5.61
+2015-08-27 06:00:00,Carton,BoxWell Packaging,63110.8,9313.9,6.78
+2015-08-28 06:00:00,Wheat flour (kg),Deccan Mills,127860.5,20908.8,6.12
+2015-08-28 06:00:00,Sugar (kg),Shakti Sugars,43872.4,7983.4,5.5
+2015-08-28 06:00:00,Cream filling (kg),CreamCo,15488.9,1710.7,9.05
+2015-08-28 06:00:00,Butter (kg),Amrit Dairy,21164.0,2281.0,9.28
+2015-08-28 06:00:00,Wrapper film,FlexiWrap Films,1631799.2,361152.0,4.52
+2015-08-28 06:00:00,Carton,BoxWell Packaging,53048.9,9313.9,5.7
+2015-08-29 06:00:00,Wheat flour (kg),Deccan Mills,106298.3,20908.8,5.08
+2015-08-29 06:00:00,Sugar (kg),Shakti Sugars,35697.6,7983.4,4.47
+2015-08-29 06:00:00,Cream filling (kg),CreamCo,13856.1,1710.7,8.1
+2015-08-29 06:00:00,Butter (kg),Amrit Dairy,18808.4,2281.0,8.25
+2015-08-29 06:00:00,Wrapper film,FlexiWrap Films,1262318.6,361152.0,3.5
+2015-08-29 06:00:00,Carton,BoxWell Packaging,43544.7,9313.9,4.68
+2015-08-30 06:00:00,Wheat flour (kg),Deccan Mills,83544.8,20908.8,4.0
+2015-08-30 06:00:00,Sugar (kg),Shakti Sugars,27048.8,7983.4,3.39
+2015-08-30 06:00:00,Cream filling (kg),CreamCo,12082.2,1710.7,7.06
+2015-08-30 06:00:00,Butter (kg),Amrit Dairy,16325.4,2281.0,7.16
+2015-08-30 06:00:00,Wrapper film,FlexiWrap Films,871264.5,361152.0,2.41
+2015-08-30 06:00:00,Carton,BoxWell Packaging,33476.9,9313.9,3.59
+2015-08-31 06:00:00,Wheat flour (kg),Deccan Mills,64294.0,20908.8,3.07
+2015-08-31 06:00:00,Sugar (kg),Shakti Sugars,19615.5,7983.4,2.46
+2015-08-31 06:00:00,Cream filling (kg),CreamCo,10304.4,1710.7,6.02
+2015-08-31 06:00:00,Butter (kg),Amrit Dairy,14289.1,2281.0,6.26
+2015-08-31 06:00:00,Wrapper film,FlexiWrap Films,5950815.1,361152.0,16.48
+2015-08-31 06:00:00,Carton,BoxWell Packaging,136539.2,9313.9,14.66
+2015-09-01 06:00:00,Wheat flour (kg),Deccan Mills,251466.6,20908.8,12.03
+2015-09-01 06:00:00,Sugar (kg),Shakti Sugars,107072.8,7983.4,13.41
+2015-09-01 06:00:00,Cream filling (kg),CreamCo,8539.3,1710.7,4.99
+2015-09-01 06:00:00,Butter (kg),Amrit Dairy,12009.6,2281.0,5.27
+2015-09-01 06:00:00,Wrapper film,FlexiWrap Films,5571660.7,361152.0,15.43
+2015-09-01 06:00:00,Carton,BoxWell Packaging,126848.1,9313.9,13.62
+2015-09-02 06:00:00,Wheat flour (kg),Deccan Mills,230129.0,20908.8,11.01
+2015-09-02 06:00:00,Sugar (kg),Shakti Sugars,98998.5,7983.4,12.4
+2015-09-02 06:00:00,Cream filling (kg),CreamCo,6975.8,1710.7,4.08
+2015-09-02 06:00:00,Butter (kg),Amrit Dairy,9607.0,2281.0,4.21
+2015-09-02 06:00:00,Wrapper film,FlexiWrap Films,5207985.7,361152.0,14.42
+2015-09-02 06:00:00,Carton,BoxWell Packaging,117451.7,9313.9,12.61
+2015-09-03 06:00:00,Wheat flour (kg),Deccan Mills,210134.0,20908.8,10.05
+2015-09-03 06:00:00,Sugar (kg),Shakti Sugars,91574.3,7983.4,11.47
+2015-09-03 06:00:00,Cream filling (kg),CreamCo,5850.6,1710.7,3.42
+2015-09-03 06:00:00,Butter (kg),Amrit Dairy,7274.8,2281.0,3.19
+2015-09-03 06:00:00,Wrapper film,FlexiWrap Films,4875646.7,361152.0,13.5
+2015-09-03 06:00:00,Carton,BoxWell Packaging,108875.1,9313.9,11.69
+2015-09-04 06:00:00,Wheat flour (kg),Deccan Mills,189368.3,20908.8,9.06
+2015-09-04 06:00:00,Sugar (kg),Shakti Sugars,83653.0,7983.4,10.48
+2015-09-04 06:00:00,Cream filling (kg),CreamCo,24712.9,1710.7,14.45
+2015-09-04 06:00:00,Butter (kg),Amrit Dairy,4946.0,2281.0,2.17
+2015-09-04 06:00:00,Wrapper film,FlexiWrap Films,4518396.6,361152.0,12.51
+2015-09-04 06:00:00,Carton,BoxWell Packaging,99622.1,9313.9,10.7
+2015-09-05 06:00:00,Wheat flour (kg),Deccan Mills,168772.7,20908.8,8.07
+2015-09-05 06:00:00,Sugar (kg),Shakti Sugars,75898.9,7983.4,9.51
+2015-09-05 06:00:00,Cream filling (kg),CreamCo,23257.8,1710.7,13.6
+2015-09-05 06:00:00,Butter (kg),Amrit Dairy,23295.1,2281.0,10.21
+2015-09-05 06:00:00,Wrapper film,FlexiWrap Films,4167017.9,361152.0,11.54
+2015-09-05 06:00:00,Carton,BoxWell Packaging,90656.5,9313.9,9.73
+2015-09-06 06:00:00,Wheat flour (kg),Deccan Mills,147688.5,20908.8,7.06
+2015-09-06 06:00:00,Sugar (kg),Shakti Sugars,67900.5,7983.4,8.51
+2015-09-06 06:00:00,Cream filling (kg),CreamCo,21666.4,1710.7,12.67
+2015-09-06 06:00:00,Butter (kg),Amrit Dairy,20927.4,2281.0,9.17
+2015-09-06 06:00:00,Wrapper film,FlexiWrap Films,3806557.4,361152.0,10.54
+2015-09-06 06:00:00,Carton,BoxWell Packaging,81338.4,9313.9,8.73
+2015-09-07 06:00:00,Wheat flour (kg),Deccan Mills,127231.5,20908.8,6.09
+2015-09-07 06:00:00,Sugar (kg),Shakti Sugars,60062.3,7983.4,7.52
+2015-09-07 06:00:00,Cream filling (kg),CreamCo,19988.3,1710.7,11.68
+2015-09-07 06:00:00,Butter (kg),Amrit Dairy,18466.8,2281.0,8.1
+2015-09-07 06:00:00,Wrapper film,FlexiWrap Films,3455655.8,361152.0,9.57
+2015-09-07 06:00:00,Carton,BoxWell Packaging,72120.5,9313.9,7.74
+2015-09-08 06:00:00,Wheat flour (kg),Deccan Mills,105112.1,20908.8,5.03
+2015-09-08 06:00:00,Sugar (kg),Shakti Sugars,51724.6,7983.4,6.48
+2015-09-08 06:00:00,Cream filling (kg),CreamCo,18443.4,1710.7,10.78
+2015-09-08 06:00:00,Butter (kg),Amrit Dairy,15964.9,2281.0,7.0
+2015-09-08 06:00:00,Wrapper film,FlexiWrap Films,3080469.1,361152.0,8.53
+2015-09-08 06:00:00,Carton,BoxWell Packaging,62433.9,9313.9,6.7
+2015-09-09 06:00:00,Wheat flour (kg),Deccan Mills,85020.5,20908.8,4.07
+2015-09-09 06:00:00,Sugar (kg),Shakti Sugars,44038.2,7983.4,5.52
+2015-09-09 06:00:00,Cream filling (kg),CreamCo,16625.3,1710.7,9.72
+2015-09-09 06:00:00,Butter (kg),Amrit Dairy,14334.3,2281.0,6.28
+2015-09-09 06:00:00,Wrapper film,FlexiWrap Films,2723325.0,361152.0,7.54
+2015-09-09 06:00:00,Carton,BoxWell Packaging,53597.9,9313.9,5.75
+2015-09-10 06:00:00,Wheat flour (kg),Deccan Mills,63318.3,20908.8,3.03
+2015-09-10 06:00:00,Sugar (kg),Shakti Sugars,35783.2,7983.4,4.48
+2015-09-10 06:00:00,Cream filling (kg),CreamCo,14950.1,1710.7,8.74
+2015-09-10 06:00:00,Butter (kg),Amrit Dairy,11847.5,2281.0,5.19
+2015-09-10 06:00:00,Wrapper film,FlexiWrap Films,2352024.7,361152.0,6.51
+2015-09-10 06:00:00,Carton,BoxWell Packaging,43955.6,9313.9,4.72
+2015-09-11 06:00:00,Wheat flour (kg),Deccan Mills,41496.8,20908.8,1.98
+2015-09-11 06:00:00,Sugar (kg),Shakti Sugars,27551.7,7983.4,3.45
+2015-09-11 06:00:00,Cream filling (kg),CreamCo,13419.7,1710.7,7.84
+2015-09-11 06:00:00,Butter (kg),Amrit Dairy,9350.2,2281.0,4.1
+2015-09-11 06:00:00,Wrapper film,FlexiWrap Films,1982071.0,361152.0,5.49
+2015-09-11 06:00:00,Carton,BoxWell Packaging,34381.6,9313.9,3.69
+2015-09-12 06:00:00,Wheat flour (kg),Deccan Mills,228631.3,20908.8,10.93
+2015-09-12 06:00:00,Sugar (kg),Shakti Sugars,19112.7,7983.4,2.39
+2015-09-12 06:00:00,Cream filling (kg),CreamCo,11539.4,1710.7,6.75
+2015-09-12 06:00:00,Butter (kg),Amrit Dairy,6780.4,2281.0,2.97
+2015-09-12 06:00:00,Wrapper film,FlexiWrap Films,1602949.1,361152.0,4.44
+2015-09-12 06:00:00,Carton,BoxWell Packaging,136226.2,9313.9,14.63
+2015-09-13 06:00:00,Wheat flour (kg),Deccan Mills,206163.7,20908.8,9.86
+2015-09-13 06:00:00,Sugar (kg),Shakti Sugars,106305.8,7983.4,13.32
+2015-09-13 06:00:00,Cream filling (kg),CreamCo,9653.9,1710.7,5.64
+2015-09-13 06:00:00,Butter (kg),Amrit Dairy,4260.6,2281.0,1.87
+2015-09-13 06:00:00,Wrapper film,FlexiWrap Films,1214585.2,361152.0,3.36
+2015-09-13 06:00:00,Carton,BoxWell Packaging,126150.5,9313.9,13.54
+2015-09-14 06:00:00,Wheat flour (kg),Deccan Mills,184064.1,20908.8,8.8
+2015-09-14 06:00:00,Sugar (kg),Shakti Sugars,97872.7,7983.4,12.26
+2015-09-14 06:00:00,Cream filling (kg),CreamCo,7886.2,1710.7,4.61
+2015-09-14 06:00:00,Butter (kg),Amrit Dairy,22260.9,2281.0,9.76
+2015-09-14 06:00:00,Wrapper film,FlexiWrap Films,835069.4,361152.0,2.31
+2015-09-14 06:00:00,Carton,BoxWell Packaging,116285.5,9313.9,12.49
+2015-09-15 06:00:00,Wheat flour (kg),Deccan Mills,162811.1,20908.8,7.79
+2015-09-15 06:00:00,Sugar (kg),Shakti Sugars,89753.1,7983.4,11.24
+2015-09-15 06:00:00,Cream filling (kg),CreamCo,6073.9,1710.7,3.55
+2015-09-15 06:00:00,Butter (kg),Amrit Dairy,20192.7,2281.0,8.85
+2015-09-15 06:00:00,Wrapper film,FlexiWrap Films,5880839.6,361152.0,16.28
+2015-09-15 06:00:00,Carton,BoxWell Packaging,106872.4,9313.9,11.47
+2015-09-16 06:00:00,Wheat flour (kg),Deccan Mills,141819.3,20908.8,6.78
+2015-09-16 06:00:00,Sugar (kg),Shakti Sugars,81639.9,7983.4,10.23
+2015-09-16 06:00:00,Cream filling (kg),CreamCo,24711.2,1710.7,14.44
+2015-09-16 06:00:00,Butter (kg),Amrit Dairy,17714.4,2281.0,7.77
+2015-09-16 06:00:00,Wrapper film,FlexiWrap Films,5516484.9,361152.0,15.27
+2015-09-16 06:00:00,Carton,BoxWell Packaging,97302.6,9313.9,10.45
+2015-09-17 06:00:00,Wheat flour (kg),Deccan Mills,119973.5,20908.8,5.74
+2015-09-17 06:00:00,Sugar (kg),Shakti Sugars,73331.9,7983.4,9.19
+2015-09-17 06:00:00,Cream filling (kg),CreamCo,22970.1,1710.7,13.43
+2015-09-17 06:00:00,Butter (kg),Amrit Dairy,15444.1,2281.0,6.77
+2015-09-17 06:00:00,Wrapper film,FlexiWrap Films,5138921.7,361152.0,14.23
+2015-09-17 06:00:00,Carton,BoxWell Packaging,87657.5,9313.9,9.41
+2015-09-18 06:00:00,Wheat flour (kg),Deccan Mills,98331.4,20908.8,4.7
+2015-09-18 06:00:00,Sugar (kg),Shakti Sugars,65013.7,7983.4,8.14
+2015-09-18 06:00:00,Cream filling (kg),CreamCo,21071.9,1710.7,12.32
+2015-09-18 06:00:00,Butter (kg),Amrit Dairy,13099.4,2281.0,5.74
+2015-09-18 06:00:00,Wrapper film,FlexiWrap Films,4762090.2,361152.0,13.19
+2015-09-18 06:00:00,Carton,BoxWell Packaging,77925.0,9313.9,8.37
+2015-09-19 06:00:00,Wheat flour (kg),Deccan Mills,78898.5,20908.8,3.77
+2015-09-19 06:00:00,Sugar (kg),Shakti Sugars,57556.1,7983.4,7.21
+2015-09-19 06:00:00,Cream filling (kg),CreamCo,19228.3,1710.7,11.24
+2015-09-19 06:00:00,Butter (kg),Amrit Dairy,11654.4,2281.0,5.11
+2015-09-19 06:00:00,Wrapper film,FlexiWrap Films,4413295.4,361152.0,12.22
+2015-09-19 06:00:00,Carton,BoxWell Packaging,69371.2,9313.9,7.45
+2015-09-20 06:00:00,Wheat flour (kg),Deccan Mills,266487.2,20908.8,12.75
+2015-09-20 06:00:00,Sugar (kg),Shakti Sugars,49384.3,7983.4,6.19
+2015-09-20 06:00:00,Cream filling (kg),CreamCo,17579.4,1710.7,10.28
+2015-09-20 06:00:00,Butter (kg),Amrit Dairy,9201.6,2281.0,4.03
+2015-09-20 06:00:00,Wrapper film,FlexiWrap Films,4045585.2,361152.0,11.2
+2015-09-20 06:00:00,Carton,BoxWell Packaging,59832.2,9313.9,6.42
+2015-09-21 06:00:00,Wheat flour (kg),Deccan Mills,244697.9,20908.8,11.7
+2015-09-21 06:00:00,Sugar (kg),Shakti Sugars,41093.0,7983.4,5.15
+2015-09-21 06:00:00,Cream filling (kg),CreamCo,15851.3,1710.7,9.27
+2015-09-21 06:00:00,Butter (kg),Amrit Dairy,27389.1,2281.0,12.01
+2015-09-21 06:00:00,Wrapper film,FlexiWrap Films,3670041.1,361152.0,10.16
+2015-09-21 06:00:00,Carton,BoxWell Packaging,50184.5,9313.9,5.39
+2015-09-22 06:00:00,Wheat flour (kg),Deccan Mills,224936.0,20908.8,10.76
+2015-09-22 06:00:00,Sugar (kg),Shakti Sugars,33467.6,7983.4,4.19
+2015-09-22 06:00:00,Cream filling (kg),CreamCo,14017.2,1710.7,8.19
+2015-09-22 06:00:00,Butter (kg),Amrit Dairy,25382.8,2281.0,11.13
+2015-09-22 06:00:00,Wrapper film,FlexiWrap Films,3322208.9,361152.0,9.2
+2015-09-22 06:00:00,Carton,BoxWell Packaging,41279.0,9313.9,4.43
+2015-09-23 06:00:00,Wheat flour (kg),Deccan Mills,203484.1,20908.8,9.73
+2015-09-23 06:00:00,Sugar (kg),Shakti Sugars,25379.9,7983.4,3.18
+2015-09-23 06:00:00,Cream filling (kg),CreamCo,12477.3,1710.7,7.29
+2015-09-23 06:00:00,Butter (kg),Amrit Dairy,23108.5,2281.0,10.13
+2015-09-23 06:00:00,Wrapper film,FlexiWrap Films,2955727.1,361152.0,8.18
+2015-09-23 06:00:00,Carton,BoxWell Packaging,31919.9,9313.9,3.43
+2015-09-24 06:00:00,Wheat flour (kg),Deccan Mills,183479.9,20908.8,8.78
+2015-09-24 06:00:00,Sugar (kg),Shakti Sugars,17624.6,7983.4,2.21
+2015-09-24 06:00:00,Cream filling (kg),CreamCo,10642.4,1710.7,6.22
+2015-09-24 06:00:00,Butter (kg),Amrit Dairy,20663.0,2281.0,9.06
+2015-09-24 06:00:00,Wrapper film,FlexiWrap Films,2608721.2,361152.0,7.22
+2015-09-24 06:00:00,Carton,BoxWell Packaging,134504.7,9313.9,14.44
+2015-09-25 06:00:00,Wheat flour (kg),Deccan Mills,160880.0,20908.8,7.69
+2015-09-25 06:00:00,Sugar (kg),Shakti Sugars,104806.9,7983.4,13.13
+2015-09-25 06:00:00,Cream filling (kg),CreamCo,8808.3,1710.7,5.15
+2015-09-25 06:00:00,Butter (kg),Amrit Dairy,18236.9,2281.0,8.0
+2015-09-25 06:00:00,Wrapper film,FlexiWrap Films,2218255.0,361152.0,6.14
+2015-09-25 06:00:00,Carton,BoxWell Packaging,124466.7,9313.9,13.36
+2015-09-26 06:00:00,Wheat flour (kg),Deccan Mills,138770.7,20908.8,6.64
+2015-09-26 06:00:00,Sugar (kg),Shakti Sugars,96355.4,7983.4,12.07
+2015-09-26 06:00:00,Cream filling (kg),CreamCo,6961.6,1710.7,4.07
+2015-09-26 06:00:00,Butter (kg),Amrit Dairy,15888.4,2281.0,6.97
+2015-09-26 06:00:00,Wrapper film,FlexiWrap Films,1834823.1,361152.0,5.08
+2015-09-26 06:00:00,Carton,BoxWell Packaging,114616.8,9313.9,12.31
+2015-09-27 06:00:00,Wheat flour (kg),Deccan Mills,115855.4,20908.8,5.54
+2015-09-27 06:00:00,Sugar (kg),Shakti Sugars,87615.7,7983.4,10.97
+2015-09-27 06:00:00,Cream filling (kg),CreamCo,5087.5,1710.7,2.97
+2015-09-27 06:00:00,Butter (kg),Amrit Dairy,13473.4,2281.0,5.91
+2015-09-27 06:00:00,Wrapper film,FlexiWrap Films,1438088.1,361152.0,3.98
+2015-09-27 06:00:00,Carton,BoxWell Packaging,104447.4,9313.9,11.21
+2015-09-28 06:00:00,Wheat flour (kg),Deccan Mills,93503.8,20908.8,4.47
+2015-09-28 06:00:00,Sugar (kg),Shakti Sugars,79052.6,7983.4,9.9
+2015-09-28 06:00:00,Cream filling (kg),CreamCo,23740.7,1710.7,13.88
+2015-09-28 06:00:00,Butter (kg),Amrit Dairy,10961.3,2281.0,4.81
+2015-09-28 06:00:00,Wrapper film,FlexiWrap Films,1051799.3,361152.0,2.91
+2015-09-28 06:00:00,Carton,BoxWell Packaging,94421.8,9313.9,10.14
+2015-09-29 06:00:00,Wheat flour (kg),Deccan Mills,72134.2,20908.8,3.45
+2015-09-29 06:00:00,Sugar (kg),Shakti Sugars,70878.9,7983.4,8.88
+2015-09-29 06:00:00,Cream filling (kg),CreamCo,21989.2,1710.7,12.85
+2015-09-29 06:00:00,Butter (kg),Amrit Dairy,8513.5,2281.0,3.73
+2015-09-29 06:00:00,Wrapper film,FlexiWrap Films,6101192.9,361152.0,16.89
+2015-09-29 06:00:00,Carton,BoxWell Packaging,84848.3,9313.9,9.11
+2015-09-30 06:00:00,Wheat flour (kg),Deccan Mills,259650.9,20908.8,12.42
+2015-09-30 06:00:00,Sugar (kg),Shakti Sugars,62711.4,7983.4,7.86
+2015-09-30 06:00:00,Cream filling (kg),CreamCo,20398.9,1710.7,11.92
+2015-09-30 06:00:00,Butter (kg),Amrit Dairy,26609.1,2281.0,11.67
+2015-09-30 06:00:00,Wrapper film,FlexiWrap Films,5733366.8,361152.0,15.88
+2015-09-30 06:00:00,Carton,BoxWell Packaging,75339.7,9313.9,8.09
+2015-10-01 06:00:00,Wheat flour (kg),Deccan Mills,237532.9,20908.8,11.36
+2015-10-01 06:00:00,Sugar (kg),Shakti Sugars,54256.6,7983.4,6.8
+2015-10-01 06:00:00,Cream filling (kg),CreamCo,18575.9,1710.7,10.86
+2015-10-01 06:00:00,Butter (kg),Amrit Dairy,24162.0,2281.0,10.59
+2015-10-01 06:00:00,Wrapper film,FlexiWrap Films,5351411.6,361152.0,14.82
+2015-10-01 06:00:00,Carton,BoxWell Packaging,65461.5,9313.9,7.03
+2015-10-02 06:00:00,Wheat flour (kg),Deccan Mills,217447.9,20908.8,10.4
+2015-10-02 06:00:00,Sugar (kg),Shakti Sugars,46667.8,7983.4,5.85
+2015-10-02 06:00:00,Cream filling (kg),CreamCo,17093.1,1710.7,9.99
+2015-10-02 06:00:00,Butter (kg),Amrit Dairy,22049.2,2281.0,9.67
+2015-10-02 06:00:00,Wrapper film,FlexiWrap Films,5007185.5,361152.0,13.86
+2015-10-02 06:00:00,Carton,BoxWell Packaging,56674.2,9313.9,6.08
+2015-10-03 06:00:00,Wheat flour (kg),Deccan Mills,196499.0,20908.8,9.4
+2015-10-03 06:00:00,Sugar (kg),Shakti Sugars,38728.0,7983.4,4.85
+2015-10-03 06:00:00,Cream filling (kg),CreamCo,15471.5,1710.7,9.04
+2015-10-03 06:00:00,Butter (kg),Amrit Dairy,19923.8,2281.0,8.73
+2015-10-03 06:00:00,Wrapper film,FlexiWrap Films,4645617.6,361152.0,12.86
+2015-10-03 06:00:00,Carton,BoxWell Packaging,47485.4,9313.9,5.1
+2015-10-04 06:00:00,Wheat flour (kg),Deccan Mills,176468.7,20908.8,8.44
+2015-10-04 06:00:00,Sugar (kg),Shakti Sugars,31127.1,7983.4,3.9
+2015-10-04 06:00:00,Cream filling (kg),CreamCo,13805.6,1710.7,8.07
+2015-10-04 06:00:00,Butter (kg),Amrit Dairy,18270.8,2281.0,8.01
+2015-10-04 06:00:00,Wrapper film,FlexiWrap Films,4293123.5,361152.0,11.89
+2015-10-04 06:00:00,Carton,BoxWell Packaging,38778.2,9313.9,4.16
+2015-10-05 06:00:00,Wheat flour (kg),Deccan Mills,155394.4,20908.8,7.43
+2015-10-05 06:00:00,Sugar (kg),Shakti Sugars,23120.5,7983.4,2.9
+2015-10-05 06:00:00,Cream filling (kg),CreamCo,12207.8,1710.7,7.14
+2015-10-05 06:00:00,Butter (kg),Amrit Dairy,15825.0,2281.0,6.94
+2015-10-05 06:00:00,Wrapper film,FlexiWrap Films,3933555.3,361152.0,10.89
+2015-10-05 06:00:00,Carton,BoxWell Packaging,29423.7,9313.9,3.16
+2015-10-06 06:00:00,Wheat flour (kg),Deccan Mills,134309.8,20908.8,6.42
+2015-10-06 06:00:00,Sugar (kg),Shakti Sugars,110984.4,7983.4,13.9
+2015-10-06 06:00:00,Cream filling (kg),CreamCo,10774.9,1710.7,6.3
+2015-10-06 06:00:00,Butter (kg),Amrit Dairy,13382.7,2281.0,5.87
+2015-10-06 06:00:00,Wrapper film,FlexiWrap Films,3577439.7,361152.0,9.91
+2015-10-06 06:00:00,Carton,BoxWell Packaging,131962.6,9313.9,14.17
+2015-10-07 06:00:00,Wheat flour (kg),Deccan Mills,114597.2,20908.8,5.48
+2015-10-07 06:00:00,Sugar (kg),Shakti Sugars,103341.7,7983.4,12.94
+2015-10-07 06:00:00,Cream filling (kg),CreamCo,8938.7,1710.7,5.23
+2015-10-07 06:00:00,Butter (kg),Amrit Dairy,11081.5,2281.0,4.86
+2015-10-07 06:00:00,Wrapper film,FlexiWrap Films,3233662.5,361152.0,8.95
+2015-10-07 06:00:00,Carton,BoxWell Packaging,122940.8,9313.9,13.2
+2015-10-08 06:00:00,Wheat flour (kg),Deccan Mills,91953.3,20908.8,4.4
+2015-10-08 06:00:00,Sugar (kg),Shakti Sugars,94700.8,7983.4,11.86
+2015-10-08 06:00:00,Cream filling (kg),CreamCo,7083.9,1710.7,4.14
+2015-10-08 06:00:00,Butter (kg),Amrit Dairy,8664.1,2281.0,3.8
+2015-10-08 06:00:00,Wrapper film,FlexiWrap Films,2841906.1,361152.0,7.87
+2015-10-08 06:00:00,Carton,BoxWell Packaging,112875.8,9313.9,12.12
+2015-10-09 06:00:00,Wheat flour (kg),Deccan Mills,70318.6,20908.8,3.36
+2015-10-09 06:00:00,Sugar (kg),Shakti Sugars,86409.5,7983.4,10.82
+2015-10-09 06:00:00,Cream filling (kg),CreamCo,5222.5,1710.7,3.05
+2015-10-09 06:00:00,Butter (kg),Amrit Dairy,6391.9,2281.0,2.8
+2015-10-09 06:00:00,Wrapper film,FlexiWrap Films,2465209.4,361152.0,6.83
+2015-10-09 06:00:00,Carton,BoxWell Packaging,103206.6,9313.9,11.08
+2015-10-10 06:00:00,Wheat flour (kg),Deccan Mills,257342.9,20908.8,12.31
+2015-10-10 06:00:00,Sugar (kg),Shakti Sugars,78002.6,7983.4,9.77
+2015-10-10 06:00:00,Cream filling (kg),CreamCo,23995.0,1710.7,14.03
+2015-10-10 06:00:00,Butter (kg),Amrit Dairy,24474.3,2281.0,10.73
+2015-10-10 06:00:00,Wrapper film,FlexiWrap Films,2085635.6,361152.0,5.77
+2015-10-10 06:00:00,Carton,BoxWell Packaging,93399.0,9313.9,10.03
+2015-10-11 06:00:00,Wheat flour (kg),Deccan Mills,237362.2,20908.8,11.35
+2015-10-11 06:00:00,Sugar (kg),Shakti Sugars,70465.0,7983.4,8.83
+2015-10-11 06:00:00,Cream filling (kg),CreamCo,22478.4,1710.7,13.14
+2015-10-11 06:00:00,Butter (kg),Amrit Dairy,22644.0,2281.0,9.93
+2015-10-11 06:00:00,Wrapper film,FlexiWrap Films,1739258.7,361152.0,4.82
+2015-10-11 06:00:00,Carton,BoxWell Packaging,84745.7,9313.9,9.1
+2015-10-12 06:00:00,Wheat flour (kg),Deccan Mills,215739.0,20908.8,10.32
+2015-10-12 06:00:00,Sugar (kg),Shakti Sugars,62229.8,7983.4,7.79
+2015-10-12 06:00:00,Cream filling (kg),CreamCo,20716.6,1710.7,12.11
+2015-10-12 06:00:00,Butter (kg),Amrit Dairy,20443.8,2281.0,8.96
+2015-10-12 06:00:00,Wrapper film,FlexiWrap Films,1364168.0,361152.0,3.78
+2015-10-12 06:00:00,Carton,BoxWell Packaging,75189.8,9313.9,8.07
+2015-10-13 06:00:00,Wheat flour (kg),Deccan Mills,194118.7,20908.8,9.28
+2015-10-13 06:00:00,Sugar (kg),Shakti Sugars,53994.6,7983.4,6.76
+2015-10-13 06:00:00,Cream filling (kg),CreamCo,18988.9,1710.7,11.1
+2015-10-13 06:00:00,Butter (kg),Amrit Dairy,18099.2,2281.0,7.93
+2015-10-13 06:00:00,Wrapper film,FlexiWrap Films,6408767.4,361152.0,17.75
+2015-10-13 06:00:00,Carton,BoxWell Packaging,65597.2,9313.9,7.04
+2015-10-14 06:00:00,Wheat flour (kg),Deccan Mills,172577.1,20908.8,8.25
+2015-10-14 06:00:00,Sugar (kg),Shakti Sugars,45759.8,7983.4,5.73
+2015-10-14 06:00:00,Cream filling (kg),CreamCo,9409.0,1710.7,5.5
+2015-10-14 06:00:00,Butter (kg),Amrit Dairy,15905.2,2281.0,6.97
+2015-10-14 06:00:00,Wrapper film,FlexiWrap Films,6033592.0,361152.0,16.71
+2015-10-14 06:00:00,Carton,BoxWell Packaging,56023.1,9313.9,6.01
+2015-10-15 06:00:00,Wheat flour (kg),Deccan Mills,152234.3,20908.8,7.28
+2015-10-15 06:00:00,Sugar (kg),Shakti Sugars,37915.9,7983.4,4.75
+2015-10-15 06:00:00,Cream filling (kg),CreamCo,7605.7,1710.7,4.45
+2015-10-15 06:00:00,Butter (kg),Amrit Dairy,13552.1,2281.0,5.94
+2015-10-15 06:00:00,Wrapper film,FlexiWrap Films,5680615.5,361152.0,15.73
+2015-10-15 06:00:00,Carton,BoxWell Packaging,46793.8,9313.9,5.02
+2015-10-16 06:00:00,Wheat flour (kg),Deccan Mills,130810.3,20908.8,6.26
+2015-10-16 06:00:00,Sugar (kg),Shakti Sugars,29691.0,7983.4,3.72
+2015-10-16 06:00:00,Cream filling (kg),CreamCo,5752.6,1710.7,3.36
+2015-10-16 06:00:00,Butter (kg),Amrit Dairy,11212.6,2281.0,4.92
+2015-10-16 06:00:00,Wrapper film,FlexiWrap Films,5308365.7,361152.0,14.7
+2015-10-16 06:00:00,Carton,BoxWell Packaging,37171.4,9313.9,3.99
+2015-10-17 06:00:00,Wheat flour (kg),Deccan Mills,108147.0,20908.8,5.17
+2015-10-17 06:00:00,Sugar (kg),Shakti Sugars,21033.2,7983.4,2.63
+2015-10-17 06:00:00,Cream filling (kg),CreamCo,3891.8,1710.7,2.27
+2015-10-17 06:00:00,Butter (kg),Amrit Dairy,8725.2,2281.0,3.83
+2015-10-17 06:00:00,Wrapper film,FlexiWrap Films,4916928.9,361152.0,13.61
+2015-10-17 06:00:00,Carton,BoxWell Packaging,27064.2,9313.9,2.91
+2015-10-18 06:00:00,Wheat flour (kg),Deccan Mills,85788.8,20908.8,4.1
+2015-10-18 06:00:00,Sugar (kg),Shakti Sugars,108370.0,7983.4,13.57
+2015-10-18 06:00:00,Cream filling (kg),CreamCo,2227.6,1710.7,1.3
+2015-10-18 06:00:00,Butter (kg),Amrit Dairy,6285.2,2281.0,2.76
+2015-10-18 06:00:00,Wrapper film,FlexiWrap Films,4534421.2,361152.0,12.56
+2015-10-18 06:00:00,Carton,BoxWell Packaging,128999.6,9313.9,13.85
+2015-10-19 06:00:00,Wheat flour (kg),Deccan Mills,64077.0,20908.8,3.06
+2015-10-19 06:00:00,Sugar (kg),Shakti Sugars,100035.4,7983.4,12.53
+2015-10-19 06:00:00,Cream filling (kg),CreamCo,384.0,1710.7,0.22
+2015-10-19 06:00:00,Butter (kg),Amrit Dairy,24311.8,2281.0,10.66
+2015-10-19 06:00:00,Wrapper film,FlexiWrap Films,4159390.5,361152.0,11.52
+2015-10-19 06:00:00,Carton,BoxWell Packaging,119216.5,9313.9,12.8
+2015-10-20 06:00:00,Wheat flour (kg),Deccan Mills,257197.7,20908.8,12.3
+2015-10-20 06:00:00,Sugar (kg),Shakti Sugars,94312.2,7983.4,11.81
+2015-10-20 06:00:00,Cream filling (kg),CreamCo,0.0,1710.7,0.0
+2015-10-20 06:00:00,Butter (kg),Amrit Dairy,22241.2,2281.0,9.75
+2015-10-20 06:00:00,Wrapper film,FlexiWrap Films,3907742.7,361152.0,10.82
+2015-10-20 06:00:00,Carton,BoxWell Packaging,112675.1,9313.9,12.1
+2015-10-21 06:00:00,Wheat flour (kg),Deccan Mills,239771.2,20908.8,11.47
+2015-10-21 06:00:00,Sugar (kg),Shakti Sugars,88218.9,7983.4,11.05
+2015-10-21 06:00:00,Cream filling (kg),CreamCo,0.0,1710.7,0.0
+2015-10-21 06:00:00,Butter (kg),Amrit Dairy,19681.0,2281.0,8.63
+2015-10-21 06:00:00,Wrapper film,FlexiWrap Films,3645746.2,361152.0,10.09
+2015-10-21 06:00:00,Carton,BoxWell Packaging,105728.4,9313.9,11.35
+2015-10-22 06:00:00,Wheat flour (kg),Deccan Mills,225554.0,20908.8,10.79
+2015-10-22 06:00:00,Sugar (kg),Shakti Sugars,83238.7,7983.4,10.43
+2015-10-22 06:00:00,Cream filling (kg),CreamCo,20528.6,1710.7,12.0
+2015-10-22 06:00:00,Butter (kg),Amrit Dairy,17510.7,2281.0,7.68
+2015-10-22 06:00:00,Wrapper film,FlexiWrap Films,3432908.0,361152.0,9.51
+2015-10-22 06:00:00,Carton,BoxWell Packaging,100024.8,9313.9,10.74
+2015-10-23 06:00:00,Wheat flour (kg),Deccan Mills,205991.3,20908.8,9.85
+2015-10-23 06:00:00,Sugar (kg),Shakti Sugars,75747.0,7983.4,9.49
+2015-10-23 06:00:00,Cream filling (kg),CreamCo,18845.5,1710.7,11.02
+2015-10-23 06:00:00,Butter (kg),Amrit Dairy,15506.2,2281.0,6.8
+2015-10-23 06:00:00,Wrapper film,FlexiWrap Films,3091732.3,361152.0,8.56
+2015-10-23 06:00:00,Carton,BoxWell Packaging,91303.9,9313.9,9.8
+2015-10-24 06:00:00,Wheat flour (kg),Deccan Mills,186330.2,20908.8,8.91
+2015-10-24 06:00:00,Sugar (kg),Shakti Sugars,68142.1,7983.4,8.54
+2015-10-24 06:00:00,Cream filling (kg),CreamCo,17059.5,1710.7,9.97
+2015-10-24 06:00:00,Butter (kg),Amrit Dairy,13188.9,2281.0,5.78
+2015-10-24 06:00:00,Wrapper film,FlexiWrap Films,2750107.5,361152.0,7.61
+2015-10-24 06:00:00,Carton,BoxWell Packaging,82331.2,9313.9,8.84
+2015-10-25 06:00:00,Wheat flour (kg),Deccan Mills,164139.6,20908.8,7.85
+2015-10-25 06:00:00,Sugar (kg),Shakti Sugars,59667.6,7983.4,7.47
+2015-10-25 06:00:00,Cream filling (kg),CreamCo,15223.7,1710.7,8.9
+2015-10-25 06:00:00,Butter (kg),Amrit Dairy,10833.4,2281.0,4.75
+2015-10-25 06:00:00,Wrapper film,FlexiWrap Films,2365640.6,361152.0,6.55
+2015-10-25 06:00:00,Carton,BoxWell Packaging,72459.6,9313.9,7.78
+2015-10-26 06:00:00,Wheat flour (kg),Deccan Mills,142385.2,20908.8,6.81
+2015-10-26 06:00:00,Sugar (kg),Shakti Sugars,51355.5,7983.4,6.43
+2015-10-26 06:00:00,Cream filling (kg),CreamCo,13379.4,1710.7,7.82
+2015-10-26 06:00:00,Butter (kg),Amrit Dairy,8665.2,2281.0,3.8
+2015-10-26 06:00:00,Wrapper film,FlexiWrap Films,1986172.6,361152.0,5.5
+2015-10-26 06:00:00,Carton,BoxWell Packaging,62810.0,9313.9,6.74
+2015-10-27 06:00:00,Wheat flour (kg),Deccan Mills,120847.2,20908.8,5.78
+2015-10-27 06:00:00,Sugar (kg),Shakti Sugars,43159.6,7983.4,5.41
+2015-10-27 06:00:00,Cream filling (kg),CreamCo,11639.1,1710.7,6.8
+2015-10-27 06:00:00,Butter (kg),Amrit Dairy,6477.4,2281.0,2.84
+2015-10-27 06:00:00,Wrapper film,FlexiWrap Films,1612842.4,361152.0,4.47
+2015-10-27 06:00:00,Carton,BoxWell Packaging,53304.7,9313.9,5.72
+2015-10-28 06:00:00,Wheat flour (kg),Deccan Mills,98651.4,20908.8,4.72
+2015-10-28 06:00:00,Sugar (kg),Shakti Sugars,34658.2,7983.4,4.34
+2015-10-28 06:00:00,Cream filling (kg),CreamCo,9751.3,1710.7,5.7
+2015-10-28 06:00:00,Butter (kg),Amrit Dairy,24631.8,2281.0,10.8
+2015-10-28 06:00:00,Wrapper film,FlexiWrap Films,1227341.1,361152.0,3.4
+2015-10-28 06:00:00,Carton,BoxWell Packaging,43382.6,9313.9,4.66
+2015-10-29 06:00:00,Wheat flour (kg),Deccan Mills,76906.5,20908.8,3.68
+2015-10-29 06:00:00,Sugar (kg),Shakti Sugars,26353.6,7983.4,3.3
+2015-10-29 06:00:00,Cream filling (kg),CreamCo,7914.4,1710.7,4.63
+2015-10-29 06:00:00,Butter (kg),Amrit Dairy,22472.5,2281.0,9.85
+2015-10-29 06:00:00,Wrapper film,FlexiWrap Films,848098.8,361152.0,2.35
+2015-10-29 06:00:00,Carton,BoxWell Packaging,33746.0,9313.9,3.62
+2015-10-30 06:00:00,Wheat flour (kg),Deccan Mills,263952.4,20908.8,12.62
+2015-10-30 06:00:00,Sugar (kg),Shakti Sugars,113792.5,7983.4,14.25
+2015-10-30 06:00:00,Cream filling (kg),CreamCo,6246.2,1710.7,3.65
+2015-10-30 06:00:00,Butter (kg),Amrit Dairy,20018.8,2281.0,8.78
+2015-10-30 06:00:00,Wrapper film,FlexiWrap Films,470923.2,361152.0,1.3
+2015-10-30 06:00:00,Carton,BoxWell Packaging,24010.6,9313.9,2.58
+2015-10-31 06:00:00,Wheat flour (kg),Deccan Mills,241646.3,20908.8,11.56
+2015-10-31 06:00:00,Sugar (kg),Shakti Sugars,105273.7,7983.4,13.19
+2015-10-31 06:00:00,Cream filling (kg),CreamCo,4443.1,1710.7,2.6
+2015-10-31 06:00:00,Butter (kg),Amrit Dairy,17481.2,2281.0,7.66
+2015-10-31 06:00:00,Wrapper film,FlexiWrap Films,87281.1,361152.0,0.24
+2015-10-31 06:00:00,Carton,BoxWell Packaging,125812.0,9313.9,13.51
+2015-11-01 06:00:00,Wheat flour (kg),Deccan Mills,236499.6,20908.8,11.31
+2015-11-01 06:00:00,Sugar (kg),Shakti Sugars,103334.3,7983.4,12.94
+2015-11-01 06:00:00,Cream filling (kg),CreamCo,24613.3,1710.7,14.39
+2015-11-01 06:00:00,Butter (kg),Amrit Dairy,16899.7,2281.0,7.41
+2015-11-01 06:00:00,Wrapper film,FlexiWrap Films,5417280.0,361152.0,15.0
+2015-11-01 06:00:00,Carton,BoxWell Packaging,123559.2,9313.9,13.27
+2015-11-02 06:00:00,Wheat flour (kg),Deccan Mills,216395.2,20908.8,10.35
+2015-11-02 06:00:00,Sugar (kg),Shakti Sugars,95529.2,7983.4,11.97
+2015-11-02 06:00:00,Cream filling (kg),CreamCo,22754.5,1710.7,13.3
+2015-11-02 06:00:00,Butter (kg),Amrit Dairy,14403.0,2281.0,6.31
+2015-11-02 06:00:00,Wrapper film,FlexiWrap Films,5068639.1,361152.0,14.03
+2015-11-02 06:00:00,Carton,BoxWell Packaging,114302.3,9313.9,12.27
+2015-11-03 06:00:00,Wheat flour (kg),Deccan Mills,194349.8,20908.8,9.3
+2015-11-03 06:00:00,Sugar (kg),Shakti Sugars,87126.1,7983.4,10.91
+2015-11-03 06:00:00,Cream filling (kg),CreamCo,20964.7,1710.7,12.25
+2015-11-03 06:00:00,Butter (kg),Amrit Dairy,12069.5,2281.0,5.29
+2015-11-03 06:00:00,Wrapper film,FlexiWrap Films,4687373.5,361152.0,12.98
+2015-11-03 06:00:00,Carton,BoxWell Packaging,104524.8,9313.9,11.22
+2015-11-04 06:00:00,Wheat flour (kg),Deccan Mills,173191.7,20908.8,8.28
+2015-11-04 06:00:00,Sugar (kg),Shakti Sugars,79180.6,7983.4,9.92
+2015-11-04 06:00:00,Cream filling (kg),CreamCo,19521.2,1710.7,11.41
+2015-11-04 06:00:00,Butter (kg),Amrit Dairy,9809.1,2281.0,4.3
+2015-11-04 06:00:00,Wrapper film,FlexiWrap Films,4327773.8,361152.0,11.98
+2015-11-04 06:00:00,Carton,BoxWell Packaging,95344.7,9313.9,10.24
+2015-11-05 06:00:00,Wheat flour (kg),Deccan Mills,152011.9,20908.8,7.27
+2015-11-05 06:00:00,Sugar (kg),Shakti Sugars,71171.1,7983.4,8.91
+2015-11-05 06:00:00,Cream filling (kg),CreamCo,17916.3,1710.7,10.47
+2015-11-05 06:00:00,Butter (kg),Amrit Dairy,7682.1,2281.0,3.37
+2015-11-05 06:00:00,Wrapper film,FlexiWrap Films,3962746.6,361152.0,10.97
+2015-11-05 06:00:00,Carton,BoxWell Packaging,86091.2,9313.9,9.24
+2015-11-06 06:00:00,Wheat flour (kg),Deccan Mills,130780.0,20908.8,6.25
+2015-11-06 06:00:00,Sugar (kg),Shakti Sugars,63093.1,7983.4,7.9
+2015-11-06 06:00:00,Cream filling (kg),CreamCo,16195.6,1710.7,9.47
+2015-11-06 06:00:00,Butter (kg),Amrit Dairy,26087.1,2281.0,11.44
+2015-11-06 06:00:00,Wrapper film,FlexiWrap Films,3594238.3,361152.0,9.95
+2015-11-06 06:00:00,Carton,BoxWell Packaging,76731.7,9313.9,8.24
+2015-11-07 06:00:00,Wheat flour (kg),Deccan Mills,109472.5,20908.8,5.24
+2015-11-07 06:00:00,Sugar (kg),Shakti Sugars,55130.6,7983.4,6.91
+2015-11-07 06:00:00,Cream filling (kg),CreamCo,14880.1,1710.7,8.7
+2015-11-07 06:00:00,Butter (kg),Amrit Dairy,23609.4,2281.0,10.35
+2015-11-07 06:00:00,Wrapper film,FlexiWrap Films,3237410.4,361152.0,8.96
+2015-11-07 06:00:00,Carton,BoxWell Packaging,67504.8,9313.9,7.25
+2015-11-08 06:00:00,Wheat flour (kg),Deccan Mills,89390.6,20908.8,4.28
+2015-11-08 06:00:00,Sugar (kg),Shakti Sugars,47456.4,7983.4,5.94
+2015-11-08 06:00:00,Cream filling (kg),CreamCo,13123.5,1710.7,7.67
+2015-11-08 06:00:00,Butter (kg),Amrit Dairy,21813.7,2281.0,9.56
+2015-11-08 06:00:00,Wrapper film,FlexiWrap Films,2883627.8,361152.0,7.98
+2015-11-08 06:00:00,Carton,BoxWell Packaging,58646.5,9313.9,6.3
+2015-11-09 06:00:00,Wheat flour (kg),Deccan Mills,67762.1,20908.8,3.24
+2015-11-09 06:00:00,Sugar (kg),Shakti Sugars,39188.3,7983.4,4.91
+2015-11-09 06:00:00,Cream filling (kg),CreamCo,11329.7,1710.7,6.62
+2015-11-09 06:00:00,Butter (kg),Amrit Dairy,19461.3,2281.0,8.53
+2015-11-09 06:00:00,Wrapper film,FlexiWrap Films,2509430.1,361152.0,6.95
+2015-11-09 06:00:00,Carton,BoxWell Packaging,48996.4,9313.9,5.26
+2015-11-10 06:00:00,Wheat flour (kg),Deccan Mills,254346.8,20908.8,12.16
+2015-11-10 06:00:00,Sugar (kg),Shakti Sugars,30612.4,7983.4,3.83
+2015-11-10 06:00:00,Cream filling (kg),CreamCo,9530.0,1710.7,5.57
+2015-11-10 06:00:00,Butter (kg),Amrit Dairy,16986.7,2281.0,7.45
+2015-11-10 06:00:00,Wrapper film,FlexiWrap Films,2121877.2,361152.0,5.88
+2015-11-10 06:00:00,Carton,BoxWell Packaging,38995.6,9313.9,4.19
+2015-11-11 06:00:00,Wheat flour (kg),Deccan Mills,233373.0,20908.8,11.16
+2015-11-11 06:00:00,Sugar (kg),Shakti Sugars,22566.5,7983.4,2.83
+2015-11-11 06:00:00,Cream filling (kg),CreamCo,7763.0,1710.7,4.54
+2015-11-11 06:00:00,Butter (kg),Amrit Dairy,14563.1,2281.0,6.38
+2015-11-11 06:00:00,Wrapper film,FlexiWrap Films,1759975.5,361152.0,4.87
+2015-11-11 06:00:00,Carton,BoxWell Packaging,29552.9,9313.9,3.17
+2015-11-12 06:00:00,Wheat flour (kg),Deccan Mills,210485.1,20908.8,10.07
+2015-11-12 06:00:00,Sugar (kg),Shakti Sugars,109632.3,7983.4,13.73
+2015-11-12 06:00:00,Cream filling (kg),CreamCo,5877.6,1710.7,3.44
+2015-11-12 06:00:00,Butter (kg),Amrit Dairy,12158.0,2281.0,5.33
+2015-11-12 06:00:00,Wrapper film,FlexiWrap Films,1363335.5,361152.0,3.77
+2015-11-12 06:00:00,Carton,BoxWell Packaging,131155.2,9313.9,14.08
+2015-11-13 06:00:00,Wheat flour (kg),Deccan Mills,188832.5,20908.8,9.03
+2015-11-13 06:00:00,Sugar (kg),Shakti Sugars,101413.7,7983.4,12.7
+2015-11-13 06:00:00,Cream filling (kg),CreamCo,4244.2,1710.7,2.48
+2015-11-13 06:00:00,Butter (kg),Amrit Dairy,9682.2,2281.0,4.24
+2015-11-13 06:00:00,Wrapper film,FlexiWrap Films,6410951.3,361152.0,17.75
+2015-11-13 06:00:00,Carton,BoxWell Packaging,121567.0,9313.9,13.05
+2015-11-14 06:00:00,Wheat flour (kg),Deccan Mills,167797.9,20908.8,8.03
+2015-11-14 06:00:00,Sugar (kg),Shakti Sugars,93499.2,7983.4,11.71
+2015-11-14 06:00:00,Cream filling (kg),CreamCo,23350.4,1710.7,13.65
+2015-11-14 06:00:00,Butter (kg),Amrit Dairy,7245.3,2281.0,3.18
+2015-11-14 06:00:00,Wrapper film,FlexiWrap Films,6055842.5,361152.0,16.77
+2015-11-14 06:00:00,Carton,BoxWell Packaging,112366.0,9313.9,12.06
+2015-11-15 06:00:00,Wheat flour (kg),Deccan Mills,146500.5,20908.8,7.01
+2015-11-15 06:00:00,Sugar (kg),Shakti Sugars,85344.9,7983.4,10.69
+2015-11-15 06:00:00,Cream filling (kg),CreamCo,21495.8,1710.7,12.57
+2015-11-15 06:00:00,Butter (kg),Amrit Dairy,25695.4,2281.0,11.27
+2015-11-15 06:00:00,Wrapper film,FlexiWrap Films,5682767.0,361152.0,15.74
+2015-11-15 06:00:00,Carton,BoxWell Packaging,102900.7,9313.9,11.05
+2015-11-16 06:00:00,Wheat flour (kg),Deccan Mills,124483.8,20908.8,5.95
+2015-11-16 06:00:00,Sugar (kg),Shakti Sugars,77036.8,7983.4,9.65
+2015-11-16 06:00:00,Cream filling (kg),CreamCo,19927.6,1710.7,11.65
+2015-11-16 06:00:00,Butter (kg),Amrit Dairy,23245.0,2281.0,10.19
+2015-11-16 06:00:00,Wrapper film,FlexiWrap Films,5308199.9,361152.0,14.7
+2015-11-16 06:00:00,Carton,BoxWell Packaging,93253.0,9313.9,10.01
+2015-11-17 06:00:00,Wheat flour (kg),Deccan Mills,104072.1,20908.8,4.98
+2015-11-17 06:00:00,Sugar (kg),Shakti Sugars,69200.9,7983.4,8.67
+2015-11-17 06:00:00,Cream filling (kg),CreamCo,18219.8,1710.7,10.65
+2015-11-17 06:00:00,Butter (kg),Amrit Dairy,20789.1,2281.0,9.11
+2015-11-17 06:00:00,Wrapper film,FlexiWrap Films,4957341.5,361152.0,13.73
+2015-11-17 06:00:00,Carton,BoxWell Packaging,84029.3,9313.9,9.02
+2015-11-18 06:00:00,Wheat flour (kg),Deccan Mills,83533.6,20908.8,4.0
+2015-11-18 06:00:00,Sugar (kg),Shakti Sugars,61361.2,7983.4,7.69
+2015-11-18 06:00:00,Cream filling (kg),CreamCo,16496.2,1710.7,9.64
+2015-11-18 06:00:00,Butter (kg),Amrit Dairy,18741.3,2281.0,8.22
+2015-11-18 06:00:00,Wrapper film,FlexiWrap Films,4599484.3,361152.0,12.74
+2015-11-18 06:00:00,Carton,BoxWell Packaging,74932.4,9313.9,8.05
+2015-11-19 06:00:00,Wheat flour (kg),Deccan Mills,65736.0,20908.8,3.14
+2015-11-19 06:00:00,Sugar (kg),Shakti Sugars,54701.4,7983.4,6.85
+2015-11-19 06:00:00,Cream filling (kg),CreamCo,15402.4,1710.7,9.0
+2015-11-19 06:00:00,Butter (kg),Amrit Dairy,16570.8,2281.0,7.26
+2015-11-19 06:00:00,Wrapper film,FlexiWrap Films,4302666.7,361152.0,11.91
+2015-11-19 06:00:00,Carton,BoxWell Packaging,67184.5,9313.9,7.21
+2015-11-20 06:00:00,Wheat flour (kg),Deccan Mills,253776.7,20908.8,12.14
+2015-11-20 06:00:00,Sugar (kg),Shakti Sugars,46660.2,7983.4,5.84
+2015-11-20 06:00:00,Cream filling (kg),CreamCo,13596.9,1710.7,7.95
+2015-11-20 06:00:00,Butter (kg),Amrit Dairy,14564.1,2281.0,6.39
+2015-11-20 06:00:00,Wrapper film,FlexiWrap Films,3934052.3,361152.0,10.89
+2015-11-20 06:00:00,Carton,BoxWell Packaging,57872.6,9313.9,6.21
+2015-11-21 06:00:00,Wheat flour (kg),Deccan Mills,234071.1,20908.8,11.19
+2015-11-21 06:00:00,Sugar (kg),Shakti Sugars,39078.2,7983.4,4.89
+2015-11-21 06:00:00,Cream filling (kg),CreamCo,11751.9,1710.7,6.87
+2015-11-21 06:00:00,Butter (kg),Amrit Dairy,12822.6,2281.0,5.62
+2015-11-21 06:00:00,Wrapper film,FlexiWrap Films,3583976.3,361152.0,9.92
+2015-11-21 06:00:00,Carton,BoxWell Packaging,49095.0,9313.9,5.27
+2015-11-22 06:00:00,Wheat flour (kg),Deccan Mills,211994.3,20908.8,10.14
+2015-11-22 06:00:00,Sugar (kg),Shakti Sugars,30643.5,7983.4,3.84
+2015-11-22 06:00:00,Cream filling (kg),CreamCo,9929.5,1710.7,5.8
+2015-11-22 06:00:00,Butter (kg),Amrit Dairy,10431.0,2281.0,4.57
+2015-11-22 06:00:00,Wrapper film,FlexiWrap Films,3202106.4,361152.0,8.87
+2015-11-22 06:00:00,Carton,BoxWell Packaging,39255.8,9313.9,4.21
+2015-11-23 06:00:00,Wheat flour (kg),Deccan Mills,189719.1,20908.8,9.07
+2015-11-23 06:00:00,Sugar (kg),Shakti Sugars,22170.4,7983.4,2.78
+2015-11-23 06:00:00,Cream filling (kg),CreamCo,8173.9,1710.7,4.78
+2015-11-23 06:00:00,Butter (kg),Amrit Dairy,8020.6,2281.0,3.52
+2015-11-23 06:00:00,Wrapper film,FlexiWrap Films,2818621.3,361152.0,7.8
+2015-11-23 06:00:00,Carton,BoxWell Packaging,29393.9,9313.9,3.16
+2015-11-24 06:00:00,Wheat flour (kg),Deccan Mills,168242.8,20908.8,8.05
+2015-11-24 06:00:00,Sugar (kg),Shakti Sugars,109779.8,7983.4,13.75
+2015-11-24 06:00:00,Cream filling (kg),CreamCo,6476.1,1710.7,3.79
+2015-11-24 06:00:00,Butter (kg),Amrit Dairy,5523.0,2281.0,2.42
+2015-11-24 06:00:00,Wrapper film,FlexiWrap Films,2450704.0,361152.0,6.79
+2015-11-24 06:00:00,Carton,BoxWell Packaging,19804.6,9313.9,2.13
+2015-11-25 06:00:00,Wheat flour (kg),Deccan Mills,146691.2,20908.8,7.02
+2015-11-25 06:00:00,Sugar (kg),Shakti Sugars,101724.3,7983.4,12.74
+2015-11-25 06:00:00,Cream filling (kg),CreamCo,25637.7,1710.7,14.99
+2015-11-25 06:00:00,Butter (kg),Amrit Dairy,23675.2,2281.0,10.38
+2015-11-25 06:00:00,Wrapper film,FlexiWrap Films,2087538.3,361152.0,5.78
+2015-11-25 06:00:00,Carton,BoxWell Packaging,122268.3,9313.9,13.13
+2015-11-26 06:00:00,Wheat flour (kg),Deccan Mills,124489.8,20908.8,5.95
+2015-11-26 06:00:00,Sugar (kg),Shakti Sugars,93286.3,7983.4,11.69
+2015-11-26 06:00:00,Cream filling (kg),CreamCo,23900.9,1710.7,13.97
+2015-11-26 06:00:00,Butter (kg),Amrit Dairy,21284.2,2281.0,9.33
+2015-11-26 06:00:00,Wrapper film,FlexiWrap Films,1705486.1,361152.0,4.72
+2015-11-26 06:00:00,Carton,BoxWell Packaging,112454.3,9313.9,12.07
+2015-11-27 06:00:00,Wheat flour (kg),Deccan Mills,103435.3,20908.8,4.95
+2015-11-27 06:00:00,Sugar (kg),Shakti Sugars,85245.1,7983.4,10.68
+2015-11-27 06:00:00,Cream filling (kg),CreamCo,22148.6,1710.7,12.95
+2015-11-27 06:00:00,Butter (kg),Amrit Dairy,19086.4,2281.0,8.37
+2015-11-27 06:00:00,Wrapper film,FlexiWrap Films,1340056.3,361152.0,3.71
+2015-11-27 06:00:00,Carton,BoxWell Packaging,103096.4,9313.9,11.07
+2015-11-28 06:00:00,Wheat flour (kg),Deccan Mills,81328.0,20908.8,3.89
+2015-11-28 06:00:00,Sugar (kg),Shakti Sugars,76833.6,7983.4,9.62
+2015-11-28 06:00:00,Cream filling (kg),CreamCo,20410.6,1710.7,11.93
+2015-11-28 06:00:00,Butter (kg),Amrit Dairy,16656.3,2281.0,7.3
+2015-11-28 06:00:00,Wrapper film,FlexiWrap Films,6377261.9,361152.0,17.66
+2015-11-28 06:00:00,Carton,BoxWell Packaging,93295.5,9313.9,10.02
+2015-11-29 06:00:00,Wheat flour (kg),Deccan Mills,60580.9,20908.8,2.9
+2015-11-29 06:00:00,Sugar (kg),Shakti Sugars,68904.1,7983.4,8.63
+2015-11-29 06:00:00,Cream filling (kg),CreamCo,18732.1,1710.7,10.95
+2015-11-29 06:00:00,Butter (kg),Amrit Dairy,14246.5,2281.0,6.25
+2015-11-29 06:00:00,Wrapper film,FlexiWrap Films,6020951.8,361152.0,16.67
+2015-11-29 06:00:00,Carton,BoxWell Packaging,84003.4,9313.9,9.02
+2015-11-30 06:00:00,Wheat flour (kg),Deccan Mills,247560.0,20908.8,11.84
+2015-11-30 06:00:00,Sugar (kg),Shakti Sugars,60438.6,7983.4,7.57
+2015-11-30 06:00:00,Cream filling (kg),CreamCo,16879.7,1710.7,9.87
+2015-11-30 06:00:00,Butter (kg),Amrit Dairy,11792.7,2281.0,5.17
+2015-11-30 06:00:00,Wrapper film,FlexiWrap Films,5638570.6,361152.0,15.61
+2015-11-30 06:00:00,Carton,BoxWell Packaging,74102.4,9313.9,7.96
+2015-12-01 06:00:00,Wheat flour (kg),Deccan Mills,227068.7,20908.8,10.86
+2015-12-01 06:00:00,Sugar (kg),Shakti Sugars,52646.7,7983.4,6.59
+2015-12-01 06:00:00,Cream filling (kg),CreamCo,15195.2,1710.7,8.88
+2015-12-01 06:00:00,Butter (kg),Amrit Dairy,9878.3,2281.0,4.33
+2015-12-01 06:00:00,Wrapper film,FlexiWrap Films,5280886.1,361152.0,14.62
+2015-12-01 06:00:00,Carton,BoxWell Packaging,65110.9,9313.9,6.99
+2015-12-02 06:00:00,Wheat flour (kg),Deccan Mills,204774.1,20908.8,9.79
+2015-12-02 06:00:00,Sugar (kg),Shakti Sugars,44102.7,7983.4,5.52
+2015-12-02 06:00:00,Cream filling (kg),CreamCo,13288.6,1710.7,7.77
+2015-12-02 06:00:00,Butter (kg),Amrit Dairy,7492.2,2281.0,3.28
+2015-12-02 06:00:00,Wrapper film,FlexiWrap Films,4893452.1,361152.0,13.55
+2015-12-02 06:00:00,Carton,BoxWell Packaging,55136.0,9313.9,5.92
+2015-12-03 06:00:00,Wheat flour (kg),Deccan Mills,182266.4,20908.8,8.72
+2015-12-03 06:00:00,Sugar (kg),Shakti Sugars,35544.1,7983.4,4.45
+2015-12-03 06:00:00,Cream filling (kg),CreamCo,11538.3,1710.7,6.74
+2015-12-03 06:00:00,Butter (kg),Amrit Dairy,25517.8,2281.0,11.19
+2015-12-03 06:00:00,Wrapper film,FlexiWrap Films,4507241.7,361152.0,12.48
+2015-12-03 06:00:00,Carton,BoxWell Packaging,45159.6,9313.9,4.85
+2015-12-04 06:00:00,Wheat flour (kg),Deccan Mills,162347.0,20908.8,7.76
+2015-12-04 06:00:00,Sugar (kg),Shakti Sugars,27842.5,7983.4,3.49
+2015-12-04 06:00:00,Cream filling (kg),CreamCo,9746.1,1710.7,5.7
+2015-12-04 06:00:00,Butter (kg),Amrit Dairy,23129.8,2281.0,10.14
+2015-12-04 06:00:00,Wrapper film,FlexiWrap Films,4161957.1,361152.0,11.52
+2015-12-04 06:00:00,Carton,BoxWell Packaging,36064.6,9313.9,3.87
+2015-12-05 06:00:00,Wheat flour (kg),Deccan Mills,140823.7,20908.8,6.74
+2015-12-05 06:00:00,Sugar (kg),Shakti Sugars,19698.8,7983.4,2.47
+2015-12-05 06:00:00,Cream filling (kg),CreamCo,8162.7,1710.7,4.77
+2015-12-05 06:00:00,Butter (kg),Amrit Dairy,20739.8,2281.0,9.09
+2015-12-05 06:00:00,Wrapper film,FlexiWrap Films,3794605.1,361152.0,10.51
+2015-12-05 06:00:00,Carton,BoxWell Packaging,26596.4,9313.9,2.86
+2015-12-06 06:00:00,Wheat flour (kg),Deccan Mills,119381.5,20908.8,5.71
+2015-12-06 06:00:00,Sugar (kg),Shakti Sugars,107371.7,7983.4,13.45
+2015-12-06 06:00:00,Cream filling (kg),CreamCo,6545.6,1710.7,3.83
+2015-12-06 06:00:00,Butter (kg),Amrit Dairy,18388.6,2281.0,8.06
+2015-12-06 06:00:00,Wrapper film,FlexiWrap Films,3427421.8,361152.0,9.49
+2015-12-06 06:00:00,Carton,BoxWell Packaging,128913.3,9313.9,13.84
+2015-12-07 06:00:00,Wheat flour (kg),Deccan Mills,97140.6,20908.8,4.65
+2015-12-07 06:00:00,Sugar (kg),Shakti Sugars,98894.2,7983.4,12.39
+2015-12-07 06:00:00,Cream filling (kg),CreamCo,4766.6,1710.7,2.79
+2015-12-07 06:00:00,Butter (kg),Amrit Dairy,15930.0,2281.0,6.98
+2015-12-07 06:00:00,Wrapper film,FlexiWrap Films,3044526.1,361152.0,8.43
+2015-12-07 06:00:00,Carton,BoxWell Packaging,119023.3,9313.9,12.78
+2015-12-08 06:00:00,Wheat flour (kg),Deccan Mills,75891.7,20908.8,3.63
+2015-12-08 06:00:00,Sugar (kg),Shakti Sugars,90742.2,7983.4,11.37
+2015-12-08 06:00:00,Cream filling (kg),CreamCo,2974.1,1710.7,1.74
+2015-12-08 06:00:00,Butter (kg),Amrit Dairy,13478.6,2281.0,5.91
+2015-12-08 06:00:00,Wrapper film,FlexiWrap Films,2677781.4,361152.0,7.41
+2015-12-08 06:00:00,Carton,BoxWell Packaging,109456.6,9313.9,11.75
+2015-12-09 06:00:00,Wheat flour (kg),Deccan Mills,53774.4,20908.8,2.57
+2015-12-09 06:00:00,Sugar (kg),Shakti Sugars,82262.6,7983.4,10.3
+2015-12-09 06:00:00,Cream filling (kg),CreamCo,1076.2,1710.7,0.63
+2015-12-09 06:00:00,Butter (kg),Amrit Dairy,11106.1,2281.0,4.87
+2015-12-09 06:00:00,Wrapper film,FlexiWrap Films,2293345.7,361152.0,6.35
+2015-12-09 06:00:00,Carton,BoxWell Packaging,99553.6,9313.9,10.69
+2015-12-10 06:00:00,Wheat flour (kg),Deccan Mills,242205.8,20908.8,11.58
+2015-12-10 06:00:00,Sugar (kg),Shakti Sugars,74618.5,7983.4,9.35
+2015-12-10 06:00:00,Cream filling (kg),CreamCo,0.0,1710.7,0.0
+2015-12-10 06:00:00,Butter (kg),Amrit Dairy,8583.1,2281.0,3.76
+2015-12-10 06:00:00,Wrapper film,FlexiWrap Films,1953186.8,361152.0,5.41
+2015-12-10 06:00:00,Carton,BoxWell Packaging,90709.6,9313.9,9.74
+2015-12-11 06:00:00,Wheat flour (kg),Deccan Mills,224661.2,20908.8,10.74
+2015-12-11 06:00:00,Sugar (kg),Shakti Sugars,68496.8,7983.4,8.58
+2015-12-11 06:00:00,Cream filling (kg),CreamCo,20528.6,1710.7,12.0
+2015-12-11 06:00:00,Butter (kg),Amrit Dairy,6122.2,2281.0,2.68
+2015-12-11 06:00:00,Wrapper film,FlexiWrap Films,1688120.7,361152.0,4.67
+2015-12-11 06:00:00,Carton,BoxWell Packaging,83767.7,9313.9,8.99
+2015-12-12 06:00:00,Wheat flour (kg),Deccan Mills,202967.5,20908.8,9.71
+2015-12-12 06:00:00,Sugar (kg),Shakti Sugars,60158.5,7983.4,7.54
+2015-12-12 06:00:00,Cream filling (kg),CreamCo,18658.5,1710.7,10.91
+2015-12-12 06:00:00,Butter (kg),Amrit Dairy,24167.1,2281.0,10.6
+2015-12-12 06:00:00,Wrapper film,FlexiWrap Films,1312598.2,361152.0,3.63
+2015-12-12 06:00:00,Carton,BoxWell Packaging,73978.1,9313.9,7.94
+2015-12-13 06:00:00,Wheat flour (kg),Deccan Mills,181232.2,20908.8,8.67
+2015-12-13 06:00:00,Sugar (kg),Shakti Sugars,51805.4,7983.4,6.49
+2015-12-13 06:00:00,Cream filling (kg),CreamCo,16782.7,1710.7,9.81
+2015-12-13 06:00:00,Butter (kg),Amrit Dairy,21698.7,2281.0,9.51
+2015-12-13 06:00:00,Wrapper film,FlexiWrap Films,936086.2,361152.0,2.59
+2015-12-13 06:00:00,Carton,BoxWell Packaging,64177.0,9313.9,6.89
+2015-12-14 06:00:00,Wheat flour (kg),Deccan Mills,161450.3,20908.8,7.72
+2015-12-14 06:00:00,Sugar (kg),Shakti Sugars,44181.9,7983.4,5.53
+2015-12-14 06:00:00,Cream filling (kg),CreamCo,14901.6,1710.7,8.71
+2015-12-14 06:00:00,Butter (kg),Amrit Dairy,19957.5,2281.0,8.75
+2015-12-14 06:00:00,Wrapper film,FlexiWrap Films,6001210.1,361152.0,16.62
+2015-12-14 06:00:00,Carton,BoxWell Packaging,55346.1,9313.9,5.94
+2015-12-15 06:00:00,Wheat flour (kg),Deccan Mills,139417.8,20908.8,6.67
+2015-12-15 06:00:00,Sugar (kg),Shakti Sugars,35792.7,7983.4,4.48
+2015-12-15 06:00:00,Cream filling (kg),CreamCo,13160.2,1710.7,7.69
+2015-12-15 06:00:00,Butter (kg),Amrit Dairy,17517.3,2281.0,7.68
+2015-12-15 06:00:00,Wrapper film,FlexiWrap Films,1986336.0,361152.0,5.5
+2015-12-15 06:00:00,Carton,BoxWell Packaging,45563.0,9313.9,4.89
+2015-12-16 06:00:00,Wheat flour (kg),Deccan Mills,118685.8,20908.8,5.68
+2015-12-16 06:00:00,Sugar (kg),Shakti Sugars,27935.2,7983.4,3.5
+2015-12-16 06:00:00,Cream filling (kg),CreamCo,11554.5,1710.7,6.75
+2015-12-16 06:00:00,Butter (kg),Amrit Dairy,15419.1,2281.0,6.76
+2015-12-16 06:00:00,Wrapper film,FlexiWrap Films,1628434.4,361152.0,4.51
+2015-12-16 06:00:00,Carton,BoxWell Packaging,36470.9,9313.9,3.92
+2015-12-17 06:00:00,Wheat flour (kg),Deccan Mills,96974.5,20908.8,4.64
+2015-12-17 06:00:00,Sugar (kg),Shakti Sugars,19686.8,7983.4,2.47
+2015-12-17 06:00:00,Cream filling (kg),CreamCo,9893.1,1710.7,5.78
+2015-12-17 06:00:00,Butter (kg),Amrit Dairy,12962.9,2281.0,5.68
+2015-12-17 06:00:00,Wrapper film,FlexiWrap Films,1256949.1,361152.0,3.48
+2015-12-17 06:00:00,Carton,BoxWell Packaging,26849.9,9313.9,2.88
+2015-12-18 06:00:00,Wheat flour (kg),Deccan Mills,74605.6,20908.8,3.57
+2015-12-18 06:00:00,Sugar (kg),Shakti Sugars,106909.6,7983.4,13.39
+2015-12-18 06:00:00,Cream filling (kg),CreamCo,7999.2,1710.7,4.68
+2015-12-18 06:00:00,Butter (kg),Amrit Dairy,10447.7,2281.0,4.58
+2015-12-18 06:00:00,Wrapper film,FlexiWrap Films,869995.9,361152.0,2.41
+2015-12-18 06:00:00,Carton,BoxWell Packaging,128569.8,9313.9,13.8
+2015-12-19 06:00:00,Wheat flour (kg),Deccan Mills,264194.3,20908.8,12.64
+2015-12-19 06:00:00,Sugar (kg),Shakti Sugars,99415.7,7983.4,12.45
+2015-12-19 06:00:00,Cream filling (kg),CreamCo,6300.7,1710.7,3.68
+2015-12-19 06:00:00,Butter (kg),Amrit Dairy,8294.2,2281.0,3.64
+2015-12-19 06:00:00,Wrapper film,FlexiWrap Films,531190.4,361152.0,1.47
+2015-12-19 06:00:00,Carton,BoxWell Packaging,119791.8,9313.9,12.86
+2015-12-20 06:00:00,Wheat flour (kg),Deccan Mills,242573.8,20908.8,11.6
+2015-12-20 06:00:00,Sugar (kg),Shakti Sugars,91246.2,7983.4,11.43
+2015-12-20 06:00:00,Cream filling (kg),CreamCo,4734.7,1710.7,2.77
+2015-12-20 06:00:00,Butter (kg),Amrit Dairy,5894.1,2281.0,2.58
+2015-12-20 06:00:00,Wrapper film,FlexiWrap Films,162716.0,361152.0,0.45
+2015-12-20 06:00:00,Carton,BoxWell Packaging,110300.3,9313.9,11.84
+2015-12-21 06:00:00,Wheat flour (kg),Deccan Mills,233470.5,20908.8,11.17
+2015-12-21 06:00:00,Sugar (kg),Shakti Sugars,87646.0,7983.4,10.98
+2015-12-21 06:00:00,Cream filling (kg),CreamCo,24249.8,1710.7,14.18
+2015-12-21 06:00:00,Butter (kg),Amrit Dairy,4856.6,2281.0,2.13
+2015-12-21 06:00:00,Wrapper film,FlexiWrap Films,0.0,361152.0,0.0
+2015-12-21 06:00:00,Carton,BoxWell Packaging,106016.5,9313.9,11.38
+2015-12-22 06:00:00,Wheat flour (kg),Deccan Mills,233470.5,20908.8,11.17
+2015-12-22 06:00:00,Sugar (kg),Shakti Sugars,87646.0,7983.4,10.98
+2015-12-22 06:00:00,Cream filling (kg),CreamCo,24249.8,1710.7,14.18
+2015-12-22 06:00:00,Butter (kg),Amrit Dairy,4856.6,2281.0,2.13
+2015-12-22 06:00:00,Wrapper film,FlexiWrap Films,5417280.0,361152.0,15.0
+2015-12-22 06:00:00,Carton,BoxWell Packaging,106016.5,9313.9,11.38
+2015-12-23 06:00:00,Wheat flour (kg),Deccan Mills,212905.3,20908.8,10.18
+2015-12-23 06:00:00,Sugar (kg),Shakti Sugars,79816.4,7983.4,10.0
+2015-12-23 06:00:00,Cream filling (kg),CreamCo,22661.1,1710.7,13.25
+2015-12-23 06:00:00,Butter (kg),Amrit Dairy,2440.6,2281.0,1.07
+2015-12-23 06:00:00,Wrapper film,FlexiWrap Films,5066066.3,361152.0,14.03
+2015-12-23 06:00:00,Carton,BoxWell Packaging,96851.9,9313.9,10.4
+2015-12-24 06:00:00,Wheat flour (kg),Deccan Mills,191981.2,20908.8,9.18
+2015-12-24 06:00:00,Sugar (kg),Shakti Sugars,71772.1,7983.4,8.99
+2015-12-24 06:00:00,Cream filling (kg),CreamCo,20777.6,1710.7,12.15
+2015-12-24 06:00:00,Butter (kg),Amrit Dairy,20876.3,2281.0,9.15
+2015-12-24 06:00:00,Wrapper film,FlexiWrap Films,4698730.2,361152.0,13.01
+2015-12-24 06:00:00,Carton,BoxWell Packaging,87482.1,9313.9,9.39
+2015-12-25 06:00:00,Wheat flour (kg),Deccan Mills,171166.0,20908.8,8.19
+2015-12-25 06:00:00,Sugar (kg),Shakti Sugars,63808.7,7983.4,7.99
+2015-12-25 06:00:00,Cream filling (kg),CreamCo,19005.0,1710.7,11.11
+2015-12-25 06:00:00,Butter (kg),Amrit Dairy,18742.2,2281.0,8.22
+2015-12-25 06:00:00,Wrapper film,FlexiWrap Films,4336131.0,361152.0,12.01
+2015-12-25 06:00:00,Carton,BoxWell Packaging,78216.5,9313.9,8.4
+2015-12-26 06:00:00,Wheat flour (kg),Deccan Mills,149161.2,20908.8,7.13
+2015-12-26 06:00:00,Sugar (kg),Shakti Sugars,55373.0,7983.4,6.94
+2015-12-26 06:00:00,Cream filling (kg),CreamCo,17115.0,1710.7,10.0
+2015-12-26 06:00:00,Butter (kg),Amrit Dairy,16394.8,2281.0,7.19
+2015-12-26 06:00:00,Wrapper film,FlexiWrap Films,3953467.8,361152.0,10.95
+2015-12-26 06:00:00,Carton,BoxWell Packaging,68368.3,9313.9,7.34
+2015-12-27 06:00:00,Wheat flour (kg),Deccan Mills,128409.5,20908.8,6.14
+2015-12-27 06:00:00,Sugar (kg),Shakti Sugars,47404.3,7983.4,5.94
+2015-12-27 06:00:00,Cream filling (kg),CreamCo,15351.9,1710.7,8.97
+2015-12-27 06:00:00,Butter (kg),Amrit Dairy,13984.2,2281.0,6.13
+2015-12-27 06:00:00,Wrapper film,FlexiWrap Films,3595210.3,361152.0,9.95
+2015-12-27 06:00:00,Carton,BoxWell Packaging,59008.4,9313.9,6.34
+2015-12-28 06:00:00,Wheat flour (kg),Deccan Mills,107692.3,20908.8,5.15
+2015-12-28 06:00:00,Sugar (kg),Shakti Sugars,39560.7,7983.4,4.96
+2015-12-28 06:00:00,Cream filling (kg),CreamCo,13737.8,1710.7,8.03
+2015-12-28 06:00:00,Butter (kg),Amrit Dairy,11999.9,2281.0,5.26
+2015-12-28 06:00:00,Wrapper film,FlexiWrap Films,3236101.5,361152.0,8.96
+2015-12-28 06:00:00,Carton,BoxWell Packaging,49965.3,9313.9,5.36
+2015-12-29 06:00:00,Wheat flour (kg),Deccan Mills,85968.2,20908.8,4.11
+2015-12-29 06:00:00,Sugar (kg),Shakti Sugars,31297.8,7983.4,3.92
+2015-12-29 06:00:00,Cream filling (kg),CreamCo,12032.7,1710.7,7.03
+2015-12-29 06:00:00,Butter (kg),Amrit Dairy,9626.5,2281.0,4.22
+2015-12-29 06:00:00,Wrapper film,FlexiWrap Films,2862514.1,361152.0,7.93
+2015-12-29 06:00:00,Carton,BoxWell Packaging,40342.9,9313.9,4.33
+2015-12-30 06:00:00,Wheat flour (kg),Deccan Mills,65136.0,20908.8,3.12
+2015-12-30 06:00:00,Sugar (kg),Shakti Sugars,23389.0,7983.4,2.93
+2015-12-30 06:00:00,Cream filling (kg),CreamCo,10314.6,1710.7,6.03
+2015-12-30 06:00:00,Butter (kg),Amrit Dairy,7816.1,2281.0,3.43
+2015-12-30 06:00:00,Wrapper film,FlexiWrap Films,2497246.5,361152.0,6.91
+2015-12-30 06:00:00,Carton,BoxWell Packaging,31258.0,9313.9,3.36
+2015-12-31 06:00:00,Wheat flour (kg),Deccan Mills,254274.3,20908.8,12.16
+2015-12-31 06:00:00,Sugar (kg),Shakti Sugars,111604.6,7983.4,13.98
+2015-12-31 06:00:00,Cream filling (kg),CreamCo,8764.8,1710.7,5.12
+2015-12-31 06:00:00,Butter (kg),Amrit Dairy,5602.3,2281.0,2.46
+2015-12-31 06:00:00,Wrapper film,FlexiWrap Films,2154907.6,361152.0,5.97
+2015-12-31 06:00:00,Carton,BoxWell Packaging,134185.7,9313.9,14.41

@@ -1,0 +1,101 @@
+machine,line,station_id,station,mode,model,age,criticality
+L1-BLW-01,L1,L1-BLW,Blow molder,parallel,model3,18,Medium
+L1-BLW-02,L1,L1-BLW,Blow molder,parallel,model4,7,Medium
+L1-CMP-01,L1,L1-CMP,Air compressor,parallel,model3,8,Low
+L1-CMP-02,L1,L1-CMP,Air compressor,parallel,model3,7,Low
+L1-RNS-01,L1,L1-RNS,Rinser,series,model3,2,High
+L1-FIL-01,L1,L1-FIL,Filler,series,model3,7,High
+L1-CAP-01,L1,L1-CAP,Capper,parallel,model3,20,Medium
+L1-CAP-02,L1,L1-CAP,Capper,parallel,model3,16,Medium
+L1-INS-01,L1,L1-INS,Fill inspector,series,model4,7,High
+L1-LBL-01,L1,L1-LBL,Labeler,parallel,model3,10,Low
+L1-LBL-02,L1,L1-LBL,Labeler,parallel,model2,6,Low
+L1-COD-01,L1,L1-COD,Date coder,series,model3,9,High
+L1-SHR-01,L1,L1-SHR,Shrink wrapper,parallel,model1,15,Low
+L1-SHR-02,L1,L1-SHR,Shrink wrapper,parallel,model3,1,Low
+L1-PAL-01,L1,L1-PAL,Palletizer,series,model3,14,High
+L1-CNV-01,L1,L1-CNV,Conveyor,series,model1,3,High
+L1-CNV-02,L1,L1-CNV,Conveyor,series,model1,14,High
+L1-CNV-03,L1,L1-CNV,Conveyor,series,model3,15,High
+L1-CNV-04,L1,L1-CNV,Conveyor,series,model3,17,High
+L1-CHL-01,L1,L1-CHL,Chiller,series,model2,16,High
+L2-BLW-01,L2,L2-BLW,Blow molder,parallel,model2,14,Medium
+L2-BLW-02,L2,L2-BLW,Blow molder,parallel,model1,14,Medium
+L2-CMP-01,L2,L2-CMP,Air compressor,parallel,model1,17,Low
+L2-CMP-02,L2,L2-CMP,Air compressor,parallel,model1,20,Low
+L2-RNS-01,L2,L2-RNS,Rinser,series,model4,16,High
+L2-FIL-01,L2,L2-FIL,Filler,series,model3,3,High
+L2-CAP-01,L2,L2-CAP,Capper,parallel,model3,9,Medium
+L2-CAP-02,L2,L2-CAP,Capper,parallel,model4,1,Medium
+L2-INS-01,L2,L2-INS,Fill inspector,series,model4,3,High
+L2-LBL-01,L2,L2-LBL,Labeler,parallel,model3,20,Low
+L2-LBL-02,L2,L2-LBL,Labeler,parallel,model1,11,Low
+L2-COD-01,L2,L2-COD,Date coder,series,model4,15,High
+L2-SHR-01,L2,L2-SHR,Shrink wrapper,parallel,model3,14,Low
+L2-SHR-02,L2,L2-SHR,Shrink wrapper,parallel,model4,10,Low
+L2-PAL-01,L2,L2-PAL,Palletizer,series,model1,17,High
+L2-CNV-01,L2,L2-CNV,Conveyor,series,model4,5,High
+L2-CNV-02,L2,L2-CNV,Conveyor,series,model1,16,High
+L2-CNV-03,L2,L2-CNV,Conveyor,series,model4,15,High
+L2-CNV-04,L2,L2-CNV,Conveyor,series,model4,0,High
+L2-CHL-01,L2,L2-CHL,Chiller,series,model2,4,High
+L3-BLW-01,L3,L3-BLW,Blow molder,parallel,model4,9,Medium
+L3-BLW-02,L3,L3-BLW,Blow molder,parallel,model1,7,Medium
+L3-CMP-01,L3,L3-CMP,Air compressor,parallel,model3,14,Low
+L3-CMP-02,L3,L3-CMP,Air compressor,parallel,model4,7,Low
+L3-RNS-01,L3,L3-RNS,Rinser,series,model3,14,High
+L3-FIL-01,L3,L3-FIL,Filler,series,model4,10,High
+L3-CAP-01,L3,L3-CAP,Capper,parallel,model2,6,Medium
+L3-CAP-02,L3,L3-CAP,Capper,parallel,model4,10,Medium
+L3-INS-01,L3,L3-INS,Fill inspector,series,model1,15,High
+L3-LBL-01,L3,L3-LBL,Labeler,parallel,model4,4,Low
+L3-LBL-02,L3,L3-LBL,Labeler,parallel,model4,19,Low
+L3-COD-01,L3,L3-COD,Date coder,series,model3,14,High
+L3-SHR-01,L3,L3-SHR,Shrink wrapper,parallel,model3,5,Low
+L3-SHR-02,L3,L3-SHR,Shrink wrapper,parallel,model2,10,Low
+L3-PAL-01,L3,L3-PAL,Palletizer,series,model3,17,High
+L3-CNV-01,L3,L3-CNV,Conveyor,series,model1,10,High
+L3-CNV-02,L3,L3-CNV,Conveyor,series,model4,10,High
+L3-CNV-03,L3,L3-CNV,Conveyor,series,model1,5,High
+L3-CNV-04,L3,L3-CNV,Conveyor,series,model3,17,High
+L3-CHL-01,L3,L3-CHL,Chiller,series,model4,3,High
+L4-BLW-01,L4,L4-BLW,Blow molder,parallel,model4,2,Medium
+L4-BLW-02,L4,L4-BLW,Blow molder,parallel,model4,20,Medium
+L4-CMP-01,L4,L4-CMP,Air compressor,parallel,model4,14,Low
+L4-CMP-02,L4,L4-CMP,Air compressor,parallel,model3,20,Low
+L4-RNS-01,L4,L4-RNS,Rinser,series,model3,15,High
+L4-FIL-01,L4,L4-FIL,Filler,series,model4,6,High
+L4-CAP-01,L4,L4-CAP,Capper,parallel,model4,14,Medium
+L4-CAP-02,L4,L4-CAP,Capper,parallel,model3,10,Medium
+L4-INS-01,L4,L4-INS,Fill inspector,series,model2,19,High
+L4-LBL-01,L4,L4-LBL,Labeler,parallel,model3,9,Low
+L4-LBL-02,L4,L4-LBL,Labeler,parallel,model2,18,Low
+L4-COD-01,L4,L4-COD,Date coder,series,model4,2,High
+L4-SHR-01,L4,L4-SHR,Shrink wrapper,parallel,model2,20,Low
+L4-SHR-02,L4,L4-SHR,Shrink wrapper,parallel,model4,4,Low
+L4-PAL-01,L4,L4-PAL,Palletizer,series,model3,19,High
+L4-CNV-01,L4,L4-CNV,Conveyor,series,model2,10,High
+L4-CNV-02,L4,L4-CNV,Conveyor,series,model4,12,High
+L4-CNV-03,L4,L4-CNV,Conveyor,series,model4,19,High
+L4-CNV-04,L4,L4-CNV,Conveyor,series,model3,14,High
+L4-CHL-01,L4,L4-CHL,Chiller,series,model3,6,High
+L5-BLW-01,L5,L5-BLW,Blow molder,parallel,model4,1,Medium
+L5-BLW-02,L5,L5-BLW,Blow molder,parallel,model3,11,Medium
+L5-CMP-01,L5,L5-CMP,Air compressor,parallel,model4,18,Low
+L5-CMP-02,L5,L5-CMP,Air compressor,parallel,model3,9,Low
+L5-RNS-01,L5,L5-RNS,Rinser,series,model1,16,High
+L5-FIL-01,L5,L5-FIL,Filler,series,model3,2,High
+L5-CAP-01,L5,L5-CAP,Capper,parallel,model2,12,Medium
+L5-CAP-02,L5,L5-CAP,Capper,parallel,model4,14,Medium
+L5-INS-01,L5,L5-INS,Fill inspector,series,model3,17,High
+L5-LBL-01,L5,L5-LBL,Labeler,parallel,model2,2,Low
+L5-LBL-02,L5,L5-LBL,Labeler,parallel,model4,17,Low
+L5-COD-01,L5,L5-COD,Date coder,series,model1,2,High
+L5-SHR-01,L5,L5-SHR,Shrink wrapper,parallel,model3,18,Low
+L5-SHR-02,L5,L5-SHR,Shrink wrapper,parallel,model2,18,Low
+L5-PAL-01,L5,L5-PAL,Palletizer,series,model2,18,High
+L5-CNV-01,L5,L5-CNV,Conveyor,series,model2,10,High
+L5-CNV-02,L5,L5-CNV,Conveyor,series,model2,14,High
+L5-CNV-03,L5,L5-CNV,Conveyor,series,model2,20,High
+L5-CNV-04,L5,L5-CNV,Conveyor,series,model1,14,High
+L5-CHL-01,L5,L5-CHL,Chiller,series,model4,5,High

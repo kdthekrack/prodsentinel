@@ -1,0 +1,8 @@
+services:
+  prodsentinel:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      # ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}   # optional: enables the Claude assistant
+      EWS_OPEN_DEMO: "1"
+    restart: unless-stopped

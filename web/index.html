@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ProdSentinel</title>
+<link rel="stylesheet" href="/static/app.css">
+<style>
+  body { overscroll-behavior: none; }
+  .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; vertical-align: middle; }
+  .nav-active { background: #2563eb !important; color: #fff !important; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .spin { animation: spin 1s linear infinite; } @keyframes spin { to { transform: rotate(360deg); } }
+  .popover { position: absolute; top: calc(100% + 8px); z-index: 60; }
+  table.data th { text-align: left; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #737686; font-weight: 600; padding: 10px 12px; background: #f8f9ff; position: sticky; top: 0; }
+  table.data td { padding: 10px 12px; border-top: 1px solid #eef1f8; font-size: 14px; vertical-align: top; }
+  table.data tr.click:hover td { background: #f4f7fc; cursor: pointer; }
+</style>
+</head>
+<body class="bg-[#f4f7fc] font-sans text-body-md text-on-surface antialiased">
+
+<!-- SIDEBAR -->
+<div id="scrim" class="hidden fixed inset-0 bg-slate-900/30 z-[45] lg:hidden"></div>
+<aside id="sidebar" class="fixed left-0 top-0 h-full w-72 -translate-x-full lg:translate-x-0 transition-transform bg-surface-container-lowest border-r border-slate-200/80 shadow-[4px_0_24px_rgba(0,0,0,0.02)] z-50 flex flex-col justify-between">
+  <div class="flex flex-col">
+    <a href="#/control-room" class="h-16 px-space-md flex items-center gap-space-sm border-b border-slate-100">
+      <div class="h-8 w-8 rounded-lg bg-gradient-to-tr from-primary to-blue-400 flex items-center justify-center text-white shadow-sm">
+        <span class="material-symbols-outlined text-[20px]">shield</span>
+      </div>
+      <div class="flex flex-col">
+        <span class="text-[17px] font-bold tracking-tight leading-none">ProdSentinel</span>
+        <span class="text-[10px] text-on-surface-variant uppercase tracking-wider font-semibold">Disruption Early Warning</span>
+      </div>
+    </a>
+    <div class="px-space-md py-space-sm"><div class="px-space-sm py-space-xs text-[10px] text-outline uppercase tracking-wider font-bold">Operations Core</div></div>
+    <nav id="nav" class="flex flex-col gap-1 px-space-sm"></nav>
+  </div>
+  <div class="p-space-md bg-white border border-slate-200/70 mx-space-sm mb-space-md rounded-2xl shadow-sm flex items-center justify-between">
+    <div class="flex items-center gap-space-sm">
+      <span class="relative flex h-2.5 w-2.5">
+        <span id="liveping" class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary opacity-75"></span>
+        <span id="livedot" class="relative inline-flex rounded-full h-2.5 w-2.5 bg-secondary"></span>
+      </span>
+      <div>
+        <span id="livetitle" class="text-[12px] font-semibold block leading-tight">Facility Online</span>
+        <span id="livesub" class="text-[10px] text-secondary font-bold uppercase">Engine Synchronized</span>
+      </div>
+    </div>
+    <span class="text-label-caps text-outline bg-surface-container px-2 py-0.5 rounded-md">v1.0</span>
+  </div>
+</aside>
+
+<div class="lg:pl-72">
+  <!-- TOP BAR -->
+  <header class="whitespace-nowrap fixed top-0 left-0 lg:left-72 right-0 h-16 bg-white/80 backdrop-blur-xl border-b border-slate-200/60 shadow-[0_2px_12px_rgba(0,0,0,0.03)] z-40 flex items-center justify-between px-3 md:px-gutter gap-2">
+    <div class="flex items-center gap-2 md:gap-space-md min-w-0">
+      <button id="menuBtn" class="lg:hidden p-2 rounded-xl bg-slate-100 hover:bg-slate-200/80" title="Menu"><span class="material-symbols-outlined text-[20px]">menu</span></button>
+      <div class="relative hidden md:block">
+        <button id="plantBtn" class="flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200/80 px-3 py-1.5 rounded-xl border border-slate-200/60 transition-colors">
+          <span class="material-symbols-outlined text-primary text-[18px]">factory</span>
+          <span id="plantName" class="text-sm font-semibold">Plant 1 - Bottling</span>
+          <span class="material-symbols-outlined text-outline text-[16px]">expand_more</span>
+        </button>
+        <div id="plantPop" class="popover left-0 hidden w-80 bg-white rounded-2xl shadow-xl border border-slate-200 p-space-md"></div>
+      </div>
+      <div class="relative">
+        <button id="clockBtn" class="flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200/80 px-3 py-1.5 rounded-xl border border-slate-200/60 transition-colors" title="Plant clock">
+          <span class="material-symbols-outlined text-primary text-[18px]">schedule</span>
+          <span class="hidden sm:inline text-[11px] text-on-surface-variant font-bold">T-ZERO:</span>
+          <span id="clockText" class="text-sm font-semibold tabular-nums">—</span>
+        </button>
+        <div id="clockPop" class="popover left-0 hidden w-80 bg-white rounded-2xl shadow-xl border border-slate-200 p-space-md"></div>
+      </div>
+      <div id="sevChips" class="hidden 2xl:flex items-center gap-2 pl-2"></div>
+    </div>
+    <div class="flex items-center gap-2 md:gap-space-md">
+      <form id="searchForm" class="relative hidden md:flex items-center">
+        <span class="material-symbols-outlined absolute left-3 text-outline text-[18px]">search</span>
+        <input id="searchInput" class="w-44 2xl:w-64 pl-9 pr-3 py-1.5 rounded-xl bg-slate-100 placeholder:text-outline text-sm border border-transparent focus:border-primary/40 focus:bg-white focus:ring-0 focus:outline-none transition-all" placeholder="Search alerts, lines, machines, orders..." type="search">
+      </form>
+      <div class="relative">
+        <button id="bellBtn" class="relative p-2 rounded-xl text-on-surface-variant bg-slate-100 hover:bg-slate-200/80 transition-colors" title="Notifications">
+          <span class="material-symbols-outlined text-[20px]">notifications</span>
+          <span id="bellDot" class="hidden absolute top-1.5 right-1.5 h-2 w-2 rounded-full bg-error ring-2 ring-white"></span>
+        </button>
+        <div id="bellPop" class="popover right-0 hidden w-[min(24rem,92vw)] max-h-[70vh] overflow-auto bg-white rounded-2xl shadow-xl border border-slate-200"></div>
+      </div>
+      <div class="relative">
+        <button id="userBtn" class="flex items-center gap-2 pl-3 border-l border-slate-200">
+          <div class="hidden sm:flex flex-col text-right">
+            <span id="userName" class="text-sm font-bold leading-tight">—</span>
+            <span id="userRole" class="text-[10px] text-on-surface-variant font-medium">—</span>
+          </div>
+          <div id="userAvatar" class="w-9 h-9 rounded-xl bg-gradient-to-tr from-primary to-blue-500 text-white flex items-center justify-center font-bold text-sm shadow-md shadow-primary/20">—</div>
+        </button>
+        <div id="userPop" class="popover right-0 hidden w-72 bg-white rounded-2xl shadow-xl border border-slate-200 p-2"></div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="w-full pt-20 pb-16 px-4 md:px-gutter max-w-[1600px] mx-auto"></main>
+</div>
+
+<!-- SIGN-IN -->
+<div id="signin" class="hidden fixed inset-0 z-[90] bg-[#f4f7fc] flex items-center justify-center p-4">
+  <div class="bg-white rounded-2xl shadow-xl w-full max-w-md p-space-xl">
+    <div class="flex items-center gap-2 mb-space-lg">
+      <div class="h-10 w-10 rounded-xl bg-gradient-to-tr from-primary to-blue-400 flex items-center justify-center text-white"><span class="material-symbols-outlined">shield</span></div>
+      <div><div class="text-headline-sm">ProdSentinel</div><div class="text-body-sm text-on-surface-variant">Production disruption early warning</div></div>
+    </div>
+    <form id="signinForm" class="space-y-space-md">
+      <label class="block text-label-caps uppercase text-outline">Person
+        <select id="siName" class="mt-1 w-full rounded-xl border-slate-200 text-sm normal-case tracking-normal text-on-surface font-normal"></select></label>
+      <label class="block text-label-caps uppercase text-outline"><span id="siPinLabel">PIN</span>
+        <input id="siPin" type="password" inputmode="numeric" autocomplete="current-password" minlength="4" maxlength="12" pattern="[0-9]*" required class="mt-1 w-full rounded-xl border-slate-200 text-sm tracking-widest"></label>
+      <p id="siHint" class="text-body-sm text-on-surface-variant"></p>
+      <div id="siErr" class="hidden text-body-sm text-error"></div>
+      <button id="siGo" type="submit" class="w-full py-2.5 rounded-xl bg-primary-container hover:bg-primary text-white font-semibold">Sign in</button>
+    </form>
+  </div>
+</div>
+
+<!-- MODAL + TOASTS -->
+<div id="modal" class="hidden fixed inset-0 z-[70] bg-slate-900/40 backdrop-blur-sm flex items-center justify-center p-4">
+  <div class="bg-white rounded-2xl shadow-2xl w-full max-w-lg p-space-lg" id="modalBody"></div>
+</div>
+<div id="toasts" class="fixed bottom-5 right-5 z-[80] flex flex-col gap-2"></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "threshold": 0.4645,
+  "horizon_h": 48,
+  "baseline": "rotate_mean_24h",
+  "val": {
+    "model": {
+      "precision": 0.942,
+      "recall": 0.904,
+      "f1": 0.922,
+      "pr_auc": 0.973,
+      "failures": 67,
+      "detected": 67,
+      "event_recall": 1.0,
+      "median_lead_h": 45.0,
+      "false_alarm_episodes_per_day": 0.94,
+      "component_accuracy": 0.968
+    },
+    "baseline": {
+      "precision": 0.317,
+      "recall": 0.274,
+      "f1": 0.294,
+      "failures": 67,
+      "detected": 26,
+      "event_recall": 0.388,
+      "median_lead_h": 33.0,
+      "false_alarm_episodes_per_day": 1.67
+    }
+  },
+  "test": {
+    "model": {
+      "precision": 0.883,
+      "recall": 0.88,
+      "f1": 0.882,
+      "pr_auc": 0.949,
+      "failures": 180,
+      "detected": 180,
+      "event_recall": 1.0,
+      "median_lead_h": 45.0,
+      "false_alarm_episodes_per_day": 1.33,
+      "component_accuracy": 0.968
+    },
+    "baseline": {
+      "precision": 0.266,
+      "recall": 0.345,
+      "f1": 0.3,
+      "failures": 180,
+      "detected": 83,
+      "event_recall": 0.461,
+      "median_lead_h": 36.0,
+      "false_alarm_episodes_per_day": 2.35
+    }
+  },
+  "top_features": {
+    "errors_total_24h": 141650.0,
+    "days_since_comp1": 104124.0,
+    "rotate_mean_24h": 95646.0,
+    "days_since_comp4": 93582.0,
+    "days_since_comp2": 90300.0,
+    "volt_mean_24h": 82185.0,
+    "days_since_comp3": 73862.0,
+    "pressure_mean_3h": 68505.0,
+    "vibration_mean_3h": 61658.0,
+    "vibration_mean_24h": 52650.0
+  }
+}

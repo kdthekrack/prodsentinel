@@ -1,0 +1,277 @@
+# =============================================================================
+# Industry pack: BlueRiver Beverages Pvt. Ltd. (fictional bottling plant)
+#
+# Everything plant-specific lives here. The engine reads this file and never
+# hardcodes an industry. Copy this file and edit it to model another plant.
+# =============================================================================
+
+pack_id: beverage_bottling
+company:
+  name: BlueRiver Beverages Pvt. Ltd.
+  industry: Beverage bottling
+  site: Plant 1
+currency: {code: INR, symbol: "₹"}
+
+# --- Timeline and evaluation splits -----------------------------------------
+calendar:
+  start: "2015-01-01 06:00"
+  end: "2016-01-01 06:00"
+  train_end: "2015-08-31 23:59"
+  validation_end: "2015-09-30 23:59"
+  shifts:                        # name: start hour (each shift = shift_hours)
+    Morning: 6
+    Evening: 14
+    Night: 22
+  shift_hours: 8
+
+# --- Data sources --------------------------------------------------------------
+# machine_health: where sensor / error / maintenance / failure history comes from.
+#   provider: azure_pdm  -> Microsoft Azure Predictive Maintenance CSVs
+#   provider: csv        -> your own files, with column mapping (see README)
+# plant: where lines/materials/shifts/quality/orders come from.
+#   provider: synthetic  -> generated from this pack
+#   provider: csv        -> your own files in canonical format
+data_sources:
+  machine_health:
+    provider: azure_pdm
+    path: data/raw
+    machine_mapping: sequential      # source machine 1..N -> pack machines in order
+  plant:
+    provider: synthetic
+
+# Display names for the sensor channels of the machine-health source.
+sensors:
+  volt: {label: Motor supply voltage, unit: V}
+  rotate: {label: Drive speed, unit: rpm}
+  pressure: {label: Pneumatic pressure, unit: psi}
+  vibration: {label: Vibration, unit: mm/s}
+
+# Source error codes -> plant alarm meaning.
+error_codes:
+  error1: Drive overcurrent trip
+  error2: Motor over-temperature
+  error3: Air pressure fluctuation
+  error4: High vibration alarm
+  error5: Position sensor fault
+
+# Source component codes -> plant component names, with text for notes/RAG.
+components:
+  comp1:
+    name: drive motor
+    repair_hours: [3, 8]
+    repair_cost: 45000
+    symptoms: [motor drawing high current, motor running hot, intermittent stalls on start-up, burning smell near drive]
+    actions: [replaced drive motor, rewound motor and replaced contactor, replaced VFD fan and motor bearings]
+  comp2:
+    name: bearing or gearbox
+    repair_hours: [2, 6]
+    repair_cost: 18000
+    symptoms: [grinding noise from gearbox, bearing housing hot to touch, vibration rising over last shifts, oil seepage at gearbox]
+    actions: [replaced bearings and re-greased, replaced gearbox, realigned coupling and replaced bearing]
+  comp3:
+    name: pneumatic valve
+    repair_hours: [1, 4]
+    repair_cost: 9000
+    symptoms: [air leak at valve block, slow actuator response, pressure dropping under load, sticking solenoid]
+    actions: [replaced valve block, replaced solenoid and seals, cleaned and rebuilt valve manifold]
+  comp4:
+    name: pump or seal
+    repair_hours: [2, 7]
+    repair_cost: 26000
+    symptoms: [product leak at pump seal, pump cavitation noise, flow rate unstable, seal weeping]
+    actions: [replaced mechanical seal, replaced pump impeller and seals, rebuilt pump]
+
+planned_maintenance:
+  duration_h: 2
+  during_changeover: true           # true = done in planned windows, no output loss
+
+# --- Line templates --------------------------------------------------------------
+# A line is a sequence of stations (series). A station has `count` machines.
+#   mode: series    -> every machine is needed; any one down stops the station
+#   mode: parallel  -> capacity = min(1, machines_up / required)
+# Line capacity at any hour = min over stations (the bottleneck).
+# `quality_metric` links a station to the quality metric its wear degrades.
+line_templates:
+  pet_bottling:
+    stations:
+      - {name: Blow molder,    code: BLW, count: 2, mode: parallel, required: 2}
+      - {name: Air compressor, code: CMP, count: 2, mode: parallel, required: 1}
+      - {name: Rinser,         code: RNS, count: 1, mode: series}
+      - {name: Filler,         code: FIL, count: 1, mode: series, quality_metric: fill_volume_ml, critical_role: filler_operator}
+      - {name: Capper,         code: CAP, count: 2, mode: parallel, required: 2, quality_metric: cap_torque_nm}
+      - {name: Fill inspector, code: INS, count: 1, mode: series}
+      - {name: Labeler,        code: LBL, count: 2, mode: parallel, required: 1, quality_metric: label_offset_mm}
+      - {name: Date coder,     code: COD, count: 1, mode: series}
+      - {name: Shrink wrapper, code: SHR, count: 2, mode: parallel, required: 1}
+      - {name: Palletizer,     code: PAL, count: 1, mode: series}
+      - {name: Conveyor,       code: CNV, count: 4, mode: series}
+      - {name: Chiller,        code: CHL, count: 1, mode: series}
+
+# --- Production lines ---------------------------------------------------------------
+lines:
+  - id: L1
+    name: Line 1 - Water 500ml
+    template: pet_bottling
+    product: {sku: BRW-500, name: Packaged water 500 ml, units_per_hour: 12000, price: 10.0, margin: 2.5, scrap_cost: 3.2}
+    bom: {PET preform 12g: 1, Cap 26mm: 1, Label water: 1, Shrink film: 0.0417}
+  - id: L2
+    name: Line 2 - Water 1L
+    template: pet_bottling
+    product: {sku: BRW-1000, name: Packaged water 1 L, units_per_hour: 8000, price: 18.0, margin: 4.0, scrap_cost: 5.1}
+    bom: {PET preform 22g: 1, Cap 26mm: 1, Label water: 1, Shrink film: 0.0833}
+  - id: L3
+    name: Line 3 - Cola 300ml
+    template: pet_bottling
+    product: {sku: BRC-300, name: Cola 300 ml, units_per_hour: 10000, price: 20.0, margin: 5.0, scrap_cost: 7.5}
+    bom: {PET preform 12g: 1, Cap 28mm: 1, Label cola: 1, Cola concentrate (L): 0.012, CO2 (kg): 0.006, Shrink film: 0.0417}
+  - id: L4
+    name: Line 4 - Lemon soda 600ml
+    template: pet_bottling
+    product: {sku: BRL-600, name: Lemon soda 600 ml, units_per_hour: 9000, price: 30.0, margin: 6.0, scrap_cost: 10.0}
+    bom: {PET preform 22g: 1, Cap 28mm: 1, Label soda: 1, Lemon concentrate (L): 0.02, CO2 (kg): 0.011, Shrink film: 0.0833}
+  - id: L5
+    name: Line 5 - Mango juice 250ml
+    template: pet_bottling
+    product: {sku: BRJ-250, name: Mango juice 250 ml, units_per_hour: 7000, price: 25.0, margin: 7.0, scrap_cost: 11.0}
+    bom: {PET preform 12g: 1, Cap 28mm: 1, Label juice: 1, Mango pulp (kg): 0.05, Shrink film: 0.0417}
+
+target_utilization: 0.88           # planned speed as a share of rated speed
+
+# --- Materials and suppliers ----------------------------------------------------------------
+# lead_time_days: normal supplier lead time. Reorder when stock + on-order
+# falls below reorder_days of cover; order order_days of cover.
+materials:
+  PET preform 12g:      {unit: preforms, supplier: Polyform Industries, lead_time_days: 3, reorder_days: 6, order_days: 10, initial_days: 9, unit_cost: 1.4}
+  PET preform 22g:      {unit: preforms, supplier: Polyform Industries, lead_time_days: 3, reorder_days: 6, order_days: 10, initial_days: 9, unit_cost: 2.3}
+  Cap 26mm:             {unit: caps, supplier: SealTight Closures,  lead_time_days: 4, reorder_days: 7, order_days: 12, initial_days: 10, unit_cost: 0.35}
+  Cap 28mm:             {unit: caps, supplier: SealTight Closures,  lead_time_days: 4, reorder_days: 7, order_days: 12, initial_days: 10, unit_cost: 0.42}
+  Label water:          {unit: labels, supplier: PrintPak Labels,     lead_time_days: 5, reorder_days: 8, order_days: 15, initial_days: 12, unit_cost: 0.12}
+  Label cola:           {unit: labels, supplier: PrintPak Labels,     lead_time_days: 5, reorder_days: 8, order_days: 15, initial_days: 12, unit_cost: 0.15}
+  Label soda:           {unit: labels, supplier: PrintPak Labels,     lead_time_days: 5, reorder_days: 8, order_days: 15, initial_days: 12, unit_cost: 0.15}
+  Label juice:          {unit: labels, supplier: PrintPak Labels,     lead_time_days: 5, reorder_days: 8, order_days: 15, initial_days: 12, unit_cost: 0.18}
+  Shrink film:          {unit: film wraps, supplier: FlexiWrap Films,     lead_time_days: 4, reorder_days: 7, order_days: 12, initial_days: 10, unit_cost: 2.0}
+  Cola concentrate (L): {unit: litres, supplier: FlavourCraft,        lead_time_days: 6, reorder_days: 9, order_days: 14, initial_days: 12, unit_cost: 160}
+  Lemon concentrate (L): {unit: litres, supplier: FlavourCraft,        lead_time_days: 6, reorder_days: 9, order_days: 14, initial_days: 12, unit_cost: 140}
+  CO2 (kg):             {unit: kg, supplier: Airgas India,        lead_time_days: 2, reorder_days: 4, order_days: 7,  initial_days: 6,  unit_cost: 22}
+  Mango pulp (kg):      {unit: kg, supplier: Konkan Fruit Co-op,  lead_time_days: 5, reorder_days: 8, order_days: 12, initial_days: 10, unit_cost: 65}
+
+# --- Quality metrics ---------------------------------------------------------------------
+# Sampled every shift. A unit is defective if outside [lsl, usl].
+# drift_per_unit_wear: mean shift when the linked station is degrading.
+quality:
+  samples_per_shift: 120
+  metrics:
+    fill_volume_ml: {label: Fill volume deviation, unit: ml, target: 0.0, sd: 1.6, lsl: -5.0, usl: 5.0, wear_shift: -3.5}
+    cap_torque_nm:  {label: Cap torque, unit: Nm, target: 1.6, sd: 0.12, lsl: 1.2, usl: 2.0, wear_shift: -0.3}
+    label_offset_mm: {label: Label offset, unit: mm, target: 0.0, sd: 0.6, lsl: -2.0, usl: 2.0, wear_shift: 1.4}
+  pre_failure_window_h: 48          # linked metric drifts during this window before a failure
+  skill_sd_inflation: 0.8           # sd multiplier grows by this x (1 - skill coverage)
+  alert_min_out_of_spec: 0.05       # always alert when >= this share of bottles is expected out of spec
+  spc_shift_sd: 0.75                # drift alert when the mean is this many sd off target 2 shifts in a row (tuned on Mar-Aug)
+  spc_single_shift_sd: 1.0          # ... or this many sd off target in a single shift (tuned on Mar-Aug)
+  response_hours: 8                 # time for the plant to correct a drift once alerted (used for pricing)
+
+# --- Workforce -------------------------------------------------------------------------------
+# Per line, per shift. speed_if_short: line speed factor when this role is short.
+workforce:
+  roles:
+    filler_operator: {count: 1, certified: true, absence_rate: 0.04, speed_if_short: 0.55}
+    line_operator:   {count: 6, certified: false, absence_rate: 0.07, speed_if_short: 0.92}
+    qc_technician:   {count: 1, certified: true, absence_rate: 0.04, speed_if_short: 0.85}
+    maintenance_tech: {count: 1, certified: true, absence_rate: 0.05, speed_if_short: 1.0, repair_delay_h: 2}
+  night_absence_multiplier: 1.6
+  overtime_cost_per_hour: 350
+  notice_hours: 24                  # planned absences are known this far ahead
+
+# --- Demand and customers ----------------------------------------------------------------------
+demand:
+  load_factor: 0.84                 # average demand vs. average achievable output
+  seasonality: [0.85, 0.9, 1.05, 1.2, 1.25, 1.15, 0.95, 0.9, 0.95, 1.0, 0.95, 0.85]   # Jan..Dec
+  order_size: [20000, 120000]       # units
+  lead_time_days: [3, 10]
+customers:
+  - {name: FreshMart Retail,     tier: A, share: 0.25, penalty: {type: pct_of_invoice, value: 0.05, per_day: true}}
+  - {name: DailyNeeds Stores,    tier: A, share: 0.15, penalty: {type: pct_of_invoice, value: 0.04, per_day: true}}
+  - {name: Metro Cash Wholesale, tier: B, share: 0.2,  penalty: {type: pct_of_invoice, value: 0.03, per_day: false}}
+  - {name: Highway Dhaba Network, tier: C, share: 0.1, penalty: {type: flat_per_day, value: 5000}}
+  - {name: Southern Distributors, tier: B, share: 0.2, penalty: {type: pct_of_invoice, value: 0.02, per_day: true}}
+  - {name: QuickCom Online,      tier: A, share: 0.1,  penalty: {type: pct_of_invoice, value: 0.06, per_day: true}}
+
+# --- Synthetic disruption scenarios (only used when plant provider = synthetic) ------------------
+scenarios:
+  supplier_delays: {count: 10, window_days: [3, 6], delay_days: [3, 6]}
+  workforce_gaps: {count: 16, days: [2, 5], extra_absent: [2, 4], certified_role_prob: 0.5}
+  quality_drifts: {count: 10, days: [2, 4]}
+  rush_orders: {count: 20, lead_time_days: [2, 4], size: [60000, 150000]}
+  compound: {count: 3, period: test, delay_days: 2}
+
+# --- Business rules for risk scoring ------------------------------------------------------------
+risk:
+  horizon_h: 72                     # look-ahead window for projections
+  failure_model_horizon_h: 48
+  sample_every_h: 3
+  machine_confirm_strong: 0.85      # alert at once above this score; otherwise needs 2 readings in a row (tuned on validation)
+  slip_alert_within_h: 24           # what-if supplier slips alert only when the stock-out is this close (tuned on Mar-Aug)
+  alert_threshold: 50000            # minimum expected impact (currency) to raise an alert
+  urgency_halflife_h: 24            # sooner impacts are weighted up
+  quality_spc_window_shifts: 6
+
+# --- People, roles and escalation ------------------------------------------------------------------
+# Who is responsible for what. Alerts go to the owner role for that category;
+# if not acknowledged within ack_timeout_min, they escalate to `escalates_to`.
+# Contacts are fictional (.example domain). Channels: outbox (default), email, sms, webhook.
+roles:
+  plant_manager:    {title: Plant Manager, escalates_to: null}
+  line_supervisor:  {title: Line Supervisor, escalates_to: plant_manager}
+  maintenance_lead: {title: Maintenance Lead, escalates_to: plant_manager}
+  quality_lead:     {title: Quality Lead, escalates_to: plant_manager}
+  purchasing:       {title: Purchasing Manager, escalates_to: plant_manager}
+people:
+  - {name: Anita Rao,      role: plant_manager,    lines: all,          email: anita.rao@blueriver.example,     phone: "+91-90000-10001"}
+  - {name: Vikram Shah,    role: line_supervisor,  lines: [L1, L2],     email: vikram.shah@blueriver.example,   phone: "+91-90000-10002"}
+  - {name: Priya Menon,    role: line_supervisor,  lines: [L3, L4, L5], email: priya.menon@blueriver.example,   phone: "+91-90000-10003"}
+  - {name: Arjun Patel,    role: maintenance_lead, lines: all,          email: arjun.patel@blueriver.example,   phone: "+91-90000-10004"}
+  - {name: Rahul Verma,    role: quality_lead,     lines: all,          email: rahul.verma@blueriver.example,   phone: "+91-90000-10005"}
+  - {name: Sneha Kulkarni, role: purchasing,       lines: all,          email: sneha.kulkarni@blueriver.example, phone: "+91-90000-10006"}
+owners:                              # risk category -> responsible role
+  machine: maintenance_lead
+  material: purchasing
+  workforce: line_supervisor
+  quality: quality_lead
+  orders: line_supervisor
+  demand: plant_manager
+  compound: plant_manager
+escalation:
+  approver_role: plant_manager         # only this role can authorize & dispatch a plan
+  severity_bands: {critical: 500000, high: 150000, medium: 50000}   # expected impact (currency)
+  ack_timeout_min: {critical: 15, high: 30, medium: 120, low: 480}
+  notify_plant_manager_on: [critical]   # also cc the plant manager immediately
+  channels: [outbox]                    # add email / sms / webhook when configured
+  auto_resolve_after_h: 12              # close alerts whose condition has cleared
+  keep_open_ratio: 0.5                  # an open alert stays open while impact >= ratio x alert_threshold
+  max_reminders: 3                      # reminders at the top of the chain (interval doubles each time)
+
+# --- Action playbook (natural-language templates) ----------------------------------------------------
+playbook:
+  machine:
+    - {action: "Replace the {component} on {machine_name} during the next planned stop, before it breaks down", owner: maintenance_lead}
+    - {action: "Keep a spare {component} and a technician ready at the {station}", owner: maintenance_lead}
+    - {action: "If it cannot be fixed in time, move urgent orders from {line_name} to another line", owner: plant_manager}
+  material:
+    - {action: "Call {supplier} to speed up the {material} delivery, or buy from an approved backup supplier", owner: purchasing}
+    - {action: "Change the {line_name} run plan to products that do not need {material} until stock arrives", owner: line_supervisor}
+  workforce:
+    - {action: "Call in a trained backup {role} for the {shift} shift on {line_name}", owner: line_supervisor}
+    - {action: "Approve overtime so a trained {role} can cover the {shift} shift", owner: plant_manager}
+  quality:
+    - {action: "Stop and adjust the {station} on {line_name}, then re-check {metric}", owner: quality_lead}
+    - {action: "Check bottles from {line_name} every 30 minutes until {metric} is back within limits", owner: line_supervisor}
+  orders:
+    - {action: "Run order {order} for {customer} first, ahead of lower-priority orders", owner: line_supervisor}
+    - {action: "Tell {customer} early and agree a new delivery date to reduce the penalty", owner: plant_manager}
+  demand:
+    - {action: "Add extra shifts or move part of the demand for {line_name} to another line", owner: plant_manager}
+
+# --- Demo ------------------------------------------------------------------------------------------
+demo:
+  start: "2015-10-16 06:00"   # plant clock when the app starts / is reset (a moment with several live issues)

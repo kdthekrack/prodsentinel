@@ -1,0 +1,49 @@
+machine,line,station_id,station,mode,model,age,criticality
+B1-MIX-01,B1,B1-MIX,Dough mixer,parallel,model3,18,Low
+B1-MIX-02,B1,B1-MIX,Dough mixer,parallel,model4,7,Low
+B1-SHT-01,B1,B1-SHT,Sheeter,series,model3,8,High
+B1-MLD-01,B1,B1-MLD,Rotary moulder,parallel,model3,7,Medium
+B1-MLD-02,B1,B1-MLD,Rotary moulder,parallel,model3,2,Medium
+B1-OVN-01,B1,B1-OVN,Tunnel oven,series,model3,7,High
+B1-COL-01,B1,B1-COL,Cooling conveyor,series,model3,20,High
+B1-COL-02,B1,B1-COL,Cooling conveyor,series,model3,16,High
+B1-PCK-01,B1,B1-PCK,Packing machine,parallel,model4,7,Low
+B1-PCK-02,B1,B1-PCK,Packing machine,parallel,model3,10,Low
+B1-PCK-03,B1,B1-PCK,Packing machine,parallel,model2,6,Low
+B1-PCK-04,B1,B1-PCK,Packing machine,parallel,model3,9,Low
+B1-SEL-01,B1,B1-SEL,Sealer,parallel,model1,15,Medium
+B1-SEL-02,B1,B1-SEL,Sealer,parallel,model3,1,Medium
+B1-CHK-01,B1,B1-CHK,Checkweigher,series,model3,14,High
+B1-CRT-01,B1,B1-CRT,Cartoner,series,model1,3,High
+B2-MIX-01,B2,B2-MIX,Dough mixer,parallel,model1,14,Low
+B2-MIX-02,B2,B2-MIX,Dough mixer,parallel,model3,15,Low
+B2-SHT-01,B2,B2-SHT,Sheeter,series,model3,17,High
+B2-MLD-01,B2,B2-MLD,Rotary moulder,parallel,model2,16,Medium
+B2-MLD-02,B2,B2-MLD,Rotary moulder,parallel,model2,14,Medium
+B2-OVN-01,B2,B2-OVN,Tunnel oven,series,model1,14,High
+B2-COL-01,B2,B2-COL,Cooling conveyor,series,model1,17,High
+B2-COL-02,B2,B2-COL,Cooling conveyor,series,model1,20,High
+B2-PCK-01,B2,B2-PCK,Packing machine,parallel,model4,16,Low
+B2-PCK-02,B2,B2-PCK,Packing machine,parallel,model3,3,Low
+B2-PCK-03,B2,B2-PCK,Packing machine,parallel,model3,9,Low
+B2-PCK-04,B2,B2-PCK,Packing machine,parallel,model4,1,Low
+B2-SEL-01,B2,B2-SEL,Sealer,parallel,model4,3,Medium
+B2-SEL-02,B2,B2-SEL,Sealer,parallel,model3,20,Medium
+B2-CHK-01,B2,B2-CHK,Checkweigher,series,model1,11,High
+B2-CRT-01,B2,B2-CRT,Cartoner,series,model4,15,High
+B3-MIX-01,B3,B3-MIX,Dough mixer,parallel,model3,14,Low
+B3-MIX-02,B3,B3-MIX,Dough mixer,parallel,model4,10,Low
+B3-SHT-01,B3,B3-SHT,Sheeter,series,model1,17,High
+B3-MLD-01,B3,B3-MLD,Rotary moulder,parallel,model4,5,Medium
+B3-MLD-02,B3,B3-MLD,Rotary moulder,parallel,model1,16,Medium
+B3-OVN-01,B3,B3-OVN,Tunnel oven,series,model4,15,High
+B3-COL-01,B3,B3-COL,Cooling conveyor,series,model4,0,High
+B3-COL-02,B3,B3-COL,Cooling conveyor,series,model2,4,High
+B3-PCK-01,B3,B3-PCK,Packing machine,parallel,model4,9,Low
+B3-PCK-02,B3,B3-PCK,Packing machine,parallel,model1,7,Low
+B3-PCK-03,B3,B3-PCK,Packing machine,parallel,model3,14,Low
+B3-PCK-04,B3,B3-PCK,Packing machine,parallel,model4,7,Low
+B3-SEL-01,B3,B3-SEL,Sealer,parallel,model3,14,Medium
+B3-SEL-02,B3,B3-SEL,Sealer,parallel,model4,10,Medium
+B3-CHK-01,B3,B3-CHK,Checkweigher,series,model2,6,High
+B3-CRT-01,B3,B3-CRT,Cartoner,series,model4,10,High
